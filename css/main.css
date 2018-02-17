@@ -1,0 +1,69 @@
+body {
+  font-family: "Calibre", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  color: #6c7088;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #363c5d;
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none
+}
+
+#navbar {
+  /* overflow-y: hidden; */
+  height: 48px;
+  background-color: #F9F9F9;
+}
+
+.navbar-martlet {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 12px;
+  margin-right: 24px;
+}
+
+.navbar-martlet:focus,.navbar-martlet:hover {
+  text-decoration: none
+}
+
+.navbar-nav {
+  display: flex;
+  display: inline;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-nav.social {
+  position: relative;
+  float: right;
+  display: flex;
+  display: inline;
+  padding: 17px;
+}
+
+.nav-item {
+  margin-right: 28px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.nav-link:focus,.nav-link:hover {
+    text-decoration: none
+}
+
+#home {
+  background-color: #fbf8f0;
+  height: 100vh;
+}
