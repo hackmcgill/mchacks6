@@ -1,15 +1,16 @@
 body {
   font-family: "Calibre", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  background-color: #F9F9F9;
 }
 
 a {
-  color: #6c7088;
+  color: #999999;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #363c5d;
+  color: #636363;
   text-decoration: underline;
 }
 
@@ -21,7 +22,7 @@ img {
 #navbar {
   /* overflow-y: hidden; */
   height: 48px;
-  background-color: #F9F9F9;
+  background-color: transparent;
 }
 
 .navbar-martlet {
@@ -49,6 +50,7 @@ img {
   display: flex;
   display: inline;
   padding: 17px;
+
 }
 
 .nav-item {
@@ -63,7 +65,118 @@ img {
     text-decoration: none
 }
 
-#home {
-  background-color: #fbf8f0;
-  height: 100vh;
+#hero {
+  padding-top: 120px;
+  position: relative;
+}
+
+.center-float {
+  z-index: 3;
+  text-align: center;
+}
+
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"] {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #636363;
+  outline: 0;
+  border-width: 2px;
+  width: 400px;
+  padding-top: 8px;
+  background-color: transparent;
+  border-radius: 30px;
+  border-color: #F07C74;
+  border-color: -webkit-linear-gradient(to right, #F07C74, #F9B3AC);  /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(to right, #F07C74, #F9B3AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 400px;
+  text-align: center;
+}
+
+#mc_embed_signup input[type="email"]:focus,
+#mc_embed_signup input[type="text"]:focus,
+#mc_embed_signup input[type="email"]:active,
+#mc_embed_signup input[type="text"]:active {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #636363;
+  outline: 0;
+  border-width: 2px;
+  width: 400px;
+  padding-top: 8px;
+  background-color: transparent;
+  border-radius: 30px;
+  border-color: #F9B3AC;
+}
+
+#mc_embed_signup input[type="submit"] {
+  background-color: #363462;
+  border: none;
+  color: #636363;
+  padding: 0px 32px;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#mc_embed_signup textarea {
+  min-height: 65px;
+  width: 40px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: normal;
+  text-align: justify;
+  -moz-text-align-last: center; /* Firefox 12+ */
+  text-align-last: center;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #636363;
+}
+
+.container,
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  #mc_embed_signup input[type=email] {
+    width:384px;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  #mc_embed_signup input[type=email] {
+    font-size: 12px;
+    line-height: 16px;
+    width: 288px;
+  }
 }
