@@ -4,13 +4,13 @@ body {
 }
 
 a {
-  color: #636363;
+  color: #999999;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #999999;
+  color: #636363;
   text-decoration: underline;
 }
 
@@ -63,4 +63,8 @@ img {
 
 .nav-link:focus,.nav-link:hover {
     text-decoration: none
+}
+
+.martlet {
+  position: relative;
 }
