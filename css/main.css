@@ -11,7 +11,7 @@ a {
 
 a:hover {
   color: #636363;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
@@ -32,7 +32,8 @@ img {
   margin-right: 24px;
 }
 
-.navbar-martlet:focus,.navbar-martlet:hover {
+.navbar-martlet:focus,
+.navbar-martlet:hover {
   text-decoration: none
 }
 
@@ -50,7 +51,6 @@ img {
   display: flex;
   display: inline;
   padding: 17px;
-
 }
 
 .nav-item {
@@ -61,8 +61,9 @@ img {
   margin-right: 20px;
 }
 
-.nav-link:focus,.nav-link:hover {
-    text-decoration: none
+.nav-link:focus,
+.nav-link:hover {
+  text-decoration: none
 }
 
 #hero {
@@ -84,12 +85,14 @@ img {
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 8px;
+  padding-top: 10px; /* aligns input text in element */
   background-color: transparent;
   border-radius: 30px;
   border-color: #F07C74;
-  border-color: -webkit-linear-gradient(to right, #F07C74, #F9B3AC);  /* Chrome 10-25, Safari 5.1-6 */
-  border-color: linear-gradient(to right, #F07C74, #F9B3AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-color: -webkit-linear-gradient(to right, #F07C74, #F9B3AC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(to right, #F07C74, #F9B3AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 400px;
   text-align: center;
 }
@@ -105,7 +108,7 @@ img {
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 8px;
+  padding-top: 10px;
   background-color: transparent;
   border-radius: 30px;
   border-color: #F9B3AC;
@@ -131,7 +134,8 @@ img {
   margin-right: auto;
   white-space: normal;
   text-align: justify;
-  -moz-text-align-last: center; /* Firefox 12+ */
+  -moz-text-align-last: center;
+  /* Firefox 12+ */
   text-align-last: center;
 }
 
@@ -139,8 +143,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #636363;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #636363;
 }
 
 .container,
@@ -171,7 +175,7 @@ input:-webkit-autofill:active {
   #mc_embed_signup input[type=email],
   #mc_embed_signup input[type="email"]:focus,
   #mc_embed_signup input[type="email"]:active {
-    width:384px;
+    width: 384px;
   }
 }
 
@@ -183,4 +187,15 @@ input:-webkit-autofill:active {
     line-height: 16px;
     width: 288px;
   }
+}
+
+#footer {
+  position: fixed;
+  bottom: 4px;
+  height: 30px;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
 }
