@@ -168,13 +168,17 @@ input:-webkit-autofill:active {
 }
 
 @media only screen and (max-width:1024px) {
-  #mc_embed_signup input[type=email] {
+  #mc_embed_signup input[type=email],
+  #mc_embed_signup input[type="email"]:focus,
+  #mc_embed_signup input[type="email"]:active {
     width:384px;
   }
 }
 
 @media only screen and (max-width:750px) {
-  #mc_embed_signup input[type=email] {
+  #mc_embed_signup input[type=email],
+  #mc_embed_signup input[type="email"]:focus,
+  #mc_embed_signup input[type="email"]:active {
     font-size: 12px;
     line-height: 16px;
     width: 288px;
