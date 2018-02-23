@@ -11,7 +11,7 @@ a {
 
 a:hover {
   color: #636363;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
@@ -191,10 +191,11 @@ input:-webkit-autofill:active {
 
 #footer {
   position: fixed;
-  left: 15px;
-  bottom: 0px;
+  bottom: 4px;
   height: 30px;
   width: 100%;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
 }
