@@ -85,7 +85,7 @@ img {
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 8px;
+  padding-top: 10px; /* aligns input text in element */
   background-color: transparent;
   border-radius: 30px;
   border-color: #F07C74;
@@ -108,7 +108,7 @@ img {
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 8px;
+  padding-top: 10px;
   background-color: transparent;
   border-radius: 30px;
   border-color: #F9B3AC;
