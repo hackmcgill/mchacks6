@@ -191,6 +191,19 @@ input:-webkit-autofill:active {
   }
 }
 
+#mc_embed_signup input.mce_inline_error {
+  border-color:#C25750;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  margin: 0 0 1em 0;
+  padding: 5px 10px;
+  z-index: 1;
+  color: #C25750;
+  font-size: 15px;
+  font-weight: 400;
+}
+
 #footer {
   position: fixed;
   bottom: 4px;
