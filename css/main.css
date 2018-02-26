@@ -239,11 +239,7 @@ input:-webkit-autofill:active {
 }
 
 #mc-embedded-subscribe {
-  color: #F07C74;
-}
-
-#mc-embedded-subscribe input:invalid {
-  color: #CB8CFF !important;
+  color: #999999;
 }
 
 #mc_embed_signup input.mce_inline_error {
