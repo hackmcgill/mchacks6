@@ -85,7 +85,8 @@ img {
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 10px; /* aligns input text in element */
+  padding-top: 10px;
+  /* aligns input text in element */
   background-color: transparent;
   border-radius: 30px;
   border-color: #F07C74;
@@ -192,16 +193,17 @@ input:-webkit-autofill:active {
 }
 
 #mc_embed_signup input.mce_inline_error {
-  border-color:#C25750;
+  border-color: #C25750;
 }
 
 #mc_embed_signup div.mce_inline_error {
-  margin: 0 0 1em 0;
-  padding: 5px 10px;
-  z-index: 1;
-  color: #C25750;
-  font-size: 15px;
-  font-weight: 400;
+  margin: 0 0 1em 0 !important;
+  padding: 5px 10px !important;
+  z-index: 1 !important;
+  color: #C25750 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  background-color: rgba(107, 5, 5, 0) !important;
 }
 
 #footer {
@@ -213,4 +215,8 @@ input:-webkit-autofill:active {
   font-weight: 400;
   text-align: center;
   text-decoration: none;
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border-color: #C25750;
 }
