@@ -89,7 +89,9 @@ img {
   background-color: transparent;
   border-radius: 30px;
   border-color: #F07C74;
-  border-color: -webkit-linear-gradient(to right, #F07C74, #F9B3AC);
+  border-color: -moz-linear-gradient(left, rgba(240, 124, 116, 0.95) 0%, rgba(249, 179, 172, 0.95) 100%);
+  border-color: -webkit-linear-gradient(left, rgba(240, 124, 116, 0.95) 0%, rgba(249, 179, 172, 0.95) 100%);
+  border-color: linear-gradient(to right, rgba(240, 124, 116, 0.95) 0%, rgba(249, 179, 172, 0.95) 100%);
   /* Chrome 10-25, Safari 5.1-6 */
   border-color: linear-gradient(to right, #F07C74, #F9B3AC);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -187,6 +189,19 @@ input:-webkit-autofill:active {
     line-height: 16px;
     width: 288px;
   }
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border-color:#C25750;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  margin: 0 0 1em 0;
+  padding: 5px 10px;
+  z-index: 1;
+  color: #C25750;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 #footer {
