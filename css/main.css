@@ -256,12 +256,21 @@ input:-webkit-autofill:active {
   background-color: rgba(107, 5, 5, 0) !important
 }
 
-#mce-error-response,
-#mce-success-response {
+#mce-error-response{
   margin: 0 0 1em 0 !important;
   padding: 10px 10px !important;
   z-index: 1 !important;
   color: #636363 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  background-color: rgba(107, 5, 5, 0) !important
+}
+
+#mce-success-response {
+  margin: 0 0 1em 0 !important;
+  padding: 10px 10px !important;
+  z-index: 1 !important;
+  color: #F07C74 !important;
   font-size: 15px !important;
   font-weight: 400 !important;
   background-color: rgba(107, 5, 5, 0) !important
