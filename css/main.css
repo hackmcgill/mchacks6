@@ -117,17 +117,17 @@ img {
 #mc_embed_signup input[type="submit"] {
   font-size: 15px;
   font-weight: 400;
-  color: #F07C74;
   line-height: 24px;
   outline: 0;
   padding-top: 10px; /* aligns input text in element */
   background-color: transparent;
   border-color: transparent !important;
   margin-top: -40px;
+  margin-right: 30px;
   margin-bottom: 30px;
-  position: fixed;
+  position: relative;
   float: right;
-  width: 360px;
+  width: 10px;
   z-index: 2 !important;
 }
 
@@ -199,15 +199,43 @@ input:-webkit-autofill:active {
 
 @media only screen and (max-width:1024px) {
   #mc_embed_signup input[type="submit"]  {
-    width: 344px;
-    margin-top: -41px;
+    margin-right: -132px;
   }
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:978px) {
   #mc_embed_signup input[type="submit"]  {
-    width: 248px;
-    margin-top: -41px;
+    margin-right: -195px;
+  }
+}
+
+@media only screen and (max-width:770px) {
+  #mc_embed_signup input[type="submit"]  {
+    margin-right: -262px;
+  }
+}
+
+@media only screen and (max-width:745px) {
+  #mc_embed_signup input[type="submit"]  {
+    margin-right: -130px;
+  }
+}
+
+@media only screen and (max-width:720px) {
+  #mc_embed_signup input[type="submit"]  {
+    margin-right: -140px;
+  }
+}
+
+@media only screen and (max-width:540px) {
+  #mc_embed_signup input[type="submit"]  {
+    margin-right: -40px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  #mc_embed_signup input[type="submit"]  {
+    margin-right: -105px;
   }
 }
 
