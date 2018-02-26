@@ -124,7 +124,6 @@ img {
   border-color: transparent !important;
   margin-top: -40px;
   margin-right: 30px;
-  margin-bottom: 30px;
   position: relative;
   float: right;
   width: 10px;
@@ -237,6 +236,10 @@ input:-webkit-autofill:active {
   #mc_embed_signup input[type="submit"]  {
     margin-right: -105px;
   }
+}
+
+#mc-embedded-subscribe {
+  color: #999999;
 }
 
 #mc_embed_signup input.mce_inline_error {
