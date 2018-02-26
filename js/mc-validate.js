@@ -4355,7 +4355,7 @@ function(a) {
   try {
     err_style = mc_custom_error_style;
   } catch (e) {
-    err_style = '#mc_embed_signup input.mce_inline_error { border-color:#6B0505; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff; }';
+    err_style = '#mc_embed_signup input.mce_inline_error { border-color:#C25750; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; color: #C25750; font-weight: 400; z-index: 1; }';
   }
   var head = document.getElementsByTagName('head')[0];
   var style = document.createElement('style');
