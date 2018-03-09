@@ -95,8 +95,10 @@ img {
   /* Chrome 10-25, Safari 5.1-6 */
   border-color: linear-gradient(to right, #F07C74, #F9B3AC);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 400px;
   text-align: center;
+  display: block;
+  margin: 0 auto;
+  float: center;
 }
 
 #mc_embed_signup input[type="email"]:focus,
@@ -115,19 +117,21 @@ img {
 }
 
 #mc_embed_signup input[type="submit"] {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 24px !important;
   outline: 0;
-  padding-top: 10px; /* aligns input text in element */
-  background-color: transparent;
+  color: #F07C74;
+  width: 152px !important;
+  height: 40px !important;
+  padding: 8px 12px !important; /* aligns input text in element */
+  background-color: transparent !important;
   border-color: transparent !important;
-  margin-top: -40px;
-  margin-right: 30px;
-  position: relative;
-  float: right;
-  width: 10px;
-  z-index: 2 !important;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: normal !important;
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+  float: center;
 }
 
 #mc_embed_signup textarea {
@@ -179,62 +183,26 @@ input:-webkit-autofill:active {
 @media only screen and (max-width:1024px) {
   #mc_embed_signup input[type=email],
   #mc_embed_signup input[type="email"]:focus,
-  #mc_embed_signup input[type="email"]:active,
-  #mc_embed_signup input[type="submit"]  {
-    width: 384px;
+  #mc_embed_signup input[type="email"]:active {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width:750px) {
   #mc_embed_signup input[type=email],
   #mc_embed_signup input[type="email"]:focus,
-  #mc_embed_signup input[type="email"]:active,
-  #mc_embed_signup input[type="submit"]  {
-    font-size: 12px;
+  #mc_embed_signup input[type="email"]:active {
+    font-size: 14px;
     line-height: 16px;
-    width: 288px;
+    width: 100%;
   }
 }
 
-@media only screen and (max-width:1024px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -132px;
-  }
-}
-
-@media only screen and (max-width:978px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -195px;
-  }
-}
-
-@media only screen and (max-width:770px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -262px;
-  }
-}
-
-@media only screen and (max-width:745px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -130px;
-  }
-}
-
-@media only screen and (max-width:720px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -140px;
-  }
-}
-
-@media only screen and (max-width:540px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -40px;
-  }
-}
-
-@media only screen and (max-width:400px) {
-  #mc_embed_signup input[type="submit"]  {
-    margin-right: -105px;
+@media only screen and (max-width:425px) {
+  #mc_embed_signup input[type=email],
+  #mc_embed_signup input[type="email"]:focus,
+  #mc_embed_signup input[type="email"]:active {
+    font-size: 11px;
   }
 }
 
@@ -289,4 +257,5 @@ input:-webkit-autofill:active {
 
 .button {
     border: none;
+    display: inline-block;
 }
