@@ -76,6 +76,17 @@ img {
   text-align: center;
 }
 
+.center-float img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  .center-float img {
+    margin-top: -24px;
+    width: 80%;
+  }
+}
+
 #mc_embed_signup input[type="email"],
 #mc_embed_signup input[type="text"] {
   font-size: 15px;
