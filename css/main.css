@@ -255,6 +255,13 @@ input:-webkit-autofill:active {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  #footer {
+    padding-top: 50px;
+    font-size: 0.75em;
+  }
+}
+
 .button {
     border: none;
     display: inline-block;
