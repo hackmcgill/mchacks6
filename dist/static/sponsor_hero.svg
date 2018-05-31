@@ -1,0 +1,46 @@
+<svg width="1440" height="921" viewBox="0 0 1440 921" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1700" height="748.128" transform="translate(-62.7997 -119) rotate(4)" fill="url(#paint0_linear)"/>
+<rect width="923.716" height="372.23" transform="translate(-58.678 257.59) rotate(4)" fill="url(#paint1_linear)"/>
+<rect width="734.995" height="80" transform="translate(783.581 690) rotate(4)" fill="url(#paint2_linear)"/>
+<rect width="549.874" height="80" transform="translate(1137.13 633.506) rotate(4)" fill="url(#paint3_linear)"/>
+<rect width="570.886" height="80" transform="translate(1104.39 550.924) rotate(4)" fill="url(#paint4_linear)"/>
+<rect width="928.53" height="80" transform="translate(537.099 431.381) rotate(4)" fill="url(#paint5_linear)"/>
+<rect width="525.102" height="80" transform="translate(-56.4194 631) rotate(4)" fill="#F2463A"/>
+<rect width="525.102" height="80" transform="translate(-190.419 542) rotate(4)" fill="url(#paint6_linear)"/>
+<rect width="1440" height="240" transform="translate(250.581 -80) rotate(4)" fill="url(#paint7_linear)"/>
+<rect width="525.102" height="80" transform="translate(1277.58 804) rotate(4)" fill="#F2463A"/>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2012.59 -148.654 337.793 2799.22 -450.784 -730.643)">
+<stop stop-color="#F2463A"/>
+<stop offset="1" stop-color="#F56F65"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(941.462 -2.8576 156.53 1209.14 -79.3303 -342.832)">
+<stop stop-color="#F56F65"/>
+<stop offset="1" stop-color="#F56F65" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(749.115 -0.614159 124.55 259.869 -63.1226 -73.6817)">
+<stop stop-color="#F56F65" stop-opacity="0"/>
+<stop offset="1" stop-color="#F2463A"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(560.438 -0.614159 93.18 259.869 -47.2241 -73.6817)">
+<stop stop-color="#F2463A"/>
+<stop offset="1" stop-color="#F56F65"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(656.881 -4.25422 123.652 292.802 -62.4842 -90.1479)">
+<stop stop-color="#F56F65" stop-opacity="0"/>
+<stop offset="1" stop-color="#F2463A"/>
+</linearGradient>
+<linearGradient id="paint5_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1273.31 -4.21189 214.458 349.086 -108.3 -118.29)">
+<stop stop-color="#F56F65" stop-opacity="0"/>
+<stop offset="1" stop-color="#F2463A"/>
+</linearGradient>
+<linearGradient id="paint6_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(422.786 -3.50061 22.9772 2775.07 93.7297 -1336.75)">
+<stop stop-color="#F2463A"/>
+<stop offset="1" stop-color="#F2463A" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint7_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1467.66 -1.84248 244.018 779.608 -123.67 -221.045)">
+<stop stop-color="#F2463A" stop-opacity="0"/>
+<stop offset="1" stop-color="#F2463A"/>
+</linearGradient>
+</defs>
+</svg>
