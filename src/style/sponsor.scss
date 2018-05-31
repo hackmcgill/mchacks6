@@ -1,4 +1,38 @@
-@mixin page-width {
+@mixin coloring {
+  &:nth-of-type(2) {
+    color: #F89790;
+    [class$='dot'] {
+      background-color: #F89790;
+    }
+  }
+  &:nth-of-type(3) {
+    color: #4476C2;
+    [class$='dot'] {
+      background-color: #4476C2;
+    }
+  }
+  &:nth-of-type(4) {
+    color: #636363;
+    [class$='dot'] {
+      background-color: #636363;
+    }
+  }
+  &:nth-of-type(5) {
+    color: #3E8BFF;
+    [class$='dot'] {
+      background-color: #3E8BFF;
+    }
+  }
+  &:nth-of-type(6) {
+    color: #F2463A;
+    [class$='dot'] {
+      background-color: #F2463A;
+    }
+  }
+}
+
+body {
+  overflow-x: hidden;
 }
 
 em {
@@ -19,6 +53,7 @@ em {
     }
 
     &__background {
+      margin-top: -10vw;
       width: 100%;
     }
 
@@ -30,7 +65,8 @@ em {
 
   .desc {
     max-width: 75rem;
-    padding: 4rem;
+    padding: 13rem;
+    margin-bottom: 10rem;
 
     @media screen and (min-width: 77rem) {
       margin-left: 20rem;
@@ -49,6 +85,93 @@ em {
       font-size: 1.6rem;
     }
   }
+
+  .tier-list {
+    background-color: $global-color-med-bg;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 50px;
+
+    &:before {
+      background-color: $global-color-med-bg;
+      position: absolute;
+      width: 120%;
+      height: 35rem;
+      content: '';
+      top: -65px;
+      left: -200px;
+      transform: rotate(4deg);
+      z-index: -2;
+    }
+
+    &:after {
+      background-color: $global-color-med-bg;
+      position: absolute;
+      width: 150%;
+      height: 35rem;
+      content: '';
+      top: 70%;
+      left: 0;
+      transform: rotate(4deg);
+      z-index: -1;
+    }
+
+    &__wrapper {
+      max-width: 118rem;
+      margin: 0 auto;
+    }
+
+    &__heading {
+      color: $global-color-primary;
+    }
+
+    &__table {
+    }
+
+    &__table-head {
+      @include coloring;
+    }
+
+    &__table-cell {
+      padding: 0;
+      text-align: center;
+
+      @include coloring;
+
+      &:not(:empty) {
+        background-color: #E9E9E9;
+      }
+    }
+
+    &__dot {
+      margin: 0 auto;
+      background-color: black;
+      border-radius: 50%;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
   
+  .footer {
+    max-width: 118rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+
+    &__heading {
+      color: #4D4D4D;
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 0.1rem;
+    }
+    &__subheading {
+      color: #F2463A;
+      font-size: 2.4rem;
+    }
+  }
   
 }
