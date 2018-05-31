@@ -1,5 +1,8 @@
-@import 'skeleton.css';
 @import 'normalize.css';
+@import 'skeleton.css';
+
+@import 'variables.scss';
+@import 'sponsor.scss';
 
 body {
   font-family: "Calibre", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;

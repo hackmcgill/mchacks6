@@ -1,0 +1,54 @@
+@mixin page-width {
+}
+
+em {
+  color: $global-color-primary;
+  font-style: normal;
+}
+
+.sponsor {
+  .hero {
+    &__foreground {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      padding-left: 10vw;
+      min-height: 40vw;
+      display: flex;
+      align-items: center;
+    }
+
+    &__background {
+      width: 100%;
+    }
+
+    &__heading {
+      color: white;
+      font-size: 6.4rem;
+    }
+  }
+
+  .desc {
+    max-width: 75rem;
+    padding: 4rem;
+
+    @media screen and (min-width: 77rem) {
+      margin-left: 20rem;
+    }
+
+    &__heading {
+      color: $global-color-primary;
+    }
+
+    &__subheading {
+      color: $global-color-primary;
+    }
+
+    &__text {
+      color: $global-color-text;
+      font-size: 1.6rem;
+    }
+  }
+  
+  
+}
