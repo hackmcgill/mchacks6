@@ -42,6 +42,9 @@ module.exports = {
         test: /\.html$/,
         loader: 'raw-loader',
       },
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      },
     ],
   },
   plugins: [
