@@ -83,10 +83,11 @@ em {
   }
 
   .tier-list {
+    font-family: Brown, sans-serif;
     background-color: $sponsor-color-bg-slant;
     position: relative;
-    margin-bottom: 50px;
-    padding: 50px;
+    margin-bottom: 60px;
+    padding: 60px;
     font-size: 1.8rem;
 
     &:before {
@@ -120,6 +121,7 @@ em {
 
     &__heading {
       color: $sponsor-color-primary;
+      font-weight: bold;
     }
 
     &__table-wrapper {
@@ -144,7 +146,7 @@ em {
     }
 
     &__tier-icon {
-      height: 8rem;
+      height: 3.75rem;
       width: auto;
       margin-bottom: 1rem;
     }
@@ -206,7 +208,7 @@ em {
       color: $sponsor-color-footer-heading;
       font-size: 4rem;
       font-weight: bold;
-      margin-bottom: 0.1rem;
+      margin-bottom: 1rem;
       text-align: center;
     }
     &__subheading {
