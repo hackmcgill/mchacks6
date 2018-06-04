@@ -2,11 +2,29 @@
 @import 'skeleton.css';
 
 @import 'variables.scss';
+@import 'skeleton--custom.scss';
+@import 'mixins.scss';
 @import 'sponsor.scss';
 
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+@font-face {
+  font-family: Brown;
+  src: url('../static/fonts/lineto-brown-regular.ttf');
+  font-weight: regular;
+}
+@font-face {
+  font-family: Brown;
+  src: url('../static/fonts/lineto-brown-bold.ttf');
+  font-weight: bold;
+}
+
 body {
-  font-family: "Calibre", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hind Siliguri', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   background-color: #F9F9F9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Brown, sans-serif;
 }
 
 a {

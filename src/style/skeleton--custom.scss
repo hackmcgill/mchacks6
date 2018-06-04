@@ -1,0 +1,10 @@
+.button {
+  &.button-primary {
+    background-color: $global-color-primary;
+    transition: 0.10s ease-in-out all;
+
+    &:hover {
+      background-color: $color-hack-red-med;
+    }
+  }
+}
