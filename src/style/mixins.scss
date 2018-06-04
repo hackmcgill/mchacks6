@@ -1,8 +1,8 @@
 @mixin tiered-coloring {
   &:nth-of-type(2) {
-    color: #F89790;
+    color: #636363;
     [class$='dot'] {
-      background-color: #F89790;
+      background-color: #636363;
     }
   }
   &:nth-of-type(3) {
@@ -12,9 +12,9 @@
     }
   }
   &:nth-of-type(4) {
-    color: #636363;
+    color: #F89790;
     [class$='dot'] {
-      background-color: #636363;
+      background-color: #F89790;
     }
   }
   &:nth-of-type(5) {
