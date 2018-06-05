@@ -1,0 +1,10 @@
+<svg width="368" height="400" viewBox="0 0 368 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="88" height="96" rx="1" transform="translate(8 8) scale(4)" stroke="#A6A6A6" stroke-width="4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28 56.5895C43.464 56.5895 56 43.9215 56 28.2947C56 12.668 43.464 0 28 0C12.536 0 0 12.668 0 28.2947C0 43.9215 12.536 56.5895 28 56.5895ZM28 40.4211C34.6274 40.4211 40 34.9919 40 28.2948C40 21.5975 34.6274 16.1685 28 16.1685C21.3726 16.1685 16 21.5975 16 28.2948C16 34.9919 21.3726 40.4211 28 40.4211Z" transform="translate(72 64.5894) scale(4)" stroke="#A6A6A6" stroke-width="4"/>
+<path d="M8 4.04211C8 6.2745 6.20914 8.08421 4 8.08421C1.79086 8.08421 0 6.2745 0 4.04211C0 1.80971 1.79086 0 4 0C6.20914 0 8 1.80971 8 4.04211Z" transform="translate(168 161.6) scale(4)" stroke="#A6A6A6" stroke-width="4"/>
+<path d="M0.0990478 33.2843L5.94452 3.84137C6.1462 2.82554 7.53519 2.75204 7.8177 3.74842C10.8956 14.6035 15.2801 33.2578 14.9048 33.7832C10.9953 39.2566 5.424 39.3803 0.351036 34.1543C0.128426 33.9249 0.0368101 33.5978 0.0990478 33.2843Z" transform="matrix(2.98019 -2.66804 2.62764 3.01588 131.795 246.767)" fill="#3E8BFF" stroke="#3E8BFF" stroke-width="2"/>
+<ellipse cx="4" cy="4.04211" rx="4" ry="4.04211" transform="translate(35.9487 35.7593) scale(4)" fill="#A6A6A6"/>
+<ellipse cx="4" cy="4.04211" rx="4" ry="4.04211" transform="translate(305.231 35.7593) scale(4)" fill="#A6A6A6"/>
+<ellipse cx="4" cy="4.04211" rx="4" ry="4.04211" transform="translate(35.9487 341.108) scale(4)" fill="#A6A6A6"/>
+<ellipse cx="4" cy="4.04211" rx="4" ry="4.04211" transform="translate(305.231 341.108) scale(4)" fill="#A6A6A6"/>
+</svg>
