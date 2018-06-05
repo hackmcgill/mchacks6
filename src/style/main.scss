@@ -113,14 +113,14 @@ img {
 
 #mc_embed_signup input[type="email"],
 #mc_embed_signup input[type="text"] {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #636363;
   outline: 0;
   border-width: 2px;
   width: 400px;
-  padding-top: 10px; /* aligns input text in element */
+  padding-top: 7px; /* aligns input text in element */
   background-color: transparent;
   border-radius: 30px;
   border-color: #F07C74;
@@ -140,7 +140,7 @@ img {
 #mc_embed_signup input[type="text"]:focus,
 #mc_embed_signup input[type="email"]:active,
 #mc_embed_signup input[type="text"]:active {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #636363;
@@ -284,7 +284,7 @@ input:-webkit-autofill:active {
   bottom: 4px;
   height: 30px;
   width: 100%;
-  font-size: 1em;
+  font-size: 12px;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
