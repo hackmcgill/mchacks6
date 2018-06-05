@@ -2,10 +2,13 @@
   &.button-primary {
     background-color: $global-color-primary;
     transition: 0.10s ease-in-out all;
-    font-size: 20px;
-    height: 65px;
+    font-size: 18px;
+    width: 180px;
+    height: 64px;
     line-height: 65px;
     font-family: Brown;  
+    font-weight: normal;
+    text-transform: lowercase;
 
     &:hover {
       background-color: $color-hack-red-med;
