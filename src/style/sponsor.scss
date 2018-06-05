@@ -157,6 +157,7 @@ em {
       position: sticky;
       top: 0;
       background: $sponsor-color-bg-slant;
+      z-index: 2;
       
       @include tiered-coloring;
     }
