@@ -1,32 +1,32 @@
 <svg width="448" height="448" viewBox="0 0 448 448" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="52.2667" height="7.46667" rx="1" transform="translate(115.733 74.6665) scale(4)" stroke="#BCBCBC" stroke-width="4"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(153.067 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(184.743 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(216.42 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(248.097 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(279.774 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(311.451 74.6665) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<rect width="52.2667" height="7.46667" rx="1" transform="translate(115.733 373.333) scale(4 -4)" stroke="#BCBCBC" stroke-width="4"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(153.067 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(184.743 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(216.42 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(248.097 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(279.774 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(311.451 373.333) scale(4 -4) rotate(-90)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<rect width="52.2667" height="7.46667" rx="1" transform="translate(74.6667 328.533) scale(4) rotate(-90)" stroke="#BCBCBC" stroke-width="4"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 291.2) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 259.523) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 227.846) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 196.169) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 164.493) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 132.816) scale(4) rotate(-180)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<rect width="52.2667" height="7.46667" rx="1" transform="translate(373.333 328.533) scale(-4 4) rotate(-90)" stroke="#BCBCBC" stroke-width="4"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 291.2) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 259.523) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 227.846) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 196.169) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 164.493) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
-<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 132.816) scale(4 -4)" stroke="#BCBCBC" stroke-width="4" stroke-linecap="round"/>
+<rect width="52.2667" height="7.46667" rx="1" transform="translate(115.733 74.6665) scale(4)" stroke="#A6A6A6" stroke-width="4"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(153.067 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(184.743 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(216.42 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(248.097 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(279.774 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(311.451 74.6665) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<rect width="52.2667" height="7.46667" rx="1" transform="translate(115.733 373.333) scale(4 -4)" stroke="#A6A6A6" stroke-width="4"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(153.067 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(184.743 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(216.42 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(248.097 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(279.774 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(311.451 373.333) scale(4 -4) rotate(-90)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<rect width="52.2667" height="7.46667" rx="1" transform="translate(74.6667 328.533) scale(4) rotate(-90)" stroke="#A6A6A6" stroke-width="4"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 291.2) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 259.523) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 227.846) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 196.169) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 164.493) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(74.6667 132.816) scale(4) rotate(-180)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<rect width="52.2667" height="7.46667" rx="1" transform="translate(373.333 328.533) scale(-4 4) rotate(-90)" stroke="#A6A6A6" stroke-width="4"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 291.2) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 259.523) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 227.846) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 196.169) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 164.493) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
+<line x1="2" y1="-2" x2="16.6667" y2="-2" transform="translate(373.333 132.816) scale(4 -4)" stroke="#A6A6A6" stroke-width="4" stroke-linecap="round"/>
 <rect width="59.7333" height="59.7333" rx="1" transform="translate(104.525 104.525) scale(4)" stroke="#4D4D4D" stroke-width="4"/>
 <circle cx="3.73333" cy="3.73333" r="3.73333" transform="translate(123.2 119.467) scale(4)" fill="#4D4D4D"/>
 <circle cx="3.73333" cy="3.73333" r="3.73333" transform="translate(123.2 290.765) scale(4)" fill="#4D4D4D"/>
