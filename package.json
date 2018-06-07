@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "start": "webpack --config webpack.prod.js && http-server ./dist",
+    "start": "webpack --config webpack.prod.js && http-server ./dist -o",
     "deploy": "webpack --config webpack.prod.js && git commit -m 'Run build for deploy 🚀' && git push && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
