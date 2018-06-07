@@ -16,6 +16,25 @@ em {
   font-style: normal;
 }
 
+.center-float2 {
+  z-index: 3;
+  text-align: center;
+}
+
+.center-float2 img {
+  margin-top: -60px;
+  margin-bottom: 60px;
+  width: 32%;
+}
+
+@media only screen and (max-width: 425px) {
+  .center-float2 img {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    width: 48%;
+  }
+}
+
 .sponsor {
   .hero {
     &__foreground {
