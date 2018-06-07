@@ -72,13 +72,28 @@ em {
       padding: 6.4rem;
     }
 
-    &__heading, &__subheading {
+    &__heading {
       color: $global-color-primary;
+    }
+
+    &__subheading {
+      color: $global-color-primary;
+      font-size: 2.75rem;
     }
 
     &__text {
       color: $global-color-text;
       font-size: 1.8rem;
+    }
+    a {
+      color: $color-hack-red;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    
+    a:hover {
+      color: $color-hack-red-light;
+      text-decoration: none;
     }
   }
 
