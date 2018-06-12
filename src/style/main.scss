@@ -52,9 +52,13 @@ img {
 
 .navbar-martlet {
   display: inline-block;
-  padding: 10px;
+  padding: 14px;
+  padding-right: 0px;
   margin-left: 12px;
-  margin-right: 24px;
+}
+
+.navbar-martlet img {
+  height: 16px;
 }
 
 .navbar-martlet:focus,
@@ -76,6 +80,7 @@ img {
   display: flex;
   display: inline;
   padding: 17px;
+  padding-left: 0px;
 }
 
 .nav-item {
@@ -89,6 +94,12 @@ img {
 .nav-link:focus,
 .nav-link:hover {
   text-decoration: none
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-martlet img {
+    display: none;
+  }
 }
 
 #hero {
