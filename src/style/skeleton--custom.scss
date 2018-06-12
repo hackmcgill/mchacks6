@@ -10,8 +10,18 @@
     font-weight: normal;
     text-transform: lowercase;
 
-    &:hover {
+    &.button-primary:hover {
       background-color: $color-hack-red-med;
+    }
+
+    &.button-primary:focus {
+      background-color: $global-color-primary;
+      color: #fff,
+    }
+
+    &.button-primary:active {
+      background-color: $global-color-primary;
+      color: #fff,
     }
   }
 }
