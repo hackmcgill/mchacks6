@@ -14,25 +14,6 @@ em {
   font-style: normal;
 }
 
-.center-float2 {
-  z-index: 3;
-  text-align: center;
-}
-
-.center-float2 img {
-  margin-top: -60px;
-  margin-bottom: 60px;
-  width: 32%;
-}
-
-@media only screen and (max-width: 425px) {
-  .center-float2 img {
-    margin-top: -40px;
-    margin-bottom: 40px;
-    width: 48%;
-  }
-}
-
 .sponsor {
   .hero {
     &__foreground {
@@ -80,6 +61,11 @@ em {
     @include media-query($md-up) {
       padding: 6.4rem;
     }
+    &__logo {
+      width: 24rem;
+      display: block;
+      margin: 0 auto;
+    }
     &__heading {
       color: $global-color-primary;
     }
@@ -105,8 +91,8 @@ em {
     font-family: Brown, sans-serif;
     background-color: $sponsor-color-bg-slant;
     position: relative;
-    margin-bottom: 60px;
-    padding: 60px;
+    margin-bottom: 6rem;
+    padding: 6rem;
     font-size: 1.8rem;
     &:before {
       background: inherit;
@@ -149,7 +135,7 @@ em {
     }
     &__row {
       td {
-        max-width: 65px;
+        max-width: 6.4rem;
         position: sticky;
       }
     }
@@ -198,15 +184,6 @@ em {
       font-size: 1.6rem;
     }
   }
-  @media only screen and (max-width: 425px) {
-    .tier-list {
-      padding: 15px;
-    }
-  }
-  @media only screen and (max-width: 425px) {
-    
-  }
-
   
   .footer {
     margin: 0 auto;
