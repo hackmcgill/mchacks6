@@ -69,14 +69,10 @@
       <h1 class="hero__heading">Sponsorship
         <br/> @ McHacks</h1>
     </div>
-    <img class="hero__background" src="/static/sponsor_hero.svg" />
+    <img class="hero__background" src="/static/sponsor_hero.svg" alt="background" />
   </section>
   <section class="desc">
-    <div class="center-float2">
-      <center>
-        <img src="static/assets_bird.png" alt="">
-      </center>
-    </div>
+    <img class="desc__logo" src="static/assets_bird.png" alt="McHacks Logo"/>
     <h2 class="desc__heading">Dear potential sponsor,</h2>
     <p class="desc__text">
       We would like to invite you to join us at McHacks, Canada's original collegiate hackathon, hosted annually at McGill University
@@ -137,41 +133,53 @@
         <table class="tier-list__table u-full-width">
           <thead>
             <tr class="tier-list__row">
-              <th class="tier-list__table-head"></th>
+              <th class="tier-list__table-head tier-list__perk-name"></th>
               <th class="tier-list__table-head">
                 <img class="tier-list__tier-icon" src="/static/tier-byte.svg" />
-                <br> byte
-                <br/>
-                <p class="tier-list__table-head--subtext">$750</p>
               </th>
               <th class="tier-list__table-head">
-                <img class="tier-list__tier-icon" src="/static/tier-kila.svg" />
-                <br> kila
-                <p class="tier-list__table-head--subtext">$2k</p>
+                <img class="tier-list__tier-icon" src="/static/tier-kilo.svg" />
               </th>
               <th class="tier-list__table-head">
                 <img class="tier-list__tier-icon" src="/static/tier-mega.svg" />
-                <br> mega
-                <p class="tier-list__table-head--subtext">$5k</p>
               </th>
               <th class="tier-list__table-head">
                 <img class="tier-list__tier-icon" src="/static/tier-giga.svg" />
-                <br> giga
-                <p class="tier-list__table-head--subtext">$7k</p>
               </th>
               <th class="tier-list__table-head">
                 <img class="tier-list__tier-icon" src="/static/tier-tera.svg" />
-                <br> tera
-                <p class="tier-list__table-head--subtext">$10k</p>
+              </th>
+            </tr>
+            <tr class="tier-list__row">
+              <th class="tier-list__perk-name"></th>
+              <th class="tier-list__tier-name">
+                byte
+                <p class="tier-list__tier-price">$750</p>
+              </th>
+              <th class="tier-list__tier-name">
+                kilo
+                <p class="tier-list__tier-price">$2k</p>
+              </th>
+              <th class="tier-list__tier-name">
+                mega
+                <p class="tier-list__tier-price">$5k</p>
+              </th>
+              <th class="tier-list__tier-name">
+                giga
+                <p class="tier-list__tier-price">$7k</p>
+              </th>
+              <th class="tier-list__tier-name">
+                tera
+                <p class="tier-list__tier-price">$10k</p>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="tier-list__row tier-list__row--category">
-              <th>general</th>
+              <th class="tier-list__perk-name">general</th>
             </tr>
             <tr class="tier-list__row">
-              <td>Thanked at opening and closing</td>
+              <td class="tier-list__perk-name">Thanked at opening and closing</td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
               </td>
@@ -189,7 +197,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Recruiter passes</td>
+              <td class="tier-list__perk-name">Recruiter passes</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell">1</td>
               <td class="tier-list__table-cell">2</td>
@@ -197,7 +205,7 @@
               <td class="tier-list__table-cell">∞</td>
             </tr>
             <tr class="tier-list__row">
-              <td>Stage time at opening ceremonies</td>
+              <td class="tier-list__perk-name">Stage time at opening ceremonies</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell">30 sec</td>
               <td class="tier-list__table-cell">1 min</td>
@@ -205,7 +213,7 @@
               <td class="tier-list__table-cell">5 min</td>
             </tr>
             <tr class="tier-list__row">
-              <td>Sponsor table</td>
+              <td class="tier-list__perk-name">Sponsor table</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
@@ -221,7 +229,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Large sponsor table</td>
+              <td class="tier-list__perk-name">Large sponsor table</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -233,7 +241,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Presenting sponsor
+              <td class="tier-list__perk-name">Presenting sponsor
                 <sup>1</sup>
               </td>
               <td class="tier-list__table-cell"></td>
@@ -245,7 +253,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Keynote speaker at opening</td>
+              <td class="tier-list__perk-name">Keynote speaker at opening</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -255,10 +263,10 @@
               </td>
             </tr>
             <tr class="tier-list__row tier-list__row--category">
-              <th>recruiting</th>
+              <th class="tier-list__perk-name">recruiting</th>
             </tr>
             <tr class="tier-list__row">
-              <td>Sponsor dashboard</td>
+              <td class="tier-list__perk-name">Sponsor dashboard</td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
               </td>
@@ -284,7 +292,7 @@
               <td class="tier-list__table-cell">Pre</td>
             </tr>
             <tr class="tier-list__row">
-              <td>Pre-screen hackers</td>
+              <td class="tier-list__perk-name">Pre-screen hackers</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -296,7 +304,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Post-hackathon recruiting email</td>
+              <td class="tier-list__perk-name">Post-hackathon recruiting email</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -308,7 +316,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Interview room</td>
+              <td class="tier-list__perk-name">Interview room</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -318,28 +326,10 @@
               </td>
             </tr>
             <tr class="tier-list__row tier-list__row--category">
-              <th>engineering</th>
+              <th class="tier-list__perk-name">engineering</th>
             </tr>
             <tr class="tier-list__row">
-              <td>Send engineers & designers</td>
-              <td class="tier-list__table-cell">
-                <div class="tier-list__dot"></div>
-              </td>
-              <td class="tier-list__table-cell">
-                <div class="tier-list__dot"></div>
-              </td>
-              <td class="tier-list__table-cell">
-                <div class="tier-list__dot"></div>
-              </td>
-              <td class="tier-list__table-cell">
-                <div class="tier-list__dot"></div>
-              </td>
-              <td class="tier-list__table-cell">
-                <div class="tier-list__dot"></div>
-              </td>
-            </tr>
-            <tr class="tier-list__row">
-              <td>Judge grand prizes</td>
+              <td class="tier-list__perk-name">Send engineers & designers</td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
               </td>
@@ -357,7 +347,25 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Listed in API directory
+              <td class="tier-list__perk-name">Judge grand prizes</td>
+              <td class="tier-list__table-cell">
+                <div class="tier-list__dot"></div>
+              </td>
+              <td class="tier-list__table-cell">
+                <div class="tier-list__dot"></div>
+              </td>
+              <td class="tier-list__table-cell">
+                <div class="tier-list__dot"></div>
+              </td>
+              <td class="tier-list__table-cell">
+                <div class="tier-list__dot"></div>
+              </td>
+              <td class="tier-list__table-cell">
+                <div class="tier-list__dot"></div>
+              </td>
+            </tr>
+            <tr class="tier-list__row">
+              <td class="tier-list__perk-name">Listed in API directory
                 <sup>2</sup>
               </td>
               <td class="tier-list__table-cell">
@@ -377,7 +385,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Custom prize</td>
+              <td class="tier-list__perk-name">Custom prize</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
@@ -393,7 +401,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Host API demo on stage at opening ceremonies</td>
+              <td class="tier-list__perk-name">Host API demo on stage at opening ceremonies</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell">3 Min</td>
@@ -409,10 +417,10 @@
               <td class="tier-list__table-cell">90 Min</td>
             </tr>
             <tr class="tier-list__row tier-list__row--category">
-              <th>marketing</th>
+              <th class="tier-list__perk-name">marketing</th>
             </tr>
             <tr class="tier-list__row">
-              <td>Logo on website</td>
+              <td class="tier-list__perk-name">Logo on website</td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
               </td>
@@ -430,7 +438,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Social media promotion
+              <td class="tier-list__perk-name">Social media promotion
                 <sup>3</sup>
               </td>
               <td class="tier-list__table-cell"></td>
@@ -440,7 +448,7 @@
               <td class="tier-list__table-cell">3</td>
             </tr>
             <tr class="tier-list__row">
-              <td>Logo on t-shirt
+              <td class="tier-list__perk-name">Logo on t-shirt
                 <sup>4</sup>
               </td>
               <td class="tier-list__table-cell"></td>
@@ -456,7 +464,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Company blurb in program
+              <td class="tier-list__perk-name">Company blurb in program
                 <sup>4</sup>
               </td>
               <td class="tier-list__table-cell"></td>
@@ -466,7 +474,7 @@
               <td class="tier-list__table-cell">150 words</td>
             </tr>
             <tr class="tier-list__row">
-              <td>Seat on panel</td>
+              <td class="tier-list__perk-name">Seat on panel</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -478,7 +486,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Naming rights to a space</td>
+              <td class="tier-list__perk-name">Naming rights to a space</td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
               <td class="tier-list__table-cell"></td>
@@ -490,7 +498,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Logo on choice of McHacks swag
+              <td class="tier-list__perk-name">Logo on choice of McHacks swag
                 <sup>4</sup>
               </td>
               <td class="tier-list__table-cell"></td>
@@ -502,10 +510,10 @@
               </td>
             </tr>
             <tr class="tier-list__row tier-list__row--category">
-              <th>swag</th>
+              <th class="tier-list__perk-name">swag</th>
             </tr>
             <tr class="tier-list__row">
-              <td>Distribute swag</td>
+              <td class="tier-list__perk-name">Distribute swag</td>
               <td class="tier-list__table-cell">
                 <div class="tier-list__dot"></div>
               </td>
@@ -523,7 +531,7 @@
               </td>
             </tr>
             <tr class="tier-list__row">
-              <td>Distribute swag in swag bags
+              <td class="tier-list__perk-name">Distribute swag in swag bags
                 <sup>5</sup>
               </td>
               <td class="tier-list__table-cell"></td>

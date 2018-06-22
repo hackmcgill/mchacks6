@@ -3,6 +3,7 @@ $sponsor-color-bg: $global-color-bg;
 $sponsor-color-text: $global-color-text;
 $sponsor-color-bg-slant: $color-hack-black-5;
 $sponsor-color-bg-table: $color-hack-black-10;
+$sponsor-color-bg-table-hover: $color-hack-black-20;
 $sponsor-color-footer-heading: $color-hack-black-80;
 $sponsor-color-table-category: $color-hack-black-70;
 body {
@@ -12,25 +13,6 @@ body {
 em {
   color: $global-color-primary;
   font-style: normal;
-}
-
-.center-float2 {
-  z-index: 3;
-  text-align: center;
-}
-
-.center-float2 img {
-  margin-top: -60px;
-  margin-bottom: 60px;
-  width: 32%;
-}
-
-@media only screen and (max-width: 425px) {
-  .center-float2 img {
-    margin-top: -40px;
-    margin-bottom: 40px;
-    width: 48%;
-  }
 }
 
 .sponsor {
@@ -80,6 +62,11 @@ em {
     @include media-query($md-up) {
       padding: 6.4rem;
     }
+    &__logo {
+      width: 24rem;
+      display: block;
+      margin: 0 auto;
+    }
     &__heading {
       color: $global-color-primary;
     }
@@ -105,8 +92,8 @@ em {
     font-family: Brown, sans-serif;
     background-color: $sponsor-color-bg-slant;
     position: relative;
-    margin-bottom: 60px;
-    padding: 60px;
+    margin-bottom: 6rem;
+    padding: 2rem;
     font-size: 1.8rem;
     &:before {
       background: inherit;
@@ -148,9 +135,18 @@ em {
       border-spacing: 0;
     }
     &__row {
-      td {
-        max-width: 65px;
-        position: sticky;
+      .tier-list__table-cell {
+        width: 12rem;
+      }
+
+      &:hover {
+        background-color: $sponsor-color-bg-table-hover;
+        transition: 0.2s background-color ease-in-out;
+
+        & .tier-list__table-cell {
+          background-color: $sponsor-color-bg-table-hover;
+          transition: 0.2s background-color ease-in-out;
+        }
       }
     }
     &__row--category {
@@ -163,19 +159,34 @@ em {
     &__tier-icon {
       height: 3.75rem;
       width: auto;
-      margin-bottom: 1rem;
     }
     &__table-head {
+      border: 0;
+      padding: 0;
       text-align: center;
-      font-size: 2.4rem;
+    }
+    &__tier-name {
+      background: $sponsor-color-bg-slant;
+      text-align: center;
+      z-index: 2;
       position: sticky;
       top: 0;
-      background: $sponsor-color-bg-slant;
-      z-index: 2;
       @include tiered-coloring;
+      font-size: 2.4rem;
     }
-    &__table-head--subtext {
+    &__tier-price {
       font-size: 1.6rem;
+      margin-bottom: 0;
+    }
+    &__perk-name {
+      z-index: 3;
+      width: 7.5%;
+      position: sticky;
+      left: 0;
+      background-color: $sponsor-color-bg-slant;
+      @include media-query($sm-up) {
+        width: initial;
+      }
     }
     &__table-cell {
       padding: 0;
@@ -198,15 +209,6 @@ em {
       font-size: 1.6rem;
     }
   }
-  @media only screen and (max-width: 425px) {
-    .tier-list {
-      padding: 15px;
-    }
-  }
-  @media only screen and (max-width: 425px) {
-    
-  }
-
   
   .footer {
     margin: 0 auto;
