@@ -100,7 +100,7 @@ em {
       position: absolute;
       width: 100%;
       height: 16rem;
-      content: '';
+      content: "";
       top: -8rem;
       left: 0;
       transform: skewY(4deg);
@@ -111,7 +111,7 @@ em {
       position: absolute;
       width: 100%;
       height: 16rem;
-      content: '';
+      content: "";
       top: calc(100% - 8rem);
       left: 0;
       transform: skewY(4deg);
@@ -209,7 +209,7 @@ em {
       font-size: 1.6rem;
     }
   }
-  
+
   .footer {
     margin: 0 auto;
     margin-top: 16rem;
