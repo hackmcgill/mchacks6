@@ -1,0 +1,38 @@
+.navbar {
+  height: 4.8rem;
+  background-color: transparent;
+}
+
+.navbar__brand {
+  display: inline-block;
+  padding: 1.4rem;
+  padding-right: 0;
+  margin-left: 1.2rem;
+
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar__brand-image {
+  height: 1.6rem;
+  vertical-align: middle;
+}
+
+.navbar__nav-items {
+  float: right;
+  list-style: none;
+  padding: 1.6rem;
+  padding-left: 0;
+}
+
+.navbar__nav-item {
+  margin-right: 2rem;
+}
+
+.navbar__link {
+  &:focus,&:hover {
+    text-decoration: none;
+  }
+}
+
