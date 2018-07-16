@@ -1,9 +1,10 @@
-@import 'normalize.css';
-@import 'skeleton.css';
-@import 'skeleton--custom.scss';
 
 @import 'variables.scss';
 @import 'mixins.scss';
+
+@import 'normalize.css';
+@import 'skeleton.css';
+@import 'skeleton--custom.scss';
 
 @import 'landing.scss';
 @import 'mailchimp.scss';
