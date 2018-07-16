@@ -4,6 +4,7 @@
 @import 'variables.scss';
 @import 'skeleton--custom.scss';
 @import 'mixins.scss';
+@import 'landing.scss';
 @import 'sponsor.scss';
 
 @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
@@ -32,11 +33,10 @@ a {
   color: #999999;
   text-decoration: none;
   background-color: transparent;
-}
 
-a:hover {
-  color: #636363;
-  text-decoration: none;
+  &:hover {
+    color: #636363;
+  }
 }
 
 img {
