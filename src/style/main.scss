@@ -24,20 +24,26 @@
 
 body {
   font-family: 'Hind Siliguri', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
-  background-color: #F9F9F9;
   color: #636363;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Brown, sans-serif;
+  color: $color-hack-red;
 }
 
 a {
-  color: #999999;
   text-decoration: none;
-  background-color: transparent;
-
+  color: $color-hack-black-40;
+  
   &:hover {
-    color: #636363;
+    color: $color-hack-red;
   }
+}
+
+.button {
+  background-color: $color-hack-red;
+  color: white;
+  border-radius: 2em;
+  border: none;
 }
