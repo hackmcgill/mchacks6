@@ -64,101 +64,78 @@
 <link href="style.bundle.css" rel="stylesheet"></head>
 
 <body>
-
-  <body data-spy="scroll" data-target="#navbar">
-    <nav id="navbar">
-      <div class="navbar-martlet">
-        <img src="static/mchacks-text-tight.png" alt="">
+  <nav class="navbar" data-spy="scroll" data-target="#navbar">
+    <div class="navbar__brand">
+      <img class="navbar__brand-image" src="static/mchacks-text-tight.png" alt="McHacks Logo"/>
+    </div>
+    <div class="navbar__nav-items social">
+      <a class="navbar__nav-item navbar__link" href="https://2018.mchacks.ca" target="_blank">
+        About
+      </a>
+      <a class="navbar__nav-item navbar__link" href="https://2018.mchacks.ca" target="_blank">
+        Sponsor
+      </a>
+      <a class="navbar__nav-item navbar__link" href="https://2018.mchacks.ca" target="_blank">
+        FAQ
+      </a>
+      <a class="navbar__nav-item navbar__link" href="https://2018.mchacks.ca" target="_blank">
+        2018
+      </a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero__copy">
+      <h1 class="hero__heading">Create, build, and play @ <em>McHacks</em></h1>
+      <p class="hero__subheading">McGill University - February 2-3, 2019</p>
+    </div>
+    <img class="hero__clouds" src="/static/hero-clouds.svg" alt="clouds" />
+    <img class="hero__buildings" src="/static/hero-buildings.svg" alt="buildings" />
+  </section>
+  <section class="intro">
+    <div class="row container">
+      <div class="one-half column">
+        <h2 class="intro__heading">Behind Canada's original collegiate hackathon</h2>
+        <p>
+          Coming back for round 6, McHacks is a 24-hour annual hackathon held at McGill 
+          University in Montreal, Canada. Each year, we welcome over 500 students from 
+          schools across North America for a fun-filled weekend of workshops, hardware, 
+          food, and of course, hacking! We hope that you’ll join us on February 2-3, 2019 
+          for an opportunity to dream, develop, and deploy innovative new technologies 
+          - all in just 24 hours!
+        </p>
       </div>
-      <div class="navbar-nav social">
-        <a class="nav-link" href="https://2018.mchacks.ca" target="_blank">
-          2018
-        </a>
-        <a class="nav-link" href="https://fb.com/mcgillhacks" target="_blank">
-          <span class="fab fa-facebook"></span>
-        </a>
-        <a class="nav-link" href="https://twitter.com/mcgillhacks" target="_blank">
-          <span class="fab fa-twitter"></span>
-        </a>
-        <a class="nav-link" href="https://instagram.com/mcgillhacks" target="_blank">
-          <span class="fab fa-instagram"></span>
-        </a>
-        <a class="nav-link" href="mailto:contact@mchacks.ca?Subject=Hello!" target="_blank">
-          <span class="fas fa-paper-plane"></span>
-        </a>
-      </div>
-    </nav>
-
-    <div id="hero">
-      <div class="container">
-        <div class="row">
-          <div class="four columns offset-by-four">
-            <div class="center-float">
-              <center>
-                <img src="static/assets_bird.png" alt="">
-              </center>
-            </div>
-          </div>
-        </div>
-        <div class "row">
-          <center>Canada’s original collegiate hackathon.
-            <br>Feb 2-3, 2019.</center>
-          <br>
-        </div>
-        <div class="row">
-          <div class="six columns offset-by-three">
-            <div class="center-float">
-              <!--Start mc_embed_signup-->
-              <div id="mc_embed_signup">
-                <form action="https://mchacks.us12.list-manage.com/subscribe/post?u=daca896c9229eac78a0cc3810&amp;id=a5a34f6561" method="post"
-                  id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-
-                    <div class="mc-field-group">
-                      <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email" placeholder="enter your email to hear first about mchacks 6">
-                      <div class="response" id="mce-error-response" style="display:none"></div>
-                      <div class="response" id="mce-success-response" style="display:none"></div>
-                      <input type="submit" value="➜" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </div>
-
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                      <input type="text" name="b_daca896c9229eac78a0cc3810_a5a34f6561" tabindex="-1" value="">
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-              <script type='text/javascript'>
-                (function ($) {
-                  window.fnames = new Array();
-                  window.ftypes = new Array();
-                  fnames[0] = 'EMAIL';
-                  ftypes[0] = 'email';
-                  fnames[1] = 'FNAME';
-                  ftypes[1] = 'text';
-                  fnames[2] = 'LNAME';
-                  ftypes[2] = 'text';
-                  fnames[3] = 'ADDRESS';
-                  ftypes[3] = 'address';
-                  fnames[4] = 'PHONE';
-                  ftypes[4] = 'phone';
-                }(jQuery));
-                var $mcj = jQuery.noConflict(true);
-              </script>
-              <!--End mc_embed_signup-->
-            </div>
-          </div>
-        </div>
+      <div class="one-half column">
+        <img class="intro__image" src="http://via.placeholder.com/600x360"/>
       </div>
     </div>
-    <div id="footer">
-      Interested in sponsoring? &nbsp;
-      <a href="mailto:sponsor@mchacks.ca" target="_blank">Get in touch.</a>
+  </section>
+  <section class="sponsor">
+    <div class="row container">
+      <div class="one-half column">
+        <h2 class="sponsor__heading">A tagline about sponsorship</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus metus,
+          tincidunt at finibus quis, Quisque nisl eros, convallis ut pulvinar euismod, accumsan
+          sit amet tortor. Aliquam ligula mi, interdum in tempor at, semper in tellus. Aenean
+          pellentesque urna tempus dolor scelerisque, id porttitor mi dictum. Vestibulum
+          convallis odio et magna aliquam, sed sollicitudin dui tempus.
+        </p>
+        <a class="button" href="/sponsor">Become a sponsor</a>
+      </div>
+      <div class="one-half column">
+        <img class="intro__image" src="http://via.placeholder.com/600x360"/>
+      </div>
     </div>
+  </section>
+  <footer class="footer">
+    <ul class="footer__links">
+      <li><a href="">Code of Conduct</a></li>
+      <li><a href="">Press Kit</a></li>
+      <li><a href="">Privacy Policy</a></li>
+    </ul>
+  </footer>
     <!-- start Hubspot -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4337483.js"></script>
     <!-- end Hubspot -->
-  <script type="text/javascript" src="app.bundle.js"></script></body>
-
+<script type="text/javascript" src="app.bundle.js"></script></body>
 </html>
