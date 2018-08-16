@@ -46,6 +46,7 @@ body {
 
 .hero {
   height: 100vh;
+  position: relative;
   @include page-width;
 }
 
@@ -82,14 +83,16 @@ body {
 
 .hero__buildings {
   position: absolute;
-  bottom: 0;
-  left: -25rem;
-  width: 100rem;
+  left: 10%;
+  bottom: 5%;
+  width: 80%;
+}
 
-  @include media-query($md-up) {
-    left: 10%;
-    width: 80%;
-  }
+.hero__bus {
+  position: absolute;
+  left: 65%;
+  bottom: 4%;
+  width: 10%;
 }
 
 .intro {
