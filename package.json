@@ -50,5 +50,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "animejs": "^2.2.0"
+  }
 }
