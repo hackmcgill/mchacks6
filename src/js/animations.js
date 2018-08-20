@@ -3,17 +3,16 @@ import anime from 'animejs';
 anime.timeline({ loop: true })
   .add({
     targets: '.hero__bus',
-    duration: 3000,
+    duration: 4000,
     elasticity: 0,
     translateX: '-55vw',
-    easing: 'easeInOutQuart',
-    delay: 1000,
+    easing: 'easeOutSine',
   })
   .add({
     targets: '.hero__bus',
-    duration: 3000,
+    duration: 4000,
     elasticity: 0,
-    translateX: '-150vw',
-    easing: 'easeInOutQuart',
-    delay: 2000,
+    translateX: '-200vw',
+    easing: 'easeInSine',
+    delay: 1000,
   });
