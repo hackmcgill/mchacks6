@@ -1,1 +1,2 @@
+require('smoothscroll');
 require('./animations');
