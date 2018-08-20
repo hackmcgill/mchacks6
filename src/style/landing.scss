@@ -95,6 +95,24 @@ body {
   width: 10%;
 }
 
+.hero__plane-path {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+}
+
+#motion-path {
+  position: relative;
+}
+
+.hero__plane {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
 .intro {
   background-color: $color-hack-black-5;
   position: relative;

@@ -16,3 +16,15 @@ anime.timeline({ loop: true })
     easing: 'easeInSine',
     delay: 1000,
   });
+
+const path = anime.path('#motionPath path');
+
+anime({
+  targets: '#motionPath .hero__plane',
+  translateX: path('x'),
+  translateY: path('y'),
+  rotate: path('angle'),
+  easing: 'easeInOutSine',
+  duration: 5000,
+  loop: true,
+});
