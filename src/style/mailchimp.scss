@@ -19,9 +19,7 @@
   border-color: linear-gradient(to right, #F07C74, #F9B3AC);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  display: block;
-  margin: 0 auto;
-  float: center;
+  display: inline-block;
 }
 
 #mc_embed_signup input[type="email"]:focus,
@@ -79,14 +77,6 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #636363;
 }
 
-@media only screen and (max-width:1024px) {
-  #mc_embed_signup input[type=email],
-  #mc_embed_signup input[type="email"]:focus,
-  #mc_embed_signup input[type="email"]:active {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width:750px) {
   #mc_embed_signup input[type=email],
   #mc_embed_signup input[type="email"]:focus,
@@ -103,10 +93,6 @@ input:-webkit-autofill:active {
   #mc_embed_signup input[type="email"]:active {
     font-size: 11px;
   }
-}
-
-#mc-embedded-subscribe {
-  color: #999;
 }
 
 #mc_embed_signup input.mce_inline_error {
@@ -143,3 +129,9 @@ input:-webkit-autofill:active {
   background-color: rgba(107, 5, 5, 0) !important
 }
 
+#mc-embedded-subscribe {
+  display: inline-block;
+  margin-left: -43px;
+  height: 36px;
+  padding: 0 15px;
+}
