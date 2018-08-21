@@ -1,3 +1,7 @@
+$landing-color-primary: $color-hack-red;
+$landing-color-border: $color-hack-black-5;
+$landing-color-dark-bg: $color-hack-black-5;
+
 body {
   overflow-x: hidden;
 }
@@ -6,7 +10,7 @@ body {
   z-index: 2;
   height: 4.8rem;
   background-color: transparent;
-  border-bottom: 2px solid $color-hack-black-5;
+  border-bottom: 2px solid $landing-color-border;
   position: absolute;
   top: 0;
   width: 100%;
@@ -121,7 +125,7 @@ body {
 }
 
 .intro {
-  background-color: $color-hack-black-5;
+  background-color: $landing-color-dark-bg;
   position: relative;
   padding: 16rem 0 20vw;
 
@@ -176,7 +180,7 @@ body {
 
 .footer {
   padding: 2rem 2rem;
-  border-top: 2px solid $color-hack-red;
+  border-top: 2px solid $landing-color-primary;
   display: flex;
   align-items: center;
 }
