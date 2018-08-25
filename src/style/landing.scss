@@ -48,7 +48,7 @@ body {
 
 .navbar__link {
   color: $color-hack-black-60;
-  
+
   &:focus,&:hover {
     text-decoration: none;
   }
@@ -82,10 +82,22 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 0.8rem;
+  padding-bottom: 1rem;
 
   @include media-query($sm-up) {
     font-size: 1.8rem;
+    text-align: left;
+  }
+}
+
+.hero__email {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  @include media-query($sm-up) {
+    font-size: 1.4rem;
     text-align: left;
   }
 }
