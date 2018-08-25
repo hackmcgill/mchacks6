@@ -47,6 +47,8 @@ body {
 }
 
 .navbar__link {
+  color: $color-hack-black-60;
+  
   &:focus,&:hover {
     text-decoration: none;
   }
