@@ -1,0 +1,2 @@
+require('smoothscroll');
+require('./animations');

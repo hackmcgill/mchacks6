@@ -1,0 +1,199 @@
+$landing-color-primary: $color-hack-red;
+$landing-color-border: $color-hack-black-5;
+$landing-color-dark-bg: $color-hack-black-5;
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  z-index: 2;
+  height: 7rem;
+  background-color: transparent;
+  border-bottom: 2px solid $landing-color-border;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar__brand {
+  display: inline-block;
+  padding: 1.4rem 0 1.4rem 1.4rem;
+  margin-left: 1.2rem; 
+
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar__brand-image {
+  height: 5rem;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.navbar__nav-items {
+  float: right;
+  list-style: none;
+  padding: 2.1rem;
+  padding-left: 0;
+}
+
+.navbar__nav-item {
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.navbar__link {
+  &:focus,&:hover {
+    text-decoration: none;
+  }
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  @include page-width;
+}
+
+.hero__copy {
+  padding-top: 16rem;
+}
+
+.hero__heading {
+  font-size: 3.6rem;
+  text-align: center;
+  margin: auto;
+
+  @include media-query($sm-up) {
+    text-align: left;
+    margin: inherit;
+    font-size: 4.8rem;
+    width: 48rem;
+  }
+}
+
+.hero__subheading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+
+  @include media-query($sm-up) {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.hero__clouds {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 80rem;
+  z-index: -1;
+}
+
+.hero__buildings {
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  width: 80%;
+  z-index: -1;
+}
+
+.hero__bus {
+  position: absolute;
+  left: 120%;
+  bottom: 4%;
+  width: 10%;
+}
+
+.hero__plane-path {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+}
+
+#motion-path {
+  position: relative;
+}
+
+.hero__plane {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.intro {
+  background-color: $landing-color-dark-bg;
+  position: relative;
+  padding: 16rem 0 10vw;
+
+  &:before {
+    display: block;
+    position: absolute;
+    top: -350px;
+    content: ' ';
+    width: 100%;
+    height: 400px;
+    background-image: url('/static/hero-skyline.svg');
+    background-size: 1440px;
+    z-index: -2;
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    content: ' ';
+    bottom: -30vw;
+    width: 100%;
+    height: 50vw;
+    background-image: url('/static/info-plateau.svg');
+    background-size: contain;
+    z-index: 2;
+  }
+}
+
+.intro__content {
+  @include page-width;
+  @include media-query($md-up) {
+    display: flex;
+  }
+}
+
+.intro__heading {
+  font-size: 2.4rem;
+}
+
+.intro__image {
+  max-width:100%;
+  height: auto;
+}
+
+.sponsor {
+  margin-top: calc(30vw + 12rem);
+  margin-bottom: 16rem;
+}
+
+.sponsor__heading {
+  font-size: 2.4rem;
+}
+
+.footer {
+  padding: 2rem 2rem;
+  border-top: 2px solid $landing-color-primary;
+  display: flex;
+  align-items: center;
+}
+
+.footer__links {
+  margin: 0;
+  padding: 0;
+  li {
+    margin-left: 1rem;
+    display: inline;
+  }
+}
