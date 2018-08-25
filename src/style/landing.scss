@@ -66,6 +66,7 @@ body {
   font-size: 3.6rem;
   text-align: center;
   margin: auto;
+  padding-bottom: 2.4rem;
 
   @include media-query($sm-up) {
     text-align: left;
@@ -76,12 +77,13 @@ body {
 }
 
 .hero__subheading {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
+  padding-bottom: 0.8rem;
 
   @include media-query($sm-up) {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
   }
 }
