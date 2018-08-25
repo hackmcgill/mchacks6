@@ -9,7 +9,7 @@
     "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:styles": "prettier \"src/**/*.scss\"",
     "start": "webpack --config webpack.prod.js && http-server ./dist -o",
-    "deploy": "webpack --config webpack.prod.js && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages && git commit -m 'pushing to prod'"
+    "deploy": "webpack --config webpack.prod.js && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages && git commit -m"
   },
   "repository": {
     "type": "git",
