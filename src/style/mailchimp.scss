@@ -74,7 +74,7 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: $mailchimp-color-grey;
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:768px) {
   #mc_embed_signup input[type=email],
   #mc_embed_signup input[type="email"]:focus,
   #mc_embed_signup input[type="email"]:active {
@@ -127,8 +127,19 @@ input:-webkit-autofill:active {
 }
 
 #mc-embedded-subscribe {
-  display: inline-block;
+  position: absolute;
+  top: 1px;
+  right: 0px;
   margin-left: -40px;
   height: 36px;
-  padding: 0 12px;
+  padding: 0 14px;
+  
+  @media only screen and (min-width:768px) {
+    left: 401px;
+    right: inherit;
+  }
+}
+
+.mc-input-wrapper {
+  position: relative;
 }
