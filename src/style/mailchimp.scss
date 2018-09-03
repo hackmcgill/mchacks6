@@ -40,7 +40,7 @@ $mailchimp-color-grey: $color-hack-black-70;
   color: $color-hack-red-med;
   width: 152px !important;
   height: 40px !important;
-  padding: 8px 12px !important; /* aligns input text in element */
+  padding: 4px 12px !important; /* aligns input text in element */
   background-color: transparent !important;
   border-color: transparent !important;
   text-align: center;
@@ -128,7 +128,7 @@ input:-webkit-autofill:active {
 
 #mc-embedded-subscribe {
   display: inline-block;
-  margin-left: -42px;
+  margin-left: -40px;
   height: 36px;
-  padding: 0 15px;
+  padding: 0 12px;
 }
