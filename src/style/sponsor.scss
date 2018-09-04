@@ -13,11 +13,6 @@ $sponsor-color-table-category: $color-hack-black-70;
   body {
     background: $global-color-bg;
   }
-
-  em {
-    color: $global-color-primary;
-    font-style: normal;
-  }
   
   .hero {
     &__foreground {

@@ -22,6 +22,15 @@
   font-weight: bold;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+em {
+  color: $global-color-primary;
+  font-style: normal;
+}
+
 body {
   font-family: 'Hind Siliguri', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   color: #636363;
