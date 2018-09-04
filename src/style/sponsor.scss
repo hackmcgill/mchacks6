@@ -6,16 +6,19 @@ $sponsor-color-bg-table: $color-hack-black-10;
 $sponsor-color-bg-table-hover: $color-hack-black-20;
 $sponsor-color-footer-heading: $color-hack-black-80;
 $sponsor-color-table-category: $color-hack-black-70;
-body {
-  background: $global-color-bg;
-}
 
-em {
-  color: $global-color-primary;
-  font-style: normal;
-}
 
-.sponsor {
+#sponsor {
+
+  body {
+    background: $global-color-bg;
+  }
+
+  em {
+    color: $global-color-primary;
+    font-style: normal;
+  }
+  
   .hero {
     &__foreground {
       position: absolute;
