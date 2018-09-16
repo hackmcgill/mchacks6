@@ -1,28 +1,27 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "normalize.css";
+@import "skeleton.css";
+@import "skeleton-custom.scss";
+@import "index.scss";
+@import "mailchimp.scss";
+@import "sponsor.scss";
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri");
 
-@import 'variables.scss';
-@import 'mixins.scss';
-
-@import 'normalize.css';
-@import 'skeleton.css';
-@import 'skeleton--custom.scss';
-
-@import 'index.scss';
-@import 'mailchimp.scss';
-@import 'sponsor.scss';
-
-@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
 @font-face {
   font-family: Brown;
-  src: url('../static/fonts/lineto-brown-regular.ttf');
+  src: url("../static/fonts/lineto-brown-regular.ttf");
   font-weight: regular;
 }
+
 @font-face {
   font-family: Brown;
-  src: url('../static/fonts/lineto-brown-bold.ttf');
+  src: url("../static/fonts/lineto-brown-bold.ttf");
   font-weight: bold;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -32,11 +31,21 @@ em {
 }
 
 body {
-  font-family: 'Hind Siliguri', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-family:
+    "Hind Siliguri",
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    sans-serif;
   color: #636363;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Brown, sans-serif;
   color: $color-hack-red;
 }
@@ -44,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: $color-hack-black-40;
-  
+
   &:hover {
     color: $color-hack-red;
   }

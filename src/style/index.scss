@@ -3,7 +3,6 @@ $landing-color-border: $color-hack-black-5;
 $landing-color-dark-bg: $color-hack-black-5;
 
 #index {
-
   .navbar {
     z-index: 2;
     height: 7rem;
@@ -17,9 +16,10 @@ $landing-color-dark-bg: $color-hack-black-5;
   .navbar__brand {
     display: inline-block;
     padding: 1.4rem 0 1.4rem 1.4rem;
-    margin-left: 1.2rem; 
+    margin-left: 1.2rem;
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       text-decoration: none;
     }
   }
@@ -47,7 +47,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   .navbar__link {
     color: $color-hack-black-60;
 
-    &:focus,&:hover {
+    &:focus,
+    &:hover {
       text-decoration: none;
     }
   }
@@ -55,6 +56,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .hero {
     height: 100vh;
     position: relative;
+
     @include page-width;
   }
 
@@ -146,26 +148,26 @@ $landing-color-dark-bg: $color-hack-black-5;
     position: relative;
     padding: 16rem 0 10vw;
 
-    &:before {
+    &::before {
       display: block;
       position: absolute;
       top: -350px;
-      content: ' ';
+      content: " ";
       width: 100%;
       height: 400px;
-      background-image: url('/static/hero-skyline.svg');
+      background-image: url("/static/hero-skyline.svg");
       background-size: 1440px;
       z-index: -2;
     }
 
-    &:after {
+    &::after {
       display: block;
       position: absolute;
-      content: ' ';
+      content: " ";
       bottom: -30vw;
       width: 100%;
       height: 50vw;
-      background-image: url('/static/info-plateau.svg');
+      background-image: url("/static/info-plateau.svg");
       background-size: contain;
       z-index: 2;
     }
@@ -183,7 +185,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .intro__image {
-    max-width:100%;
+    max-width: 100%;
     height: auto;
   }
 
@@ -206,6 +208,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .footer__links {
     margin: 0;
     padding: 0;
+
     li {
       margin-left: 1rem;
       display: inline;
@@ -229,7 +232,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   .footer__link {
     color: $color-hack-black-60;
 
-    &:focus,&:hover {
+    &:focus,
+    &:hover {
       text-decoration: none;
     }
   }
