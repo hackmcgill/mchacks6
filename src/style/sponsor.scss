@@ -13,28 +13,25 @@ $sponsor-color-table-category: $color-hack-black-70;
   }
 
   .hero {
+    max-width: 128rem;
+    margin: 0 auto;
+    position: relative;
     &__foreground {
       position: absolute;
       z-index: 2;
-      width: 100%;
-      top: 0;
       display: flex;
-      min-height: 40vw;
+      top: 20%;
+      left: 5%;
       align-items: center;
       justify-content: center;
 
       @include media-query($sm-up) {
-        width: initial;
-        max-width: 100%;
         justify-content: flex-start;
-        padding-left: 10vw;
-        min-height: 40vw;
       }
     }
 
     &__background {
-      width: 90vw;
-      margin: 5vw;
+      max-width: 128rem;
       pointer-events: none;
       user-select: none;
     }
@@ -108,6 +105,7 @@ $sponsor-color-table-category: $color-hack-black-70;
     font-family: Brown, sans-serif;
     background-color: $sponsor-color-bg-slant;
     position: relative;
+    margin-top: 20rem;
     margin-bottom: 6rem;
     padding: 2rem;
     font-size: 1.8rem;
@@ -116,9 +114,9 @@ $sponsor-color-table-category: $color-hack-black-70;
       background: inherit;
       position: absolute;
       width: 100%;
-      height: 16rem;
+      height: 50rem;
       content: "";
-      top: -8rem;
+      top: -20rem;
       left: 0;
       transform: skewY(4deg);
       z-index: -2;
@@ -128,9 +126,9 @@ $sponsor-color-table-category: $color-hack-black-70;
       background: inherit;
       position: absolute;
       width: 100%;
-      height: 16rem;
+      height: 50rem;
       content: "";
-      top: calc(100% - 8rem);
+      top: calc(100% - 30rem);
       left: 0;
       transform: skewY(4deg);
       z-index: -1;
@@ -247,6 +245,7 @@ $sponsor-color-table-category: $color-hack-black-70;
 
   .footer {
     margin: 0 auto;
+    max-width: 128rem;
     margin-top: 16rem;
     padding: 10rem;
     display: flex;
