@@ -33,19 +33,15 @@ $sponsor-color-table-category: $color-hack-black-70;
     }
 
     &__background {
-      margin-top: -10vw;
-      width: 100%;
+      width: 90vw;
+      margin: 5vw;
       pointer-events: none;
       user-select: none;
-
-      @include media-query($sm-up) {
-        max-width: 100%;
-      }
     }
 
     &__heading {
-      color: white;
-      font-size: 4rem;
+      color: $sponsor-color-primary;
+      font-size: 3rem;
 
       @include media-query($sm-up) {
         font-size: 4.8rem;
@@ -68,13 +64,22 @@ $sponsor-color-table-category: $color-hack-black-70;
     }
 
     &__logo {
-      width: 24rem;
+      width: 12rem;
       display: block;
       margin: 0 auto;
+
+      @include media-query($md-up) {
+        width: 24rem;
+      }
     }
 
     &__heading {
       color: $global-color-primary;
+      font-size: 3.0rem;
+
+      @include media-query($sm-up) {
+        font-size: 4.2rem;
+      }
     }
 
     &__subheading {
