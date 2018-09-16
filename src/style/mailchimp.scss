@@ -1,6 +1,7 @@
 $mailchimp-color-main: $color-hack-red;
 $mailchimp-color-light: $color-hack-red-med;
 $mailchimp-color-grey: $color-hack-black-70;
+$mailchimp-color-white: $color-hack-white;
 
 #mc_embed_signup input[type="email"],
 #mc_embed_signup input[type="text"] {
@@ -12,7 +13,7 @@ $mailchimp-color-grey: $color-hack-black-70;
   border-width: 2px;
   width: 400px;
   padding-top: 7px; /* aligns input text in element */
-  background-color: transparent;
+  background-color: $mailchimp-color-white;
   border-radius: 30px;
   border-color: $mailchimp-color-main;
   text-align: center;
