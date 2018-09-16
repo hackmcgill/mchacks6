@@ -54,7 +54,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 
     @include page-width;
@@ -116,6 +116,10 @@ $landing-color-dark-bg: $color-hack-black-5;
     bottom: 5%;
     width: 80%;
     z-index: -1;
+
+    @media screen and (max-height: 36rem) {
+      display: none;
+    }
   }
 
   .hero__bus {
@@ -123,6 +127,10 @@ $landing-color-dark-bg: $color-hack-black-5;
     left: 120%;
     bottom: 4%;
     width: 10%;
+
+    @media screen and (max-height: 36rem) {
+      display: none;
+    }
   }
 
   .hero__plane-path {
