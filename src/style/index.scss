@@ -214,6 +214,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .sponsor-list__sponsor {
     margin-left: 2%;
+    max-width: 64rem;
   }
 
   .sponsor-list__sponsor--tera {
@@ -234,10 +235,6 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .sponsor-list__sponsor--byte {
     width: 13.3333333333%;
-  }
-
-  .sponsor-list__sponsor {
-    max-width: 64rem;
   }
 
   .footer {
