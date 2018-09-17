@@ -198,6 +198,48 @@ $landing-color-dark-bg: $color-hack-black-5;
     font-size: 2.8rem;
   }
 
+  .sponsor-list {
+    margin-bottom: 16rem;
+  }
+
+  .sponsor-list__heading {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .sponsor-list__tier {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .sponsor-list__sponsor {
+    margin-left: 2%;
+  }
+
+  .sponsor-list__sponsor--tera {
+    width: 100%;
+  }
+
+  .sponsor-list__sponsor--giga {
+    width: 50%;
+  }
+
+  .sponsor-list__sponsor--mega {
+    width: 30.6666666667%;
+  }
+
+  .sponsor-list__sponsor--kilo {
+    width: 22%;
+  }
+
+  .sponsor-list__sponsor--byte {
+    width: 13.3333333333%;
+  }
+
+  .sponsor-list__sponsor {
+    max-width: 64rem;
+  }
+
   .footer {
     padding: 2rem 2rem;
     border-top: 2px solid $landing-color-primary;
