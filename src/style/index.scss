@@ -217,6 +217,10 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .sponsor-list__tier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
   }
 
@@ -252,13 +256,6 @@ $landing-color-dark-bg: $color-hack-black-5;
   .sponsor-list__logo {
     max-width: 100%;
     max-height: 100%;
-  }
-
-  .sponsor-list__tier {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
 
   .sponsor-list__sponsor {
