@@ -3,6 +3,8 @@ $landing-color-border: $color-hack-black-5;
 $landing-color-dark-bg: $color-hack-black-5;
 
 #index {
+  overflow-x: hidden;
+  
   .navbar {
     z-index: 2;
     height: 7rem;
