@@ -208,6 +208,86 @@ $landing-color-dark-bg: $color-hack-black-5;
     font-size: 2.8rem;
   }
 
+  .sponsor-list {
+    margin-bottom: 16rem;
+  }
+
+  .sponsor-list__heading {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 6rem;
+  }
+
+  .sponsor-list__tier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+  }
+
+  .sponsor-list__logo-wrapper {
+    //text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1em 4rem;
+  }
+
+  .sponsor-list__logo-wrapper--giga {
+    //height: 150px;
+    //width: 400px;
+    flex-basis: 70%;
+    align-self: center;
+    padding: 2%;
+  }
+
+  .sponsor-list__logo-wrapper--mega {
+    //height: 150px;
+    //width: 200px;
+    flex-basis: 45%;
+    align-self: center;
+    padding: 2%;
+  }
+
+  .sponsor-list__logo-wrapper--kilo {
+    //height: 50px;
+    //width: 200px;
+    flex-basis: 25%;
+    align-self: center;
+    padding: 2%;
+  }
+
+  .sponsor-list__logo-wrapper--byte {
+    //height: 35px;
+    //width: 200px;
+    flex-basis: 18%;
+    align-self: center;
+    padding: 1%;
+  }
+
+  .sponsor-list__logo-wrapper--inkind {
+    //height: 35px;
+    //width: 200px;
+    flex-basis: 7%;
+    align-self: center;
+    padding: 1.5%;
+  }
+  
+  .sponsor-list__logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .sponsor-list__sponsor {
+    flex: 1 0 50%;
+    object-fit: contain;
+    max-height: 10rem;
+    margin-bottom: 5rem;
+  }
+
   .footer {
     padding: 2rem 2rem;
     border-top: 2px solid $landing-color-primary;
