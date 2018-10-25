@@ -199,11 +199,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     height: auto;
   }
   /*--  FAQ-SECTION  --*/
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-  }
-  
+
    section.FAQ .container {
     margin: 0 auto;
     padding-top: 40rem;
@@ -211,7 +207,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     width: 48rem;
   }
   
-  h3 {
+  section.FAQ h3 {
     font-size: 1.75rem;
     color: #373d51;
     padding: 1.3rem;
@@ -251,7 +247,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .accordion a::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: '\f0d9';
+    content: "\f107";
     position: absolute;
     float: right;
     right: 1rem;
@@ -266,7 +262,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .accordion a.active::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: '\f0d7';
+    content: '-';
     color: #03b5d2;
   }
   
@@ -274,7 +270,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
-    border-bottom: 1px solid #e5e5e5;
+    //border-bottom: 1px solid #e5e5e5;
     overflow: hidden;
     clear: both;
     -webkit-transition: all 0.2s ease 0.15s;
