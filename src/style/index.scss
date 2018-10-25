@@ -202,16 +202,9 @@ $landing-color-dark-bg: $color-hack-black-5;
 
    section.FAQ .container {
     margin: 0 auto;
-    padding-top: 40rem;
+    padding-top: 50rem;
     padding-bottom: 0rem;
     width: 48rem;
-  }
-  
-  section.FAQ h3 {
-    font-size: 1.75rem;
-    color: #373d51;
-    padding: 1.3rem;
-    margin: 0;
   }
   
   .accordion a {
@@ -227,32 +220,29 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-direction: column;
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
-    color: #7288a2;
-    font-size: 1.15rem;
-    font-weight: 900;
+    color: $color-hack-black-80;    
     border-bottom: 1px solid #e5e5e5;
   }
   
   .accordion a:hover,
   .accordion a:hover::after {
     cursor: pointer;
-    color: #03b5d2;
+    color: $color-hack-red-med;
   }
   
   .accordion a.active {
-    color: #03b5d2;
-    border-bottom: 1px solid #03b5d2;
+    color: $global-color-primary;
+    border-bottom: 1px solid $global-color-primary;
   }
   
   .accordion a::after {
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "+";
     position: absolute;
     float: right;
     right: 1rem;
     font-size: 1rem;
-    color: #7288a2;
+    color: $color-hack-black-80;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -260,17 +250,15 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   
   .accordion a.active::after {
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: '-';
-    color: #03b5d2;
+    color: $global-color-primary;
   }
   
   .accordion .content {
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
-    //border-bottom: 1px solid #e5e5e5;
     overflow: hidden;
     clear: both;
     -webkit-transition: all 0.2s ease 0.15s;
@@ -278,10 +266,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     transition: all 0.2s ease 0.15s;
   }
   
-  .accordion .content p {
-    font-size: 1rem;
-    font-weight: 300;
-  }
+
   
   .accordion .content.active {
     opacity: 1;
@@ -290,6 +275,21 @@ $landing-color-dark-bg: $color-hack-black-5;
     -webkit-transition: all 0.35s ease 0.15s;
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
+  }
+  .faq__wrapper {
+    position: relative;
+  }
+  .faq-image {
+    display: none;
+
+    @include media-query($sm-up) {
+      display: initial;
+      position: absolute;
+      top:0;
+      right:0;
+      width: 10vw;
+      height: auto;
+    }
   }
   /*--  //FAQ-SECTION  --*/
 
