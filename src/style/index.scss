@@ -247,7 +247,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .accordion a::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: "\f107";
+    content: "+";
     position: absolute;
     float: right;
     right: 1rem;
@@ -295,7 +295,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
 
   .sponsor {
-    margin-top: calc(30vw + 12rem);
+    margin-top: calc(12rem);
     margin-bottom: 16rem;
   }
 
