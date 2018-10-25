@@ -293,10 +293,11 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .footer {
-    padding: 2rem 2rem;
+    padding: 2rem;
     border-top: 2px solid $landing-color-primary;
-    // display: flex;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .footer__links {
@@ -312,8 +313,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   .footer__links-socials {
     float: right;
     list-style: none;
-    padding-right: 0;
-    padding-left: 1rem;
+    padding: 0 0 0 1rem;
+    margin: 0;
   }
 
   .footer__links-social {
