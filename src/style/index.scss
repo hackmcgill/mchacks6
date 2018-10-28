@@ -200,11 +200,19 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   /*--  FAQ-SECTION  --*/
 
+  section.FAQ{//OPTION 1 FOR FAQ BACKGROUND (COMMENT THIS OUT WHEN LOOKING AT OPTION 2)
+    background-image: none;
+    @include media-query($md-up) {
+      background-image: url("/static/faq-symbols.svg");
+      background-size: stretch;
+    }
+  }
+
    section.FAQ .container {
     margin: 0 auto;
     padding-top: 50rem;
-    padding-bottom: 0rem;
-    width: 48rem;
+    padding-bottom: 18rem;
+    width: 60rem;
   }
   
   .accordion a {
@@ -279,16 +287,29 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   .faq__wrapper {
     position: relative;
+    
   }
-  .faq-image {
+  .faq-image-left {
     display: none;
 
-    @include media-query($sm-up) {
+    @include media-query($md-up) {
       display: initial;
       position: absolute;
-      top:0;
-      right:0;
-      width: 10vw;
+      top: 40%;
+      left: 0;
+      width: 25vw;
+      height: auto;
+    }
+  }
+  .faq-image-right {
+    display: none;
+
+    @include media-query($md-up) {
+      display: initial;
+      position: absolute;
+      top: 30%;
+      right: 0;
+      width: 25vw;
       height: auto;
     }
   }
