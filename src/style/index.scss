@@ -292,23 +292,23 @@ $landing-color-dark-bg: $color-hack-black-5;
   .faq-image-left {
     display: none;
 
-    @include media-query($md-up) {
+    @include media-query($lg-up) {
       display: initial;
       position: absolute;
       top: 40%;
       left: 0;
-      width: 25vw;
+      width: 23vw;
       height: auto;
     }
   }
   .faq-image-right {
     display: none;
 
-    @include media-query($md-up) {
+    @include media-query($lg-up) {
       display: initial;
       position: absolute;
       top: 30%;
-      right: 0;
+      right: 0%;
       width: 25vw;
       height: auto;
     }
