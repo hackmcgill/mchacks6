@@ -66,6 +66,21 @@
 <body id="index">
   <!-- MLH Badge -->
   <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:5rem;top:7rem;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+  <!-- START FACEBOOK MESSENGER CHAT BOT CODE  -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="1376097379311561" theme_color="#F56F65"
+    logged_in_greeting="Have any questions about McHacks 6? We're here to help!" logged_out_greeting="Have any questions about McHacks 6? We're here to help!">
+  </div>
+  <!-- END FACEBOOK MESSENGER CHAT BOT CODE  -->
   <nav class="navbar" data-spy="scroll" data-target="#navbar">
     <div class="navbar__brand">
       <img class="navbar__brand-image" src="static/assets_bird.png" alt="McHacks Logo" />
@@ -100,8 +115,8 @@
           <div id="mc_embed_signup_scroll">
             <div class="mc-field-group">
               <div class="mc-input-wrapper">
-                  <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email" placeholder="your email here"/>
-                  <button name="subscribe" id="mc-embedded-subscribe" class="button"><i class="fas fa-arrow-right"></i></button>
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email" placeholder="your email here" />
+                <button name="subscribe" id="mc-embedded-subscribe" class="button"><i class="fas fa-arrow-right"></i></button>
               </div>
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
@@ -192,97 +207,97 @@
       <h2 class="sponsor-list__heading">Our Sponsors</h2>
     </div>
     <div class="sponsor-list__tier container">
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--giga">
-          <a href="https://gnosis.pm/" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/gnosis.svg"/>
-          </a>
-        </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--giga">
+        <a href="https://gnosis.pm/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/gnosis.svg" />
+        </a>
+      </div>
     </div>
     <div class="sponsor-list__tier container">
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="http://www.cppib.com/en/" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/CPPIB.png"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="https://www.geotab.com/" target="_blank">
-            <img class="sponsor-list__logo"  src="static/sponsors/geotab.svg"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="https://www.indexexchange.com/" target="_blank">
-            <img class="sponsor-list__logo"  src="static/sponsors/index_exchange.png"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="https://martellotech.com/" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/martello.png"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="https://www.nuance.com/index.html" target="_blank">
-            <img class="sponsor-list__logo"  src="static/sponsors/nuance.png"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
-          <a href="https://www.tactiohealth.com/" target="_blank">
-            <img class="sponsor-list__logo"  src="static/sponsors/tactio.png"/>
-          </a>
-        </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="http://www.cppib.com/en/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/CPPIB.png" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="https://www.geotab.com/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/geotab.svg" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="https://www.indexexchange.com/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/index_exchange.png" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="https://martellotech.com/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/martello.png" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="https://www.nuance.com/index.html" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/nuance.png" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--mega">
+        <a href="https://www.tactiohealth.com/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/tactio.png" />
+        </a>
+      </div>
     </div>
     <div class="sponsor-list__tier container">
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
-          <a href="https://www.ibm.com/ca-en//" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/ibm.svg"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
-          <a href="https://www.td.com/us/en/personal-banking/" target="_blank">
-            <img class="sponsor-list__logo"  src="static/sponsors/td.svg"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
-          <a href="https://www.twilio.com/" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/twilio.png"/>
-          </a>
-        </div>
-        <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
-          <a href="https://www.rbc.com/careers/index.html" target="_blank">
-            <img class="sponsor-list__logo" src="static/sponsors/rbc.svg">
-          </a>
-        </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
+        <a href="https://www.ibm.com/ca-en//" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/ibm.svg" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
+        <a href="https://www.td.com/us/en/personal-banking/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/td.svg" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
+        <a href="https://www.twilio.com/" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/twilio.png" />
+        </a>
+      </div>
+      <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--kilo">
+        <a href="https://www.rbc.com/careers/index.html" target="_blank">
+          <img class="sponsor-list__logo" src="static/sponsors/rbc.svg">
+        </a>
+      </div>
     </div>
     <div class="sponsor-list__tier container">
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--byte">
         <a href="https://balsamiq.com/" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/balsamiq.svg"/>
+          <img class="sponsor-list__logo" src="static/sponsors/balsamiq.svg" />
         </a>
       </div>
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--byte">
         <a href="https://www.fdmgroup.com/en-ca/ca-home/" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/fdm.png"/>
+          <img class="sponsor-list__logo" src="static/sponsors/fdm.png" />
         </a>
       </div>
     </div>
     <div class="sponsor-list__tier container">
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--inkind">
         <a href="https://www.ea.com/en-ca" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/ea.svg"/>
+          <img class="sponsor-list__logo" src="static/sponsors/ea.svg" />
         </a>
       </div>
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--inkind">
         <a href="https://www.jetbrains.com/" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/jetbrains.svg"/>
+          <img class="sponsor-list__logo" src="static/sponsors/jetbrains.svg" />
         </a>
       </div>
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--inkind">
         <a href="https://www.sketchapp.com/" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/sketch.svg"/>
+          <img class="sponsor-list__logo" src="static/sponsors/sketch.svg" />
         </a>
       </div>
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--inkind">
         <a href="https://www.wolframalpha.com/" target="_blank">
-          <img class="sponsor-list__logo" src="static/sponsors/wolfram.png"/>
+          <img class="sponsor-list__logo" src="static/sponsors/wolfram.png" />
         </a>
       </div>
     </div>
