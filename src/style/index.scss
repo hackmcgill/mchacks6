@@ -209,12 +209,27 @@ $landing-color-dark-bg: $color-hack-black-5;
   }*/
 
    section.FAQ .container {
-    margin: 0 auto;
+    margin: 6 auto;
     padding-top: 50rem;
     padding-bottom: 18rem;
-    width: 60rem;
+    width: 85rem;
+    text-align: center;
   }
   
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-container{
+    width: 40rem;
+    text-align: initial;
+  }
+
+  .right-container{
+    width: 40rem;
+    text-align: initial;
+  }
+
   .accordion a {
     position: relative;
     display: -webkit-box;
@@ -227,11 +242,16 @@ $landing-color-dark-bg: $color-hack-black-5;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    padding: 1rem 3rem 1rem 1rem;
+    padding: 1rem .5rem 1rem 1rem;
     color: $color-hack-black-80;    
-    border-bottom: 1px solid #e5e5e5;
   }
   
+  .background{
+    background-color:$color-hack-black-5;
+    box-shadow: 0px 2px 2px #E9E9E9;
+    border-radius: 4px;
+  }
+
   .accordion a:hover,
   .accordion a:hover::after {
     cursor: pointer;
@@ -240,7 +260,6 @@ $landing-color-dark-bg: $color-hack-black-5;
   
   .accordion a.active {
     color: $global-color-primary;
-    border-bottom: 1px solid $global-color-primary;
   }
   
   .accordion a::after {
@@ -275,7 +294,9 @@ $landing-color-dark-bg: $color-hack-black-5;
     transition: all 0.2s ease 0.15s;
   }
   
-
+  .accordian-item {
+    padding-bottom: 6rem;
+  }
   
   .accordion .content.active {
     opacity: 1;
