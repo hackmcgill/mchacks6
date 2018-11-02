@@ -114,13 +114,14 @@ $sponsor-color-table-category: $color-hack-black-70;
     position: relative;
     &__foreground {
       z-index: 2;
-      margin-top: 4rem;
+      margin-top: 12rem;
       text-align: center;
 
       @include media-query($sm-up) {
         position: absolute;
         top: 10%;
         left: 10%;
+        margin-top: 4rem;
       }
     }
 
@@ -135,10 +136,11 @@ $sponsor-color-table-category: $color-hack-black-70;
 
     &__heading {
       color: $sponsor-color-primary;
-      font-size: 4.8rem;
+      font-size: 4.8rem;      
 
       @include media-query($md-up) {
         font-size: 6.4rem;
+        margin-top: 6rem;
       }
     }
   }
