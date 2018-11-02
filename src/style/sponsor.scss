@@ -336,19 +336,15 @@ $sponsor-color-table-category: $color-hack-black-70;
     }
   }
 
-  .footer {
+  .get-in-touch {
     margin: 0 auto;
     max-width: 128rem;
-    margin-top: 16rem;
+    margin-top: 24rem;
     padding: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    @include media-query($md-up) {
-      flex-direction: row;
-    }
 
     &__heading {
       color: $sponsor-color-footer-heading;
