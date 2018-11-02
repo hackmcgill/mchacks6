@@ -1,3 +1,5 @@
+$navbar-link: $color-hack-black-60;
+
 .navbar {
   z-index: 2;
   height: 7rem;
@@ -40,7 +42,7 @@
 }
 
 .navbar__link {
-  color: $color-hack-black-60;
+  color: $navbar-link;
 
   &:focus,
   &:hover {
@@ -81,7 +83,7 @@
 }
 
 .footer__link {
-  color: $color-hack-black-60;
+  color: $navbar-link;
 
   &:focus,
   &:hover {
