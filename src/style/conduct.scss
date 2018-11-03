@@ -1,0 +1,8 @@
+#code-of-conduct {
+  .code-of-conduct__wrapper {
+    @include page-width;
+    max-width: 70rem;
+    margin: auto;
+    padding: 10rem 0;
+  }
+}
