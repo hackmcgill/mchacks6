@@ -208,7 +208,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }*/
 
-   section.FAQ .container {
+   section.faq .container {
     margin: 6 auto;
     padding-top: 50rem;
     padding-bottom: 18rem;
@@ -216,21 +216,21 @@ $landing-color-dark-bg: $color-hack-black-5;
     text-align: center;
   }
   
-  .flex-container{
+  .faq__flex-container{
     display: flex;
     justify-content: space-between;
   }
-  .left-container{
+  .faq__left-column{
     width: 40rem;
     text-align: initial;
   }
 
-  .right-container{
+  .faq__right-column{
     width: 40rem;
     text-align: initial;
   }
 
-  .accordion a {
+  .faq__accordion a {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -246,7 +246,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     color: $color-hack-black-80;    
   }
   
-  .background{
+  .faq__accordion__background{
     background-color:$color-hack-black-5;
     box-shadow: 0px 2px 2px #E9E9E9;
     border-radius: 4px;
@@ -292,10 +292,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     -webkit-transition: all 0.2s ease 0.15s;
     -o-transition: all 0.2s ease 0.15s;
     transition: all 0.2s ease 0.15s;
-  }
-  
-  .accordian-item {
-    padding-bottom: 6rem;
   }
   
   .accordion .content.active {
@@ -465,4 +461,5 @@ $landing-color-dark-bg: $color-hack-black-5;
       text-decoration: none;
     }
   }
+  
 }
