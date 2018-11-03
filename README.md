@@ -1,4 +1,4 @@
-![McHacks logo](https://raw.githubusercontent.com/hackmcgill/mchacks6/master/src/static/mchacks-30x48.jpg?s=200)
+![McHacks logo](https://raw.githubusercontent.com/hackmcgill/mchacks6/master/src/static/mchacks.png?s=200)
 
 [![Travis CI Build](https://api.travis-ci.com/hackmcgill/mchacks6.svg?branch=master)](https://travis-ci.com/hackmcgill/mchacks6)
 
