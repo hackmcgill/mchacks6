@@ -207,9 +207,11 @@ $landing-color-dark-bg: $color-hack-black-5;
       background-size: stretch;
     }
   }*/
+  section.faq{
+    align-content: center;
+  }
 
-   section.faq .container {
-    margin: 6 auto;
+   .faq__container {
     padding-top: 50rem;
     padding-bottom: 18rem;
     width: 85rem;
@@ -219,7 +221,9 @@ $landing-color-dark-bg: $color-hack-black-5;
   .faq__flex-container{
     display: flex;
     justify-content: space-between;
+    padding-top: 75px;
   }
+
   .faq__left-column{
     width: 40rem;
     text-align: initial;
@@ -232,18 +236,44 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .faq__accordion a {
     position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
     padding: 1rem .5rem 1rem 1rem;
-    color: $color-hack-black-80;    
+    color: $color-hack-black-80;
+      &:hover {
+        cursor: pointer;
+          color: $color-hack-red-med;
+        &::after {
+          cursor: pointer;
+          color: $color-hack-red-med;
+        }
+      }
+      &.active {
+        color: $global-color-primary;
+        &::after {
+          font-weight: 900;
+          font-size: 1.5rem;
+          content: '-';
+          color: $global-color-primary;
+        }
+      }
+      &::after {
+        font-weight: 900;
+        content: "+";
+        position: absolute;
+        float: right;
+        right: 1rem;
+        font-size: 1.5rem;
+        color: $color-hack-black-80;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }     
   }
   
   .faq__accordion__background{
@@ -251,39 +281,8 @@ $landing-color-dark-bg: $color-hack-black-5;
     box-shadow: 0px 2px 2px #E9E9E9;
     border-radius: 4px;
   }
-
-  .accordion a:hover,
-  .accordion a:hover::after {
-    cursor: pointer;
-    color: $color-hack-red-med;
-  }
   
-  .accordion a.active {
-    color: $global-color-primary;
-  }
-  
-  .accordion a::after {
-    font-weight: 900;
-    content: "+";
-    position: absolute;
-    float: right;
-    right: 1rem;
-    font-size: 1.5rem;
-    color: $color-hack-black-80;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-  }
-  
-  .accordion a.active::after {
-    font-weight: 900;
-    font-size: 1.5rem;
-    content: '-';
-    color: $global-color-primary;
-  }
-  
-  .accordion .content {
+  .faq__accordion .accordion__content {
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
@@ -292,21 +291,21 @@ $landing-color-dark-bg: $color-hack-black-5;
     -webkit-transition: all 0.2s ease 0.15s;
     -o-transition: all 0.2s ease 0.15s;
     transition: all 0.2s ease 0.15s;
+    //active content styling
+      &.active {
+        opacity: 1;
+        padding: 1rem;
+        max-height: 100%;
+        -o-transition: all 0.35s ease 0.15s;
+        transition: all 0.35s ease 0.15s;
+      }
   }
-  
-  .accordion .content.active {
-    opacity: 1;
-    padding: 1rem;
-    max-height: 100%;
-    -webkit-transition: all 0.35s ease 0.15s;
-    -o-transition: all 0.35s ease 0.15s;
-    transition: all 0.35s ease 0.15s;
-  }
+
   .faq__wrapper {
     position: relative;
     
   }
-  .faq-image-left {
+  .faq__image-left {
     display: none;
 
     @include media-query($lg-up) {
@@ -318,7 +317,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       height: auto;
     }
   }
-  .faq-image-right {
+  .faq__image-right {
     display: none;
 
     @include media-query($lg-up) {
@@ -334,7 +333,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
 
   .sponsor {
-    margin-top: calc(12rem);
+    margin-top: 12rem;
     margin-bottom: 16rem;
   }
 
@@ -466,5 +465,5 @@ $landing-color-dark-bg: $color-hack-black-5;
       text-decoration: none;
     }
   }
-  
+
 }
