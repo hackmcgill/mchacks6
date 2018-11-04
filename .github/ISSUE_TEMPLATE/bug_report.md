@@ -4,18 +4,14 @@ about: Create a report to help us improve
 
 ---
 
-### Description
+## Description
 A clear and concise description of what the issue is about.
 
-#### Screenshots
-### Screenshots
-![Downhill Windmills](http://i.giphy.com/KO8AG2EByqkFi.gif)
+## Screenshots
+![Downhill Windmills](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
 
-### Files
-A list of relevant files for this issue. This will help people navigate the project and offer some clues of where to start.
-
-### To Reproduce
+## To Reproduce
 If this issue is describing a bug, include some steps to reproduce the behaviour.
 
-### Devices Affected
+## Devices Affected
 List out any devices that you have confirmed this bug affects. 
