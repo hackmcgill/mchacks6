@@ -11,7 +11,7 @@ A short consise description of the problem that you are solving and how you did 
 ## Any other comments?
 This is a great place to ask for specific feedback from people.
 
-### Where has this been tested?
+## Where has this been tested?
 **Platforms (Desktop, Phone, Tablet,etc...)** …
 
 **Browsers** …
