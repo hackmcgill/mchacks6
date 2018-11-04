@@ -214,14 +214,16 @@ $landing-color-dark-bg: $color-hack-black-5;
    .faq__container {
     padding-top: 50rem;
     padding-bottom: 18rem;
-    width: 85rem;
+    max-width: 85rem;
     text-align: center;
+    margin: auto;
   }
   
   .faq__flex-container{
     display: flex;
     justify-content: space-between;
     padding-top: 75px;
+    flex-wrap: wrap;
   }
 
   .faq__left-column{
@@ -234,55 +236,70 @@ $landing-color-dark-bg: $color-hack-black-5;
     text-align: initial;
   }
 
-  .faq__accordion a {
+  .accordion__title {
     position: relative;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     padding: 1rem .5rem 1rem 1rem;
     color: $color-hack-black-80;
       &:hover {
         cursor: pointer;
-          color: $color-hack-red-med;
-        &::after {
-          cursor: pointer;
-          color: $color-hack-red-med;
-        }
+        color: $color-hack-red-med;
       }
       &.active {
-        color: $global-color-primary;
-        &::after {
-          font-weight: 900;
-          font-size: 1.5rem;
-          content: '-';
-          color: $global-color-primary;
-        }
+        color: $color-hack-red-med;
       }
-      &::after {
-        font-weight: 900;
-        content: "+";
-        position: absolute;
-        float: right;
-        right: 1rem;
-        font-size: 1.5rem;
-        color: $color-hack-black-80;
-        padding: 5px;
-        width: 30px;
-        height: 30px;
-        text-align: center;
-      }     
+      // &::after {
+      //   font-weight: 900;
+      //   content: "+";
+      //   position: absolute;
+      //   float: right;
+      //   right: 1rem;
+      //   font-size: 1.5rem;
+      //   color: $color-hack-black-80;
+      //   padding: 5px;
+      //   width: 30px;
+      //   height: 30px;
+      //   text-align: center;
+      // }     
   }
   
-  .faq__accordion__background{
+  .accordion__item {
     background-color:$color-hack-black-5;
     box-shadow: 0px 2px 2px #E9E9E9;
     border-radius: 4px;
+    margin-bottom: 3rem;
+    position: relative;
+
+    &:after {
+      font-weight: 900;
+      content: "+";
+      position: absolute;
+      float: right;
+      top: 1.1rem;
+      right: 1.1rem;
+      font-size: 1.5rem;
+      color: $color-hack-black-80;
+      
+    }
+    &.active {
+      &:after {
+        font-weight: 900;
+        font-size: 1.5rem;
+        content: '-';
+        color: $global-color-primary;
+      }
+    }
+    &:hover {
+      &:after {
+        cursor: pointer;
+        color: $color-hack-red-med;
+      }
+    }   
   }
   
-  .faq__accordion .accordion__content {
+  .accordion__content {
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
