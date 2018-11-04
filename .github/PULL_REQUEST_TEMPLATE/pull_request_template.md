@@ -1,22 +1,17 @@
-What does this implement/fix? Explain your changes.
----------------------------------------------------
-…
+## What does this implement/fix? Explain your changes.
+...
 
-Does this close any currently open issues?
-------------------------------------------
-…
+## Does this close any currently open issues? 
+...
 
-
-Any relevant logs, error output, etc?
--------------------------------------
+## Any relevant logs, error output, etc?
+...
 (If it’s long, please paste to https://ghostbin.com/ and insert the link here.)
 
-Any other comments?
--------------------
+## Any other comments?
 …
 
-Where has this been tested?
----------------------------
+### Where has this been tested?
 **Platforms (Desktop, Phone, Tablet,etc...** …
 
 **Browsers** …
