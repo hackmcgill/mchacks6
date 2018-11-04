@@ -5,56 +5,6 @@ $landing-color-dark-bg: $color-hack-black-5;
 #index {
   overflow-x: hidden;
   
-  .navbar {
-    z-index: 2;
-    height: 7rem;
-    background-color: transparent;
-    border-bottom: 2px solid $landing-color-border;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
-  .navbar__brand {
-    display: inline-block;
-    padding: 1.4rem 0 1.4rem 1.4rem;
-    margin-left: 1.2rem;
-
-    &:focus,
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  .navbar__brand-image {
-    height: 5rem;
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
-  }
-
-  .navbar__nav-items {
-    float: right;
-    list-style: none;
-    padding: 2.1rem;
-    padding-left: 0;
-  }
-
-  .navbar__nav-item {
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
-    margin-right: 2rem;
-    text-decoration: none;
-  }
-
-  .navbar__link {
-    color: $color-hack-black-60;
-
-    &:focus,
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
   .hero {
     min-height: 100vh;
     position: relative;
@@ -198,6 +148,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     max-width: 100%;
     height: auto;
   }
+  
   /*--  FAQ-SECTION  --*/
 
   /* section.FAQ{//OPTION 1 FOR FAQ BACKGROUND (COMMENT THIS OUT WHEN LOOKING AT OPTION 2)
@@ -249,20 +200,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       }
       &.active {
         color: $color-hack-red-med;
-      }
-      // &::after {
-      //   font-weight: 900;
-      //   content: "+";
-      //   position: absolute;
-      //   float: right;
-      //   right: 1rem;
-      //   font-size: 1.5rem;
-      //   color: $color-hack-black-80;
-      //   padding: 5px;
-      //   width: 30px;
-      //   height: 30px;
-      //   text-align: center;
-      // }     
+      }   
   }
   
   .accordion__item {
@@ -348,7 +286,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   /*--  //FAQ-SECTION  --*/
 
-
+  /*--  SPONSOR-SECTION  --*/
   .sponsor {
     margin-top: 12rem;
     margin-bottom: 16rem;
@@ -441,7 +379,9 @@ $landing-color-dark-bg: $color-hack-black-5;
     max-height: 10rem;
     margin-bottom: 5rem;
   }
-
+  /*--  //SPONSOR-SECTION  --*/
+  
+  /*--  FOOTER-SECTION  --*/
   .footer {
     padding: 2rem;
     border-top: 2px solid $landing-color-primary;
@@ -482,5 +422,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       text-decoration: none;
     }
   }
-
+  /*--  //FOOTER-SECTION  --*/
 }
+
+
