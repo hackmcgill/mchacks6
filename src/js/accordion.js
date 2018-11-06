@@ -1,6 +1,6 @@
-const items = document.querySelectorAll(".accordion__item");
+const items = document.querySelectorAll('.accordion__item');
 
-function toggleAccordion(){
+function toggleAccordion() {
   this.classList.toggle('active');
   Array.from(this.children).forEach(el => el.classList.toggle('active'));
 }

@@ -165,26 +165,42 @@ $landing-color-dark-bg: $color-hack-black-5;
    .faq__container {
     padding-top: 50rem;
     padding-bottom: 18rem;
-    max-width: 85rem;
+    max-width: 88rem;
     text-align: center;
     margin: auto;
+    
+    
   }
   
   .faq__flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 75px;
     flex-wrap: wrap;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    @include media-query(814px) {
+      display: flex;
+      justify-content: center;
+      padding-top: 75px;
+      flex-wrap: wrap;
+    }
   }
 
   .faq__left-column{
-    width: 40rem;
+    width: 40rem;  
     text-align: initial;
+    @include media-query(875px) {
+      padding-right: 1.5rem;
+    }
   }
 
   .faq__right-column{
     width: 40rem;
     text-align: initial;
+    @include media-query(875px) {
+      padding-left: 1.5rem;
+    }
   }
 
   .accordion__title {
