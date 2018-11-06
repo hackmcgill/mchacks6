@@ -1,5 +1,5 @@
 ### What does this implement/fix? Explain your changes.
-A short consise description of the problem that you are solving and how you did it. 
+A short concise description of the problem that you're solving and how you did it. 
 
 ### Does this close any currently open issues? 
 - Closes #420
