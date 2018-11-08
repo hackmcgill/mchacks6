@@ -151,25 +151,20 @@ $landing-color-dark-bg: $color-hack-black-5;
   
   /*--  FAQ-SECTION  --*/
 
-  /* section.FAQ{//OPTION 1 FOR FAQ BACKGROUND (COMMENT THIS OUT WHEN LOOKING AT OPTION 2)
-    background-image: none;
-    @include media-query($md-up) {
-      background-image: url("/static/faq-symbols.svg");
-      background-size: stretch;
-    }
-  }*/
   section.faq{
     align-content: center;
   }
-
-   .faq__container {
-    padding-top: 50rem;
-    padding-bottom: 18rem;
+  
+  .faq__container {
+    // padding-top: 40rem;
+    padding-bottom: 10rem;
     max-width: 88rem;
     text-align: center;
     margin: auto;
-    
-    
+  }
+
+  .faq_jump-to{
+    padding-top:5rem;
   }
   
   .faq__flex-container{
@@ -305,8 +300,8 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   /*--  SPONSOR-SECTION  --*/
   .sponsor {
-    margin-top: 12rem;
-    margin-bottom: 16rem;
+    margin-top: 50rem;
+    margin-bottom: 15rem;
   }
 
   .sponsor__heading {
@@ -314,12 +309,13 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .sponsor-list {
+    margin-top: 
     margin-bottom: 16rem;
   }
 
   .sponsor-list__heading {
     text-align: center;
-    font-size: 2.8rem;
+    // font-size: 2.8rem;
     margin-bottom: 6rem;
   }
 
@@ -388,6 +384,11 @@ $landing-color-dark-bg: $color-hack-black-5;
   .sponsor-list__logo {
     max-width: 100%;
     max-height: 100%;
+    transition: 1s;
+
+    &:hover{
+      transform: scale(1.1);
+    }
   }
 
   .sponsor-list__sponsor {
