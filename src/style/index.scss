@@ -207,10 +207,10 @@ $landing-color-dark-bg: $color-hack-black-5;
     color: $color-hack-black-80;
       &:hover {
         cursor: pointer;
-        color: $color-hack-red-med;
+        color: $global-color-primary;
       }
       &.active {
-        color: $color-hack-red-med;
+        color: $global-color-primary;
       }   
   }
   
@@ -243,9 +243,9 @@ $landing-color-dark-bg: $color-hack-black-5;
     &:hover {
       &:after {
         cursor: pointer;
-        color: $color-hack-red-med;
+        color: $global-color-primary;
       }
-    }   
+    }
   }
   
   .accordion__content {
@@ -265,6 +265,14 @@ $landing-color-dark-bg: $color-hack-black-5;
         max-height: 100%;
         -o-transition: all 0.2s ease 0.15s;
         transition: all 0.2s ease 0.15s;
+      }
+
+      a, a:active {
+        color: $global-color-primary;
+      }
+
+      a:hover {
+        color: $color-hack-black-80;
       }
   }
 
