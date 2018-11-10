@@ -422,48 +422,4 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   /*--  //FAQ-SECTION  --*/
-
-  /*--  FOOTER-SECTION  --*/
-  .footer {
-    padding: 2rem;
-    border-top: 2px solid $landing-color-primary;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .footer__links {
-    margin: 0;
-    padding: 0;
-
-    li {
-      margin-left: 1rem;
-      display: inline;
-    }
-  }
-
-  .footer__links-socials {
-    float: right;
-    list-style: none;
-    padding: 0 0 0 1rem;
-    margin: 0;
-  }
-
-  .footer__links-social {
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
-    margin-right: 2rem;
-    text-decoration: none;
-  }
-
-  .footer__link {
-    color: $color-hack-black-60;
-
-    &:focus,
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  /*--  //FOOTER-SECTION  --*/
 }
