@@ -260,11 +260,15 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .faq__container {
     // padding-top: 40rem;
-    padding-bottom: 32rem;
+    padding-bottom: 60rem;
     max-width: 88rem;
     height: 40rem;
     text-align: center;
     margin: auto;
+
+    @include media-query($md-up) {
+      padding-bottom: 32rem;
+    }
   }
 
   .faq_jump-to {
