@@ -5,13 +5,12 @@ A short concise description of the problem that you're solving and how you did i
 - Closes #420
 
 ### Any relevant logs, error output, etc?
-...
 (If it’s long, please paste to https://ghostbin.com/ and insert the link here.)
 
 ### Any other comments?
 This is a great place to ask for specific feedback from people.
 
 ### Where has this been tested?
-**Platforms (Desktop, Phone, Tablet,etc...)** …
+**Platforms (Desktop, Phone, Tablet, etc...)**
 
-**Browsers** …
+**Browsers**
