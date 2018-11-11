@@ -259,12 +259,15 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .faq__container {
-    // padding-top: 40rem;
-    padding-bottom: 32rem;
+    padding-bottom: 60rem;
     max-width: 88rem;
     height: 40rem;
     text-align: center;
     margin: auto;
+
+    @include media-query($md-up) {
+      padding-bottom: 32rem;
+    }
   }
 
   .faq_jump-to {
@@ -366,10 +369,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     max-height: 0;
     overflow: hidden;
     clear: both;
-    // opacity: 1;
-    // -webkit-transition: all 0.2s ease 0.15s;
-    // -o-transition: all 0.2s ease 0.15s;
-    transition: height 0.10s ease-in-out;
 
     a,
     a:active {
@@ -380,10 +379,8 @@ $landing-color-dark-bg: $color-hack-black-5;
       color: $color-hack-black-80;
     }
 
-    // active content styling
     &.active {
       opacity: 1;
-      // padding: 1rem;
       max-height: 100%;
       -o-transition: all 0.2s ease 0.15s;
       transition: all 0.2s ease 0.15s;
