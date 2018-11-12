@@ -259,14 +259,15 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .faq__container {
-    padding-bottom: 60rem;
+    padding-top: 20rem;
     max-width: 88rem;
-    height: 40rem;
+    height: 48rem;
     text-align: center;
     margin: auto;
 
     @include media-query($md-up) {
-      padding-bottom: 32rem;
+      padding-top: 48rem;
+      height: 20rem;
     }
   }
 
