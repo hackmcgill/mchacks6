@@ -193,6 +193,14 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
 
+  .sponsor-list__logo-wrapper--tera {
+    //height: 150px;
+    //width: 400px;
+    flex-basis: 90%;
+    align-self: center;
+    padding: 2%;
+  }
+
   .sponsor-list__logo-wrapper--giga {
     //height: 150px;
     //width: 400px;
