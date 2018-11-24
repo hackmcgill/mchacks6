@@ -189,24 +189,30 @@ $landing-color-dark-bg: $color-hack-black-5;
 
     a {
       max-width: 100%;
-      max-height: 100%;
+      max-height: 100%; 
     }
   }
 
   .sponsor-list__logo-wrapper--tera {
-    //height: 150px;
-    //width: 400px;
     flex-basis: 90%;
     align-self: center;
     padding: 2%;
+    a {
+      img {
+        max-height: 20vh;
+      } 
+    }
   }
 
   .sponsor-list__logo-wrapper--giga {
-    //height: 150px;
-    //width: 400px;
-    flex-basis: 70%;
+    flex-basis: 65%;
     align-self: center;
     padding: 2%;
+    a {
+      img {
+        max-height: 15vh;
+      }
+    }
   }
 
   .sponsor-list__logo-wrapper--mega {
@@ -215,22 +221,33 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-basis: 45%;
     align-self: center;
     padding: 2%;
+    a {
+      img {
+        max-height: 10vh;
+      }
+    }
   }
 
   .sponsor-list__logo-wrapper--kilo {
-    //height: 50px;
-    //width: 200px;
     flex-basis: 21%;
     align-self: center;
-    padding: 2%;
+    padding: 2%; 
+    a {
+      img {
+        max-height: 8vh;
+      }
+    }
   }
 
   .sponsor-list__logo-wrapper--byte {
-    //height: 35px;
-    //width: 200px;
     flex-basis: 18%;
     align-self: center;
     padding: 1%;
+    a {
+      img {
+        max-height: 6vh;
+      }
+    }
   }
 
   .sponsor-list__logo-wrapper--inkind {
@@ -238,7 +255,12 @@ $landing-color-dark-bg: $color-hack-black-5;
     //width: 200px;
     flex-basis: 7%;
     align-self: center;
-    padding: 1.5%;
+    padding: 1.5%; 
+    a {
+      img {
+        max-height: 4vh;
+      }
+    }
   }
 
   .sponsor-list__logo {
