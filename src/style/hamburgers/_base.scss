@@ -1,0 +1,112 @@
+// Hamburger
+// ==================================================
+
+.hamburger {
+  z-index: 10;
+  float: right;
+  padding: 2.4rem;
+  cursor: pointer;
+
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+
+  a {
+    display: none;
+  }
+
+  // Normalize (<button>)
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+
+  @include media-query($sm-up) {
+    display: none;
+  }
+
+  &:hover {
+    @if $hamburger-hover-use-filter==true {
+      filter: $hamburger-hover-filter;
+    }
+
+    @else {
+      opacity: $hamburger-hover-opacity;
+    }
+  }
+
+  &.is-active {
+    position: fixed;
+    z-index: 10;
+    list-style: none;
+  }
+
+  &.overlay {
+    max-height: calc(100% - 50px);
+    overflow-y: auto;
+
+    z-index: 10;
+    position: fixed;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $color-hack-black-5;
+
+    text-align: center;
+    font-size: 20px;
+
+    a {
+      color: $color-hack-black-60;
+      display: initial;
+    }
+
+
+    a:hover {
+      color: $color-hack-red;
+    }
+  }
+}
+
+.hamburger-box {
+  width: $hamburger-layer-width;
+  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: $hamburger-layer-height / -2;
+
+  &,
+  &::before,
+  &::after {
+    width: $hamburger-layer-width;
+    height: $hamburger-layer-height;
+    background-color: $hamburger-layer-color;
+    border-radius: $hamburger-layer-border-radius;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    top: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+  }
+
+  &::after {
+    bottom: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+  }
+}

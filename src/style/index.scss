@@ -133,6 +133,18 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
 
+  .intro__button {
+    background-color: $color-hack-red;
+    color: white;
+    border-radius: 2em;
+    border: none;
+    transition: all 0.15s ease-in-out;
+  
+    &:hover {
+      background-color: $color-hack-red-med;
+    }
+  }
+
   .intro__content {
     @include page-width;
 

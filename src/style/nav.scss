@@ -32,6 +32,11 @@ $navbar-link: $color-hack-black-60;
   list-style: none;
   padding: 2.1rem;
   padding-left: 0;
+  display: none;
+
+  @include media-query($sm-up) {
+    display: initial;
+  }
 }
 
 .navbar__nav-item {
@@ -47,6 +52,24 @@ $navbar-link: $color-hack-black-60;
   &:focus,
   &:hover {
     text-decoration: none;
+  }
+}
+
+.navbar__button {
+  font-family: Brown, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: none;
+  color: $color-hack-red;
+  border-radius: 0.5em;
+  border: 2px solid $color-hack-red;
+  transition: all 0.15s ease-in-out;
+  padding: 8px 16px;
+  margin-left: 12px;
+
+  &:hover {
+    background-color: $color-hack-red;
+    color: white;
   }
 }
 
@@ -84,6 +107,7 @@ $navbar-link: $color-hack-black-60;
 
 .footer__link {
   color: $navbar-link;
+  margin-right: 2rem;
 
   &:focus,
   &:hover {
