@@ -10,6 +10,9 @@
 @import "nav.scss";
 @import url("https://fonts.googleapis.com/css?family=Hind+Siliguri");
 
+$hamburger-layer-color: $color-hack-red !default;
+@import "/hamburgers/hamburgers.scss";
+
 @font-face {
   font-family: Brown;
   src: url("../static/fonts/lineto-brown-regular.ttf");

@@ -32,6 +32,11 @@ $navbar-link: $color-hack-black-60;
   list-style: none;
   padding: 2.1rem;
   padding-left: 0;
+  display: none;
+
+  @include media-query($sm-up) {
+    display: initial;
+  }
 }
 
 .navbar__nav-item {
