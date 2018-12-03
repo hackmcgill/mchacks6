@@ -42,12 +42,6 @@
     position: fixed;
     z-index: 10;
     list-style: none;
-
-    .hamburger-inner,
-    .hamburger-inner::before,
-    .hamburger-inner::after {
-      background-color: $hamburger-active-layer-color;
-    }
   }
 
   &.overlay {
