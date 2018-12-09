@@ -72,6 +72,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     @media screen and (max-height: 36rem) {
       display: none;
     }
+
   }
 
   .hero__bus {
@@ -80,7 +81,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     bottom: 4%;
     width: 10%;
 
-    @media screen and (max-height: 36rem) {
+    @media (max-width: 630px) {
       display: none;
     }
   }
