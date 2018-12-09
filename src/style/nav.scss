@@ -81,9 +81,19 @@ $navbar-link: $color-hack-black-60;
   justify-content: space-between;
 }
 
+.footer__container {
+  display: flex;
+  flex: row;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 48%;
+  flex-wrap: wrap;
+}
+
 .footer__links {
   margin: 0;
   padding: 0;
+  flex-basis: auto;
 
   li {
     margin-left: 1rem;
