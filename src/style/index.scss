@@ -317,6 +317,18 @@ $landing-color-dark-bg: $color-hack-black-5;
   .faq_jump-to {
     padding-top: 5rem;
   }
+  
+  .faq__heading {
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0 2rem;
+
+    @include media-query($sm-up) {
+      margin: inherit;
+      font-size: 4.8rem;
+      width: 48rem;
+    }
+  }
 
   .faq__flex-container {
     display: flex;
