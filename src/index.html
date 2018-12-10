@@ -77,6 +77,7 @@
       js = d.createElement(s); js.id = id;
       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
       fjs.parentNode.insertBefore(js, fjs);
+      js.style.marginBottom = "180px";
     }(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Your customer chat code -->
@@ -364,7 +365,7 @@
   <section class="faq faq__wrapper">
     <div class="faq__container">
       <div class="faq_jump-to" id='faq'></div>
-      <h2> Frequently Asked Questions</h2>
+      <h1 class="faq__heading">Frequently Asked Questions</h1>
       <div class="faq__flex-container">
         <div class="faq__left-column">
           <div class="accordion">
