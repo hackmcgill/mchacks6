@@ -158,7 +158,7 @@ $sponsor-color-table-category: $color-hack-black-70;
 
     &__row {
       &:hover {
-        background-color: $sponsor-color-bg-table-hover;
+        background-color: none;
         transition: 0.2s background-color ease-in-out;
 
         & .tier-list__table-cell {
