@@ -1,0 +1,40 @@
+#not-found {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .not-found__wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+
+    @include page-width;
+  }
+
+  .not-found__construction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 16rem;
+  }
+
+  .not-found__heading {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+
+    @include media-query($sm-up) {
+      font-size: 4rem;
+    }
+  }
+
+  .not-found__cta {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
