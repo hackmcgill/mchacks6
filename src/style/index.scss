@@ -476,3 +476,11 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   /*--  //FAQ-SECTION  --*/
 }
+
+.fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in {
+  margin-bottom: 100px !important;
+
+  @include media-query($sm-up) {
+    margin-bottom: 80px !important;
+  }
+}
