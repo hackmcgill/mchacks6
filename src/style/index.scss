@@ -87,9 +87,14 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero__plane-path {
-    position: absolute;
-    top: -30%;
-    left: 50%;
+    display: none;
+
+    @include media-query($sm-up) {
+      display: flex;
+      position: absolute;
+      top: -30%;
+      left: 50%;
+    }
   }
 
   #motion-path {
@@ -97,11 +102,16 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero__plane {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    width: 5rem;
-    height: 5rem;
+    display: none;
+
+    @include media-query($sm-up) {
+      display: flex;
+      position: absolute;
+      top: -30%;
+      left: 50%;
+      width: 5rem;
+      height: 5rem;
+    }
   }
 
   .intro {
