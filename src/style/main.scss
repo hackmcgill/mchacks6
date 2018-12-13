@@ -32,10 +32,6 @@ em {
   font-style: normal;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   font-family:
     "Hind Siliguri",
@@ -44,6 +40,7 @@ body {
     BlinkMacSystemFont,
     sans-serif;
   color: #636363;
+  overflow: scroll;
 }
 
 h1,
