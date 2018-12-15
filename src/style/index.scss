@@ -3,13 +3,14 @@ $landing-color-border: $color-hack-black-5;
 $landing-color-dark-bg: $color-hack-black-5;
 
 #index {
-  overflow-x: hidden;
-
   .hero {
     min-height: 100vh;
     position: relative;
-
-    @include page-width;
+    overflow: hidden;
+    padding: 0 4rem;
+    @include media-query($md-up) {
+      padding: 0 10rem;
+    }
   }
 
   .hero__copy {
@@ -43,7 +44,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero__email {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
@@ -72,7 +73,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     @media screen and (max-height: 36rem) {
       display: none;
     }
-
   }
 
   .hero__bus {
@@ -81,20 +81,15 @@ $landing-color-dark-bg: $color-hack-black-5;
     bottom: 4%;
     width: 10%;
 
-    @media (max-width: 630px) {
+    @media screen and (max-height: 36rem) {
       display: none;
     }
   }
 
   .hero__plane-path {
-    display: none;
-
-    @include media-query($sm-up) {
-      display: flex;
-      position: absolute;
-      top: -30%;
-      left: 50%;
-    }
+    position: absolute;
+    top: -30%;
+    left: 50%;
   }
 
   #motion-path {
@@ -102,16 +97,11 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero__plane {
-    display: none;
-
-    @include media-query($sm-up) {
-      display: flex;
-      position: absolute;
-      top: -30%;
-      left: 50%;
-      width: 5rem;
-      height: 5rem;
-    }
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 5rem;
+    height: 5rem;
   }
 
   .intro {
@@ -141,18 +131,6 @@ $landing-color-dark-bg: $color-hack-black-5;
       background-image: url("/static/info-plateau.svg");
       background-size: contain;
       z-index: 2;
-    }
-  }
-
-  .intro__button {
-    background-color: $color-hack-red;
-    color: white;
-    border-radius: 2em;
-    border: none;
-    transition: all 0.15s ease-in-out;
-  
-    &:hover {
-      background-color: $color-hack-red-med;
     }
   }
 
@@ -327,18 +305,6 @@ $landing-color-dark-bg: $color-hack-black-5;
   .faq_jump-to {
     padding-top: 5rem;
   }
-  
-  .faq__heading {
-    font-size: 3.6rem;
-    text-align: center;
-    margin: 0 2rem;
-
-    @include media-query($sm-up) {
-      margin: inherit;
-      font-size: 4.8rem;
-      width: 48rem;
-    }
-  }
 
   .faq__flex-container {
     display: flex;
@@ -485,12 +451,4 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   /*--  //FAQ-SECTION  --*/
-}
-
-.fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in {
-  margin-bottom: 100px !important;
-
-  @include media-query($sm-up) {
-    margin-bottom: 80px !important;
-  }
 }
