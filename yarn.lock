@@ -8518,16 +8518,16 @@ stylelint-config-recommended@^2.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.1.0.tgz#f526d5c771c6811186d9eaedbed02195fee30858"
   integrity sha512-ajMbivOD7JxdsnlS5945KYhvt7L/HwN6YeYF2BH6kE4UCLJR0YvXMf+2j7nQpJyYLZx9uZzU5G1ZOSBiWAc6yA==
 
-stylelint-scss@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.3.0.tgz#0de0ef241d347e32ed28a2cffb8397c37ae2738c"
-  integrity sha512-1E54Tsx/RPJDbGqLK8LcCUa62dB+KRg4zhqo/ub38PBpf16qz5mY/6VJCkQHSU3MygyyJDiFf/J5TLLznrRmGA==
+stylelint-scss@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.4.1.tgz#b6155b99964a1c35db40b1643457a76b9f2bb96d"
+  integrity sha512-ENYTE25wd9ndSkwxMksr8hrXVdWYu+RfDKM1ef2MHEqxk4cU362WQv7mgJK3HZqdCZFxL21sFegQO9Kz2vzwGw==
   dependencies:
-    lodash "^4.17.10"
+    lodash "^4.17.11"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^4.0.0"
-    postcss-value-parser "^3.3.0"
+    postcss-value-parser "^3.3.1"
 
 stylelint@^9.9.0:
   version "9.9.0"
