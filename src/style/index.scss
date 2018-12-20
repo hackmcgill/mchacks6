@@ -32,13 +32,53 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .hero__subheading {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
     padding-bottom: 1rem;
 
     @include media-query($sm-up) {
       font-size: 1.8rem;
+      text-align: left;
+    }
+  }
+
+  .hero__cta {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+
+    @include media-query($sm-up) {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  }
+
+  .hero__button {
+    font-family: Brown, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: none;
+    color: $color-hack-red;
+    border-radius: 0.5em;
+    border: 2px solid $color-hack-red;
+    transition: all 0.15s ease-in-out;
+    padding: 10px 32px;
+  
+    &:hover {
+      background-color: $color-hack-red;
+      color: white;
+    }
+
+    @include media-query($sm-up) {
+      font-size: 1.8rem;
+    }
+  }
+
+  .hero__button-holder {
+    text-align: center;
+
+    @include media-query($sm-up) {
       text-align: left;
     }
   }
