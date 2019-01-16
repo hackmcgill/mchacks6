@@ -2,7 +2,7 @@ $landing-color-primary: $color-hack-red;
 $landing-color-border: $color-hack-black-5;
 $landing-color-dark-bg: $color-hack-black-5;
 
-#index {
+#live {
   .hero {
     min-height: 100vh;
     position: relative;
@@ -144,7 +144,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     height: 5rem;
   }
 
-  .intro {
+  .schedule {
     background-color: $landing-color-dark-bg;
     position: relative;
     padding: 16rem 0 10vw;
@@ -174,7 +174,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
   
-  .intro__button {
+  .schedule__button {
     background-color: $color-hack-red;
     color: white;
     border-radius: 2em;
@@ -186,7 +186,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
 
-  .intro__content {
+  .schedule__content {
     @include page-width;
 
     @include media-query($md-up) {
@@ -194,11 +194,11 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
 
-  .intro__heading {
+  .schedule__heading {
     font-size: 2.8rem;
   }
 
-  .intro__image {
+  .schedule__image {
     max-width: 100%;
     height: auto;
   }
