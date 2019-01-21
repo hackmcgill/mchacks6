@@ -104,136 +104,150 @@
       </a>
     </button>
   </nav>
-  <section class="hero">
-    <div class="hero__copy">
-      <h1 class="hero__heading"> We're Live @
-        <em>McHacks 6</em>
-      </h1>
-    </div>
-    <img class="hero__clouds" src="static/hero-clouds.svg" alt="clouds" />
-    <img class="hero__buildings" src="static/hero-buildings.svg" alt="buildings" />
-    <img class="hero__bus" src="static/hero-bus.svg" alt="bus" />
-  </section>
   <section class="schedule" id="schedule">
     <div class="row container">
-      <div class="one-half column">
+      <div class="two columns">
         <h2 class="schedule__heading">Event Schedule</h2>
         <p>
           Put Event Key Here
         </p>
       </div>
-      <div class="one-half column">
-        <p>
-          Put Schedule Here
-        </p>
+      <div class="ten columns">
+        <div class="cd-schedule loading">
+          <div class="timeline">
+            <ul>
+              <li><span>07:00</span></li>
+              <li><span>07:30</span></li>
+              <li><span>08:00</span></li>
+              <li><span>08:30</span></li>
+              <li><span>09:00</span></li>
+              <li><span>09:30</span></li>
+              <li><span>10:00</span></li>
+              <li><span>10:30</span></li>
+              <li><span>11:00</span></li>
+              <li><span>11:30</span></li>
+              <li><span>12:00</span></li>
+              <li><span>12:30</span></li>
+              <li><span>13:00</span></li>
+              <li><span>13:30</span></li>
+              <li><span>14:00</span></li>
+              <li><span>14:30</span></li>
+              <li><span>15:00</span></li>
+              <li><span>15:30</span></li>
+              <li><span>16:00</span></li>
+              <li><span>16:30</span></li>
+              <li><span>17:00</span></li>
+              <li><span>17:30</span></li>
+              <li><span>18:00</span></li>
+              <li><span>18:30</span></li>
+              <li><span>19:00</span></li>
+              <li><span>19:30</span></li>
+              <li><span>20:00</span></li>
+              <li><span>20:30</span></li>
+              <li><span>21:00</span></li>
+              <li><span>21:30</span></li>
+              <li><span>22:00</span></li>
+              <li><span>22:30</span></li>
+              <li><span>23:00</span></li>
+              <li><span>23:30</span></li>
+              <li><span>00:00</span></li>
+              <li><span>00:30</span></li>
+              <li><span>01:00</span></li>
+              <li><span>01:30</span></li>
+              <li><span>02:00</span></li>
+              <li><span>02:30</span></li>
+              <li><span>03:00</span></li>
+            </ul>
+          </div> <!-- .timeline -->
+          <div class="events">
+            <ul>
+              <li class="events-group">
+                <div class="top-info"><span>Monday</span></div>
+        
+                <ul>
+                  <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+                    <a href="#0">
+                      <em class="event-name">Abs Circuit</em>
+                    </a>
+                  </li>
+        
+                  <li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+                    <a href="#0">
+                      <em class="event-name">Rowing Workout</em>
+                    </a>
+                  </li>
+        
+                  <li class="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
+                    <a href="#0">
+                      <em class="event-name">Yoga Level 1</em>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="events-group">
+                <div class="top-info"><span>Tuesday</span></div>
+        
+                <ul>
+                  <li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
+                    <a href="#0">
+                      <em class="event-name">Rowing Workout</em>
+                    </a>
+                  </li>
+        
+                  <li class="single-event" data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4">
+                    <a href="#0">
+                      <em class="event-name">Restorative Yoga</em>
+                    </a>
+                  </li>
+        
+                  <li class="single-event" data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1">
+                    <a href="#0">
+                      <em class="event-name">Abs Circuit</em>
+                    </a>
+                  </li>
+        
+                  <li class="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
+                    <a href="#0">
+                      <em class="event-name">Yoga Level 1</em>
+                    </a>
+                  </li>
+                  <li class="single-event" data-start="16:45" data-end="17:45"  data-content="event-yoga-1" data-event="event-3">
+                    <a href="#0">
+                      <em class="event-name">Yoga Level 1</em>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+          </div>
+          <div class="event-modal">
+            <header class="header">
+              <div class="content">
+                <span class="event-date"></span>
+                <h3 class="event-name"></h3>
+              </div>
+        
+              <div class="header-bg"></div>
+            </header>
+        
+            <div class="body">
+              <div class="event-info"></div>
+              <div class="body-bg"></div>
+            </div>
+        
+            <a href="#0" class="close">Close</a>
+          </div>
+          <div class="cover-layer"></div>
+        </div> <!-- .cd-schedule -->
       </div>
     </div>
   </section>
-  <section class="map" id='map'>
-    <div class="row container">
-      <div class="one-half column">
-        <h2 class="map__heading">Interested in Sponsoring?</h2>
-        <p>
-          Hosting Canada’s favourite hackathon isn't easy, and our generous sponsors help bring it to life! Spend a
-          weekend at McHacks
-          to witness tomorrow’s leaders as they experiment with your technologies and solve problems from the ground
-          up.
+  <section class="map" id="map">
 
-          Join us as we shake the world of technology for 24 hours. We've got a table with your name on it!
-        </p>
-        <a class="button" href="/sponsor">Become a sponsor</a>
-      </div>
-      <div class="one-half column">
-        <img class="schedule__image" src="static/info-bridge.svg" />
-      </div>
-    </div>
   </section>
-  <section class="faq faq__wrapper">
+  <section class="resources" id='resources'>
     <div class="faq__container">
       <div class="faq_jump-to" id='faq'></div>
-      <h1 class="faq__heading">Frequently Asked Questions</h1>
-      <div class="faq__flex-container">
-        <div class="faq__left-column">
-          <div class="accordion">
-            <div class="accordion__item">
-              <a class="accordion__title">What is a hackathon?</a>
-              <div class="accordion__content">
-                <p>A hackathon is a coding event where participants (hackers) spend 24 hours working in teams of 1-4
-                  people to build and code projects (hacks). Bring your ideas and we'll give you everything you need to
-                  bring it to life.</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">What should I bring?</a>
-              <div class="accordion__content">
-                <p>You should bring your student ID and anything you’d need for a productive, healthy, and fun weekend:
-                  laptop, phone, chargers, deodorant (!), change of clothes, etc. Don't worry about food and drinks,
-                  we've got you covered there.</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">How will I get to McHacks?</a>
-              <div class="accordion__content">
-                <p>We'll be sending a number of buses to nearby cities to get you to and from McHacks. We'll also have
-                  travel reimbursements available on a case-by-case basis.</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">What if I don't have a team or idea?</a>
-              <div class="accordion__content">
-                <p>Not a problem! We'll have team-forming activities to help you find teammates and brainstorm ideas.
-                  There'll also be workshops to learn technologies that could spark an idea to hack on.</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">Is there an event page for mchacks?</a>
-              <div class="accordion__content">
-                <p>Yes,  <a href="/live">Live-Site</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="faq__right-column">
-          <div class="accordion">
-            <div class="accordion__item">
-              <a class="accordion__title">Who can participate?</a>
-              <div class="accordion__content">
-                <p>Students at high school, CEGEP, and undergraduate levels are welcome to apply to McHacks! If you're
-                  under 18, we'll need a parental consent form.</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">How much does it cost to attend?</a>
-              <div class="accordion__content">
-                <p>Absolutely nothing! Admission is free, and includes food and drinks, snacks, workshops, (lots of)
-                  swag, and an epic weekend!</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">What if I don't know how to code?</a>
-              <div class="accordion__content">
-                <p>With beginner-friendly workshops, mentors around the clock, and friendly hackers around you, McHacks
-                  is the perfect place to push your first line of code! We'll have everything to help you build
-                  something you're proud of!</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">T E M P -- Q U E S T I O N?</a>
-              <div class="accordion__content">
-                <p>T E M P -- A N S W E R</p>
-              </div>
-            </div>
-            <div class="accordion__item">
-              <a class="accordion__title">I don't see my question here...</a>
-              <div class="accordion__content">
-                <p>If you've got something else on your mind, message us on <a href="https://facebook.com/mcgillhacks"
-                    target="_blank">Facebook
-                  </a> or shoot us an email at <a href="mailto:contact@mchacks.ca" target="_blank">contact@mchacks.ca</a>.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1 class="faq__heading">API's & Resources</h1>
     </div>
   </section>
   <footer class="footer">
