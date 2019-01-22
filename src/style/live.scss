@@ -9,6 +9,22 @@ $landing-color-dark-bg: $color-hack-black-5;
 @import './partials/layout'; // responsive grid and media queries
 
 #live {
+
+  /* HTML5 display-role reset for older browsers */
+
+  span, applet, object, iframe, blockquote, pre, 
+  h2, h3, del, dfn, em, img, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  ul, li {
+    list-style-type: none;
+  }
+
   .hero {
     min-height: 100vh;
     position: relative;
@@ -488,6 +504,24 @@ $landing-color-dark-bg: $color-hack-black-5;
 
 /* -------------------------------- 
 
+Primary style
+
+-------------------------------- */
+.cd-schedule *, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.cd-shedule html {
+  font-size: 62.5%;
+}
+
+.cd-schedule a {
+  color: #A2B9B2;
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
 Schedule Components 
 
 -------------------------------- */
@@ -521,8 +555,20 @@ Schedule Components
   }
 }
 
+.cd-schedule li {
+  list-style-type: none;
+}
+
 .cd-schedule .timeline {
   display: none;
+}
+.cd-schedule .timeline li {
+  margin-bottom: 0px;
+}
+
+.fullday {
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -1071,4 +1117,3 @@ Schedule Components
   opacity: 1;
   visibility: visible;
 }
-

@@ -162,9 +162,9 @@
           <div class="events">
             <ul>
               <li class="events-group">
-                <div class="top-info"><span>Monday</span></div>
+                <div class="top-info"><span>Saturday</span></div>
         
-                <ul>
+                <ul class="fullday">
                   <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
                     <a href="#0">
                       <em class="event-name">Abs Circuit</em>
@@ -187,7 +187,7 @@
               <li class="events-group">
                 <div class="top-info"><span>Tuesday</span></div>
         
-                <ul>
+                <ul class="fullday">
                   <li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
                     <a href="#0">
                       <em class="event-name">Rowing Workout</em>
@@ -286,6 +286,10 @@
       hamburger.classList.toggle("is-active");
       hamburger.classList.toggle("overlay");
     });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script>
+    if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
   </script>
 </body>
 
