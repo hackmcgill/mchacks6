@@ -12,14 +12,17 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   /* HTML5 display-role reset for older browsers */
 
-  span, applet, object, iframe, blockquote, pre, 
-  h2, h3, del, dfn, em, img, ul, li{
+  .schedule {
+    span, applet, object, iframe, blockquote, pre, 
+  h2, h3, del, dfn, em, img, li{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+  }
+    
   }
   ul, li {
     list-style-type: none;
@@ -525,6 +528,13 @@ Primary style
 Schedule Components 
 
 -------------------------------- */
+
+.schedule-container{
+  height:500px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  border-radius: 25px;
+}
 
 .cd-schedule {
   position: relative;
@@ -1116,4 +1126,80 @@ Schedule Components
 .cd-schedule.modal-is-open .cover-layer {
   opacity: 1;
   visibility: visible;
+}
+
+/* -------------------------------- 
+
+Map Components 
+
+-------------------------------- */
+
+.tab-slider--nav{
+	width: 100%;
+	float: left;
+  margin-bottom: 20px;
+  
+}
+.tab-slider--tabs{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	border-radius: 35px;
+	overflow: hidden;
+	background: $landing-color-dark-bg;
+	height: 35px;
+	user-select: none; 
+	&:after{
+		content: "";
+		width: 35%;
+		background: $color-hack-red;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all 250ms ease-in-out;
+		border-radius: 35px;
+	}
+	&.slide1:after{
+		left: 34%;
+  }
+  &.slide2:after{
+    left: 67%;
+  }
+}
+
+.tab-slider--trigger {
+	font-size: 12px;
+	line-height: 1;
+	font-weight: bold;
+	color: $color-hack-red;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 11px 20px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	transition: color 250ms ease-in-out;
+	user-select: none; 
+	&.active {
+		color:$landing-color-dark-bg;
+	}
+}
+.tab-slider--body{
+	margin-bottom: 20px;
+}
+.map-container{
+	width: 75%;
+	margin: 3rem auto;
+}
+.map h2{
+  color: $color-hack-red;
+	font-size: 24px;
+	line-height: 1.25;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
