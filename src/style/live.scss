@@ -12,7 +12,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   /* HTML5 display-role reset for older browsers */
 
-  .schedule {
+  .cd-schedule {
     span, applet, object, iframe, blockquote, pre, 
   h2, h3, del, dfn, em, img, li{
     margin: 0;
@@ -531,8 +531,7 @@ Schedule Components
 
 .schedule-container{
   height:500px;
-  overflow-y:scroll;
-  overflow-x:hidden;
+  overflow: hidden;
   border-radius: 25px;
 }
 
@@ -551,7 +550,7 @@ Schedule Components
 
 @media only screen and (min-width: 800px) {
   .cd-schedule {
-    width: 90%;
+    width: 100%;
     max-width: 1400px;
     margin: 2em auto;
   }
@@ -588,7 +587,7 @@ Schedule Components
     top: 0;
     left: 0;
     height: 100%;
-    width: 98.5%;
+    width: 100%;
     padding-top: 50px;
   }
   .cd-schedule .timeline li {
@@ -615,7 +614,7 @@ Schedule Components
 
 @media only screen and (min-width: 1000px) {
   .cd-schedule .timeline li::after {
-    width: calc(100% - 60px);
+    width: calc(100%-60px);
     left: 60px;
   }
   .cd-schedule .timeline li span {
@@ -693,7 +692,7 @@ Schedule Components
 .cd-schedule .events .single-event a {
   display: block;
   height: 100%;
-  padding: .8em;
+  padding: .5em;
 }
 
 @media only screen and (min-width: 550px) {
@@ -708,7 +707,7 @@ Schedule Components
     width: 100%;
   }
   .cd-schedule .events .events-group {
-    width: 49%;
+    width: 33%;
     float: left;
     border: 1px solid #EAEAEA;
     /* reset style */
@@ -766,7 +765,7 @@ Schedule Components
     margin-right: 0;
   }
   .cd-schedule .events .single-event a {
-    padding: 1.2em;
+    padding: 0.5em;
   }
   .cd-schedule .events .single-event:last-of-type {
     /* reset style */
@@ -819,41 +818,41 @@ Schedule Components
   margin-bottom: .2em;
 }
 
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
+.cd-schedule .single-event[data-event="main-event"],
+.cd-schedule [data-event="main-event"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #F2463A;
 }
 
-.cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #618da1;
+.cd-schedule .single-event[data-event="main-event"]:hover {
+  background: #FF7066;
 }
 
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
-  background: #443453;
+.cd-schedule .single-event[data-event="activities"],
+.cd-schedule [data-event="activities"] .header-bg {
+  background: #F89790;
 }
 
-.cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #513e63;
+.cd-schedule .single-event[data-event="activities"]:hover {
+  background: #FFA8A1;
 }
 
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
-  background: #A2B9B2;
+.cd-schedule .single-event[data-event="workshops"],
+.cd-schedule [data-event="workshops"] .header-bg {
+  background: #D2D2D2;
 }
 
-.cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #b1c4be;
+.cd-schedule .single-event[data-event="workshops"]:hover {
+  background: #E9E8E8;
 }
 
-.cd-schedule .single-event[data-event="event-4"],
-.cd-schedule [data-event="event-4"] .header-bg {
-  background: #f6b067;
+.cd-schedule .single-event[data-event="food"],
+.cd-schedule [data-event="food"] .header-bg {
+  background: #636363;
 }
 
-.cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #f7bd7f;
+.cd-schedule .single-event[data-event="food"]:hover {
+  background: #757575;
 }
 
 .cd-schedule .event-modal {
@@ -1133,8 +1132,12 @@ Schedule Components
 Map Components 
 
 -------------------------------- */
-
 .tab-slider--nav{
+	width: 100%;
+	float: left;
+  margin-bottom: 20px;
+}
+.tab-slider--daynav{
 	width: 100%;
 	float: left;
   margin-bottom: 20px;
@@ -1170,8 +1173,52 @@ Map Components
     left: 67%;
   }
 }
-
+.tab-slider--daytabs{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	border-radius: 35px;
+	overflow: hidden;
+	background: $landing-color-dark-bg;
+	height: 35px;
+	user-select: none; 
+	&:after{
+		content: "";
+		width: 50%;
+		background: $color-hack-red;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all 250ms ease-in-out;
+		border-radius: 35px;
+	}
+	&.slide:after{
+		left: 50%;
+  }
+}
 .tab-slider--trigger {
+	font-size: 12px;
+	line-height: 1;
+	font-weight: bold;
+	color: $color-hack-red;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 11px 20px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	transition: color 250ms ease-in-out;
+	user-select: none; 
+	&.active {
+		color:$landing-color-dark-bg;
+	}
+}
+.tab-slider--daytrigger {
 	font-size: 12px;
 	line-height: 1;
 	font-weight: bold;
@@ -1192,11 +1239,25 @@ Map Components
 .tab-slider--body{
 	margin-bottom: 20px;
 }
+.tab-slider--daybody{
+	margin-bottom: 20px;
+}
 .map-container{
 	width: 75%;
 	margin: 3rem auto;
 }
+.day-container{
+	width: 100%;
+	margin: 3rem auto;
+}
 .map h2{
+  color: $color-hack-red;
+	font-size: 24px;
+	line-height: 1.25;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.schedule h2{
   color: $color-hack-red;
 	font-size: 24px;
 	line-height: 1.25;
