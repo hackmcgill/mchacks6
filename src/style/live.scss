@@ -347,7 +347,7 @@ $landing-color-dark-bg: $color-hack-black-5;
   .resources__container {
     padding-bottom: 60rem;
     max-width: 75%;
-    height: 40rem;
+    height: auto;
     text-align: center;
     margin: 3rem auto;
 
@@ -365,8 +365,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     justify-content: center;
     padding-top: 75px;
     flex-wrap: wrap;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+
 
     @include media-query(814px) {
       display: flex;
@@ -393,6 +392,14 @@ $landing-color-dark-bg: $color-hack-black-5;
       padding-left: 1.5rem;
     }
   }
+
+  .resources__card {
+    align-content: center;
+    flex-basis: 33%;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
   .flip {
     position: relative;
     >.front,
@@ -443,7 +450,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     display: inline-block;
     margin-right: 2px;
     margin-bottom: 1em;
-    width: 400px;
+    width: 200px;
     >.front,
     >.back {
       display: block;
@@ -452,7 +459,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       // background-size: cover!important;
       // background-position: center!important;
       background-color: $color-hack-black-80;
-      height: 220px;
+      height: 120px;
       padding: 1em 2em;
       background: #313131;
       border-radius: 10px;
