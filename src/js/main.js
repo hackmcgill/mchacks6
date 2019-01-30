@@ -101,6 +101,9 @@ jQuery(document).ready(function($){
 				top: (eventTop -1) +'px',
 				height: (eventHeight+1)+'px',
 			});
+			// if ($(this).css.height = '51px'){
+			// 	this.element.classList.add('half_hour');
+			// }
 		});
 
 		this.element.removeClass('loading');
