@@ -205,139 +205,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     height: auto;
   }
 
-  /*--  SPONSOR-SECTION  --*/
-  .sponsor {
-    margin-top: 50rem;
-    margin-bottom: 12rem;
-  }
-
-  .sponsor__heading {
-    font-size: 2.8rem;
-  }
-
-  .sponsor-list {
-    margin-bottom: 16rem;
-  }
-
-  .sponsor-list__heading {
-    text-align: center;
-    // font-size: 2.8rem;
-    margin-bottom: 6rem;
-  }
-
-  .sponsor-list__tier {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: .5rem;
-  }
-
-  .sponsor-list__logo-wrapper {
-    //text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 1em 4rem;
-
-    a {
-      max-width: 100%;
-      max-height: 100%; 
-    }
-  }
-
-  .sponsor-list__logo-wrapper--tera {
-    flex-basis: 90%;
-    align-self: center;
-    padding: 2%;
-    a {
-      img {
-        max-height: 25vh;
-        max-width: 25vw;
-      } 
-    }
-  }
-
-  .sponsor-list__logo-wrapper--giga {
-    flex-basis: 65%;
-    align-self: center;
-    padding: 2%;
-    a {
-      img {
-        max-height: 10vh;
-      }
-    }
-  }
-
-  .sponsor-list__logo-wrapper--mega {
-    //height: 150px;
-    //width: 200px;
-    flex-basis: 45%;
-    align-self: center;
-    padding: 2%;
-    a {
-      img {
-        max-height: 9vh;
-      }
-    }
-  }
-
-  .sponsor-list__logo-wrapper--kilo {
-    flex-basis: 21%;
-    align-self: center;
-    padding: 2%; 
-    a {
-      img {
-        max-height: 6vh;
-      }
-    }
-  }
-
-  .sponsor-list__logo-wrapper--byte {
-    flex-basis: 18%;
-    align-self: center;
-    padding: 1%;
-    a {
-      img {
-        max-height: 5vh;
-      }
-    }
-  }
-
-  .sponsor-list__logo-wrapper--inkind {
-    //height: 35px;
-    //width: 200px;
-    flex-basis: 7%;
-    align-self: center;
-    padding: 1.5%; 
-    a {
-      img {
-        max-height: 4vh;
-      }
-    }
-  }
-
-  .sponsor-list__logo {
-    max-width: 100%;
-    max-height: 100%;
-    transition: 1s;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
-  .sponsor-list__sponsor {
-    flex: 1 0 50%;
-    object-fit: contain;
-    max-height: 10rem;
-    margin-bottom: 5rem;
-  }
-
-  /*--  //SPONSOR-SECTION  --*/
-
   /*-- RESOURCES-SECTION  --*/
 
   section.resources {
@@ -1233,4 +1100,16 @@ $landing-color-dark-bg: $color-hack-black-5;
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .map__floorplan{
+    display: inline-block;
+    padding-top: 50px;
+  }
+
+  .map__floorplan_container{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
 }

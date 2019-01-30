@@ -10,7 +10,7 @@ $(".tab-slider--nav li").click(function() {
   $("#"+activeTab).fadeIn();
 	if($(this).attr("rel") == "tab2"){
     $('.tab-slider--tabs').removeClass('slide2');
-		$('.tab-slider--tabs').addClass('slide1');
+    $('.tab-slider--tabs').addClass('slide1');
 	}else if($(this).attr("rel") == "tab3"){
     $('.tab-slider--tabs').removeClass('slide1');
     $('.tab-slider--tabs').addClass('slide2');
