@@ -6,7 +6,7 @@ $("document").ready(function(){
 
 $(".tab-slider--nav li").click(function() {
   $(".tab-slider--body").hide();
-  var activeTab = $(this).attr("rel");
+  // var activeTab = $(this).attr("rel");
   // console.log(activeTab);
   // $("#"+activeTab).fadeIn();
   // $("#"+activeTab).show();
