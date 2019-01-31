@@ -299,12 +299,11 @@ $landing-color-dark-bg: $color-hack-black-5;
     display: inline-block;
     margin-right: 2px;
     margin-bottom: 1em;
-    width: 200px;
     >.front,
     >.back {
+      width: 200px;
       display: block;
       color: white;
-      width: inherit;
       // background-size: cover!important;
       // background-position: center!important;
       background-color: #f4f4f4;
