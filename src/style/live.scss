@@ -667,11 +667,11 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .cd-schedule .single-event[data-event="workshops"],
   .cd-schedule [data-event="workshops"] .header-bg {
-    background: #D2D2D2;
+    background: $color-hack-black-40;
   }
 
   .cd-schedule .single-event[data-event="workshops"]:hover {
-    background: #E9E8E8;
+    background: $color-hack-black-30;
   }
 
   .cd-schedule .single-event[data-event="food"],
