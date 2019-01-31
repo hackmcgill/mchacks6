@@ -232,6 +232,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     justify-content: center;
     padding-top: 75px;
     flex-wrap: wrap;
+    width: 100%;
 
 
     @include media-query(814px) {
@@ -242,27 +243,8 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
 
-  .resources__left-column {
-    width: 40rem;
-    text-align: initial;
-
-    @include media-query(875px) {
-      padding-right: 1.5rem;
-    }
-  }
-
-  .resources__right-column {
-    width: 40rem;
-    text-align: initial;
-
-    @include media-query(875px) {
-      padding-left: 1.5rem;
-    }
-  }
-
   .resources__card {
-    align-content: center;
-    flex-basis: 33%;
+    flex-basis: 28%;
     padding-left: 1px;
     padding-right: 1px;
   }
@@ -325,19 +307,25 @@ $landing-color-dark-bg: $color-hack-black-5;
       width: inherit;
       // background-size: cover!important;
       // background-position: center!important;
-      background-color: $color-hack-black-80;
-      height: 120px;
+      background-color: #f4f4f4;
+      height: 80px;
       padding: 1em 2em;
-      background: #313131;
+      background: #f4f4f4;
       border-radius: 10px;
       p {
-        font-size: 1.9125rem;
+        font-size: 1.1rem;
         line-height: 160%;
-        color: $landing-color-primary;
+        color: #4d4d4d;
+      }
+      a{
+        font-size: 1.5em;
+        color: $color-hack-red;
+        &:hover{
+          color: #797979;
+        }
       }
     }
   }
-
   /*--  RESOURCES-SECTION  --*/
 
   /* -------------------------------- 
@@ -423,7 +411,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       top: 0;
       left: 0;
       height: 100%;
-      width: 100%;
+      width: 93%;
       padding-top: 50px;
     }
     .cd-schedule .timeline li {
@@ -973,6 +961,11 @@ $landing-color-dark-bg: $color-hack-black-5;
     float: left;
     margin-bottom: 20px;
   }
+  .tab-slider--rnav{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
   .tab-slider--daynav{
     width: 100%;
     float: left;
@@ -1036,7 +1029,53 @@ $landing-color-dark-bg: $color-hack-black-5;
       left: 50%;
     }
   }
+  .tab-slider--rtabs{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: $landing-color-dark-bg;
+    height: 35px;
+
+    user-select: none; 
+    &:after{
+      content: "";
+      width: 50%;
+      background: $color-hack-red;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 250ms ease-in-out;
+      border-radius: 35px;
+    }
+    &.slide:after{
+      left: 50%;
+    }
+  }
   .tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: $color-hack-red;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    user-select: none; 
+    &.active {
+      color:$landing-color-dark-bg;
+    }
+  }
+  .tab-slider--rtrigger {
     font-size: 12px;
     line-height: 1;
     font-weight: bold;
@@ -1075,6 +1114,9 @@ $landing-color-dark-bg: $color-hack-black-5;
   .tab-slider--body{
     margin-bottom: 20px;
   }
+  .tab-slider--rbody{
+    margin-bottom: 20px;
+  }
   .tab-slider--daybody{
     margin-bottom: 20px;
   }
@@ -1094,6 +1136,13 @@ $landing-color-dark-bg: $color-hack-black-5;
     margin-bottom: 20px;
   }
   .schedule h2{
+    color: $color-hack-red;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .resources h2{
     color: $color-hack-red;
     font-size: 24px;
     line-height: 1.25;

@@ -238,19 +238,19 @@
                         <ul class="fullday">
                           <li class="single-event" data-start="09:00" data-end="10:00"  data-content="event-local-check-in" data-event="main-event">
                             <a href="#0">
-                              <em class="event-name">Local Check-In</em>
+                              <em class="event-name">Local Check-In</em><p class="event-location">Basement</p>
                             </a>
                           </li>
                 
                           <li class="single-event" data-start="12:00" data-end="14:00"  data-content="event-lunch" data-event="food">
                             <a href="#0">
-                              <em class="event-name">Lunch</em>
+                              <em class="event-name">Lunch</em><p class="event-location">Basement</p>
                             </a>
                           </li>
                 
                           <li class="single-event" data-start="14:00" data-end="16:00" data-content="event-therapy-dogs" data-event="main-event">
                             <a href="#0">
-                              <em class="event-name">Therapy Dogs</em>
+                              <em class="event-name">Therapy Dogs</em><p class="event-location">Interac Lounge</p>
                             </a>
                           </li>
                 
@@ -259,10 +259,20 @@
                               <em class="event-name">Nuance Workshop</em>
                             </a>
                           </li>
-                          <li class="single-event" data-start="16:45" data-end="17:45"  data-content="event-dinner" data-event="food">
+                          <li class="single-event" data-start="18:30" data-end="20:30"  data-content="event-dinner" data-event="food">
                             <a href="#0">
                               <em class="event-name">Dinner</em>
                             </a>
+                          </li>
+                          <li class="single-event" data-start="21:30" data-end="22:30"  data-content="event-hack-org-meetup" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Hackathon Organizer Meetup</em>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="24:00" data-end="01:30"  data-content="event-midnight-snack" data-event="food">
+                              <a href="#0">
+                                <em class="event-name">Midnight Snack</em>
+                              </a>
                           </li>
                         </ul>
                       </li>
@@ -575,118 +585,242 @@
   <section class="resources" id='resources'>
     <div class="resources__container">
       <div class="resources_jump-to" id='resources'></div>
-      <h1 class="resources__heading">API's & Resources</h1>
-      <div class="resources__flex-container">
-        <div class="resources__card">
-          <div class="flip">
-            <div class="front" style="background-color: #4d4d4d;">
-                <h3 class="text-shadow">Node.js <br> Hack-Pack</h3>
-            </div>
-            <div class="back">
-                <a href="https://github.com/hackmcgill/hackathon-starter/" target="_blank">Link to Node.js Hackpack</a> 
-                <p>A boilerplate for Node.js web applications</p>
+      <h1 class="resources__heading">Resources</h1>
+      <div class="tab-slider--rnav">
+          <ul class="tab-slider--rtabs">
+            <li class="tab-slider--rtrigger active" rel="tab1">Hackpacks</li>
+            <li class="tab-slider--rtrigger" rel="tab2">Sponsor API'S</li>
+          </ul>
+      </div>
+      <div class="tab-slider--rcontainer">
+          <div id="tab1" class="tab-slider--rbody">
+            <div class="resources__flex-container">
+                <div class="resources__card">
+                  <div class="flip">
+                    <div class="front" style="background-color: #f4f4f4;">
+                        <h5 class="text-shadow">Node.js <br> Hackpack</h5>
+                    </div>
+                    <div class="back">
+                        <a href="https://github.com/hackmcgill/hackathon-starter/" target="_blank">Node.js Hackpack</a> 
+                        <p>A boilerplate for Node.js web applications</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Arduino Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-arduino-app" target="_blank">Arduino Hackpack</a> 
+                          <p>A hackpack for interarcting with an arduino</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Android Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-android" target="_blank">Android Hackpack</a> 
+                          <p>A boilerplate for android studio</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">IOS <br> Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-ios" target="_blank">IOS Hackpack</a> 
+                          <p>A boilerplate for IOS</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Machine Learning <br>Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-ml" target="_blank">Machine Learning Hackpack</a> 
+                          <p>A boilerplate for Machine Learning</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Botnet <br> Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/botnet-hackpack" target="_blank">Botnet Hackpack</a> 
+                          <p>A boilerplate for Botnet</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Web API Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-web-api" target="_blank">Web API Hackpack</a> 
+                          <p>A boilerplate for a web api</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Frontend Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-web-frontend" target="_blank">Frontend Hackpack</a> 
+                          <p>A boilerplate for frontend web developement</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Chatbot Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-chatbot" target="_blank">Chatbot Hackpack</a> 
+                          <p class="">A boilerplate for a chatbot</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Chrome Extension Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-chromeExtension" target="_blank">Chrome Extension Hackpack</a> 
+                          <p>A boilerplate for a chrome extension</p>
+                      </div>
+                    </div>
+                </div>
             </div>
           </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow">Arduino App<br> Hack-Pack</h3>
+          <div id="tab2" class="tab-slider--rbody">
+              <div class="resources__flex-container">
+                  <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Wolfram Research <br> API </h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://account.wolfram.com/redeem/McHacks6MontrealCS2018" target="_blank">Wolfram|One</a> 
+                          <p>fully integrated cloud-desktop hybrid, intregrated computaiton platform</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Azure API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://aka.ms/azureforstudents" target="_blank">Microsoft Azure API</a> 
+                            <p>$100 free Azure credit</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Twilio API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://twilio.com/docs" target="_blank">Twilio API</a> 
+                            <p>Twilio is a cloud communications platform for software developers to build alongside</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Gnosis Safe</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://gnosis-safe.readthedocs.io/en/latest/" target="_blank">Gnosis Safe API</a> 
+                            <p>Documentation for interacting with Gnosis Safe</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Interac API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="bit.ly/interac_api" target="_blank">Interac e-Transfer API</a> 
+                            <p>An open beta API for e-transfer</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow"> Cisco DevNet API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://developer.cisco.com" target="_blank"/>Cisco DevNet API</a> 
+                            <p>get started with Cisco DevNet</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Watson Visual Recognition</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://www.ibm.com/watson/services/visual-recognition/" target="_blank">IBM-API</a> 
+                            <p>Quickly and accurately tag, classify and train visual content using machine learning.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Google Firebase</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://firebase.google.com" target="_blank">Google Firebase API</a> 
+                            <p>Intregrate your project with google firebase</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Amazon Web Serives</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://aws.amazon.com" target="_blank">Amazon Web Services API</a> 
+                            <p class="">Integrate your project with AWS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Martello API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://drive.google.com/file/d/1d4GAdv85ZEmpYeacE_znVuk9O-LYbkFM/view?usp=sharing" target="_blank">Martello API</a> 
+                            <p>Integrate your project with Martello API</p>
+                        </div>
+                      </div>
+                  </div>
               </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-arduino-app" target="_blank">Link to Arduino App Hackpack</a> 
-                  <p>A hackpack for interarcting with an arduino</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow">Android <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-android" target="_blank">Link to Android Hackpack</a> 
-                  <p>A boilerplate for android studio</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow">IOS <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-ios" target="_blank">Link to IOS Hackpack</a> 
-                  <p>A boilerplate for IOS</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow">ML <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-ml" target="_blank">Link to ML Hackpack</a> 
-                  <p>A boilerplate for Machine Learning</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow"> Botnet <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/botnet-hackpack" target="_blank">Link to Botnet Hackpack</a> 
-                  <p>A boilerplate for Botnet</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow"> Web API <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-web-api" target="_blank">Link to Web API Hackpack</a> 
-                  <p>A boilerplate for a web api</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow"> Frontend <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-web-frontend" target="_blank">Link to Web Frontend Hackpack</a> 
-                  <p>A boilerplate for frontend web developement</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow"> Chatbot <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-chatbot" target="_blank">Link to Chatbot Hackpack</a> 
-                  <p>A boilerplate for a chatbot</p>
-              </div>
-            </div>
-        </div>
-        <div class="resources__card">
-            <div class="flip">
-              <div class="front" style="background-color: #4d4d4d;">
-                  <h3 class="text-shadow"> Chrome Ext. <br> Hack-Pack</h3>
-              </div>
-              <div class="back">
-                  <a href="https://github.com/hackmcgill/hackpack-chromeExtension" target="_blank">Link to Chrome Extension Hackpack</a> 
-                  <p>A boilerplate for a chrome extension</p>
-              </div>
-            </div>
-        </div>
+          </div>
       </div>
     </div>
   </section>
