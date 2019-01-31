@@ -985,7 +985,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     user-select: none; 
     &:after{
       content: "";
-      width: 35%;
+      width: 32%;
       background: $color-hack-red;
       height: 100%;
       position: absolute;
@@ -1058,7 +1058,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   .tab-slider--trigger {
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.2;
+    width: 80px;
     font-weight: bold;
     color: $color-hack-red;
     text-transform: uppercase;
@@ -1076,7 +1077,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   .tab-slider--rtrigger {
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.2;
+    width: 80px;
     font-weight: bold;
     color: $color-hack-red;
     text-transform: uppercase;
@@ -1094,7 +1096,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
   .tab-slider--daytrigger {
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.2;
+    width: 80px;
     font-weight: bold;
     color: $color-hack-red;
     text-transform: uppercase;
