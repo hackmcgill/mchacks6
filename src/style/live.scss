@@ -646,6 +646,17 @@ $landing-color-dark-bg: $color-hack-black-5;
     margin-bottom: .2em;
   }
 
+  .color-square {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .color-square.main-event {
+    background-color: #F2463A;
+  }
+
   .cd-schedule .single-event[data-event="main-event"],
   .cd-schedule [data-event="main-event"] .header-bg {
     /* this is used to set a background color for the event and the modal window */
@@ -654,6 +665,10 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .cd-schedule .single-event[data-event="main-event"]:hover {
     background: #FF7066;
+  }
+
+  .color-square.activities {
+    background-color: #F89790;
   }
 
   .cd-schedule .single-event[data-event="activities"],
@@ -665,6 +680,11 @@ $landing-color-dark-bg: $color-hack-black-5;
     background: #FFA8A1;
   }
 
+  .color-square.workshops {
+    background-color: $color-hack-black-40;
+  }
+
+
   .cd-schedule .single-event[data-event="workshops"],
   .cd-schedule [data-event="workshops"] .header-bg {
     background: $color-hack-black-40;
@@ -672,6 +692,10 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .cd-schedule .single-event[data-event="workshops"]:hover {
     background: $color-hack-black-30;
+  }
+
+  .color-square.food {
+    background-color: #636363;
   }
 
   .cd-schedule .single-event[data-event="food"],
