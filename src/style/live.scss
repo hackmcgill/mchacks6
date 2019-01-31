@@ -518,6 +518,11 @@ $landing-color-dark-bg: $color-hack-black-5;
     padding: .3em;
   }
 
+  .cd-schedule .events .single-event .event-location {
+    color: white;
+    opacity: 0.7;
+  }
+
   @media only screen and (min-width: 550px) {
     .cd-schedule .events .single-event {
       width: 40%;
