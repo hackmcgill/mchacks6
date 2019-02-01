@@ -255,7 +255,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     >.back {
         display: block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-        transition-duration: .5s;
+        transition-duration: .25s;
         transition-property: transform, opacity;
     }
     >.front {
