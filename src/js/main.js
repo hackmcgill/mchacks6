@@ -91,11 +91,21 @@ jQuery(document).ready(function($){
 		var self = this;
 		this.singleEvents.each(function(){
 			//place each event in the grid -> need to set top position and height
-			var start = getScheduleTimestamp($(this).attr('data-start')),
-				duration = getScheduleTimestamp($(this).attr('data-end')) - start;
+			var start = getScheduleTimestamp($(this).attr('data-start'));
 
+			// Assumes that all schedules before timelineStart (7am) are the following day, and are placed in >24 hour notation.
+			if (start < self.timelineStart) {
+				start = start + 24*60;
+			}
+			var end = getScheduleTimestamp($(this).attr('data-end'));
+
+			// Assumes that all schedules before timelineStart (7am) are the following day, and are placed in >24 hour notation.
+			if (end < self.timelineStart) {
+				end = end + 24*60;
+			}
+			var duration = end - start;
 			var eventTop = self.eventSlotHeight*(start - self.timelineStart)/self.timelineUnitDuration,
-				eventHeight = self.eventSlotHeight*duration/self.timelineUnitDuration;
+				eventHeight = self.eventSlotHeight * duration / self.timelineUnitDuration;
 			
 			$(this).css({
 				top: (eventTop -1) +'px',
@@ -369,8 +379,7 @@ jQuery(document).ready(function($){
 		//accepts hh:mm format - convert hh:mm to timestamp
 		time = time.replace(/ /g,'');
 		var timeArray = time.split(':');
-		var timeStamp = parseInt(timeArray[0])*60 + parseInt(timeArray[1]);
-		return timeStamp;
+		return parseInt(timeArray[0])*60 + parseInt(timeArray[1]);
 	}
 
 	function transformElement(element, value) {
