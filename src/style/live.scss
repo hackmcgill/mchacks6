@@ -347,7 +347,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   .schedule-container{
     max-height:1200px;
-    overflow: scroll;
+    // overflow: scroll;
     width: 75%;
     margin: 3rem auto;
   }
@@ -467,7 +467,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow-x: scroll;
+    // overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -553,7 +553,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       height: 950px;
       /* reset style */
       display: block;
-      overflow: visible;
+      // overflow: visible;
       padding: 0;
     }
     .cd-schedule .events .events-group > ul::after {
