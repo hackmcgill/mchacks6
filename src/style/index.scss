@@ -72,6 +72,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
     @include media-query($sm-up) {
       font-size: 1.8rem;
+      margin-right: 25px;
     }
   }
 
