@@ -9,7 +9,7 @@ const common = require('./webpack.config.common.js');
 module.exports = merge(common, {
   mode: 'production',
   optimization: {
-    minimize: true,
+    minimize: false,
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
