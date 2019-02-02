@@ -1085,15 +1085,15 @@ $landing-color-dark-bg: $color-hack-black-5;
     }
   }
   .tab-slider--trigger {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.2;
-    width: 80px;
+    width: 75px;
     font-weight: bold;
     color: $color-hack-red;
     // text-transform: uppercase;
     text-align: center;
-    
-    padding: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     position: relative;
     z-index: 2;
     cursor: pointer;
@@ -1102,6 +1102,10 @@ $landing-color-dark-bg: $color-hack-black-5;
     user-select: none; 
     &.active {
       color:$landing-color-dark-bg;
+    }
+    @include media-query($sm-up) {
+      padding-left: 11px;
+      padding-right: 11px;
     }
   }
   .tab-slider--rtrigger {
