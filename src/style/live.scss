@@ -297,6 +297,9 @@ $landing-color-dark-bg: $color-hack-black-5;
         }
       }
     }
+    >.front {
+      transform: rotateY(0deg);
+    }
     &:hover {
       >.front {
           transform: rotateY(180deg);
@@ -319,9 +322,6 @@ $landing-color-dark-bg: $color-hack-black-5;
             }
         }
     }
-    >.front {
-      transform: rotateY(0deg);
-  }
   }
   /*--  RESOURCES-SECTION  --*/
 
