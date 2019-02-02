@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8;">
+
+  <title>McHacks 6</title>
+
+  <meta property="og:title" content="McHacks" />
+  <meta property="og:url" content="https://mchacks.ca" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="McHacks 6" />
+  <meta property="og:description" content="Create, build, and play with us at McHacks, Canada's favourite hackathon,
+        hosted at McGill University." />
+  <meta property="og:image" content="static/mchacks-og.png" />
+
+  <meta name="twitter:card" content=" ">
+  <meta name="twitter:title" content="McHacks 6">
+  <meta name="twitter:description" content="Create, build, and play with us at McHacks, Canada's favourite hackathon,
+        hosted at McGill University." />
+  <meta name="twitter:creator" content="@mcgillhacks">
+  <meta name="twitter:image" content="static/mchacks-og.png">
+  <meta name="twitter:domain" content="https://mchacks.ca">
+  <meta name="twitter:site" content="@mcgillhacks">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="static/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="static/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="static/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="static/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="static/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="static/favicon/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" href="static/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon-128.png" sizes="128x128" />
+  <link rel="icon" type="image/png" href="static/favicon/favicon.png" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#F07C74" />
+  <meta name="msapplication-TileImage" content="static/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="static/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="static/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="static/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="static/favicon/mstile-310x310.png" />
+
+  <meta name="theme-color" content="#F2463A">
+  <meta name="msapplication-navbutton-color" content="#F2463A">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#F2463A">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120508272-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-120508272-1');
+  </script>
+</head>
+
+<body id="live">
+  <nav class="navbar" data-spy="scroll" data-target="#navbar">
+    <div class="navbar__brand">
+      <a href="/"><img class="navbar__brand-image" src="static/assets_bird.png" alt="McHacks Logo" /></a>
+    </div>
+    <div class="navbar__nav-items social">
+      <a class="navbar__nav-item navbar__link" href="/live">
+        Live
+      </a>
+      <a class="navbar__nav-item navbar__link" href="#schedule">
+        Schedule
+      </a>
+      <a class="navbar__nav-item navbar__link" href="#map">
+        Map
+      </a>
+      <a class="navbar__nav-item navbar__link" href="#resources">
+        Resources
+      </a>
+      <a class="navbar__nav-item navbar__button" href="https://mchacks.ca">
+        Home →
+      </a>
+    </div>
+    <button class="hamburger hamburger--elastic" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+      <br><br>
+      <a href="#about">
+        Schedule
+      </a>
+      <br><br>
+      <a href="#sponsor">
+        Map
+      </a>
+      <br><br>
+      <a href="#faq">
+        Resources
+      </a>
+    </button>
+  </nav>
+  <section class="hero">
+      <div class="hero__copy">
+        <h1 class="hero__heading">Live-Site @
+          <em>McHacks 6</em>
+        </h1>
+      </div>
+  </section>
+  <section class="schedule" id="schedule">
+  <div class="schedule-container">
+    <div class="day-container">
+      <div class="tab-slider--daynav">
+          <ul class="tab-slider--daytabs">
+            <li class="tab-slider--daytrigger active" rel="tab1">SATURDAY</li>
+            <li class="tab-slider--daytrigger" rel="tab2">SUNDAY</li>
+          </ul>
+      </div>
+      <div class="tab-slider--daycontainer">
+          <div id="tab1" class="tab-slider--daybody">
+            <div class="two columns">
+                <h2 class="schedule__heading"> Saturday Event Schedule</h2>
+                <p>
+                  <ul>
+                    <li><div class="color-square main-event"></div>Main Event</li>
+                    <li><div class="color-square workshops"></div>Workshops</li>
+                    <li><div class="color-square food"></div>Food</li>
+                    <li><div class="color-square activities"></div>Activities</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="ten columns">
+                <div class="cd-schedule loading">
+                  <div class="timeline">
+                    <ul>
+                      <li><span>07:00</span></li>
+                      <li><span>07:30</span></li>
+                      <li><span>08:00</span></li>
+                      <li><span>08:30</span></li>
+                      <li><span>09:00</span></li>
+                      <li><span>09:30</span></li>
+                      <li><span>10:00</span></li>
+                      <li><span>10:30</span></li>
+                      <li><span>11:00</span></li>
+                      <li><span>11:30</span></li>
+                      <li><span>12:00</span></li>
+                      <li><span>12:30</span></li>
+                      <li><span>13:00</span></li>
+                      <li><span>13:30</span></li>
+                      <li><span>14:00</span></li>
+                      <li><span>14:30</span></li>
+                      <li><span>15:00</span></li>
+                      <li><span>15:30</span></li>
+                      <li><span>16:00</span></li>
+                      <li><span>16:30</span></li>
+                      <li><span>17:00</span></li>
+                      <li><span>17:30</span></li>
+                      <li><span>18:00</span></li>
+                      <li><span>18:30</span></li>
+                      <li><span>19:00</span></li>
+                      <li><span>19:30</span></li>
+                      <li><span>20:00</span></li>
+                      <li><span>20:30</span></li>
+                      <li><span>21:00</span></li>
+                      <li><span>21:30</span></li>
+                      <li><span>22:00</span></li>
+                      <li><span>22:30</span></li>
+                      <li><span>23:00</span></li>
+                      <li><span>23:30</span></li>
+                      <li><span>00:00</span></li>
+                      <li><span>00:30</span></li>
+                      <li><span>01:00</span></li>
+                      <li><span>01:30</span></li>
+                      <li><span>02:00</span></li>
+                      <li><span>02:30</span></li>
+                      <li><span>03:00</span></li>
+                    </ul>
+                  </div> <!-- .timeline -->
+                  <div class="events">
+                    <ul>
+                      <li class="events-group">
+                        <div class="top-info"><span></span></div>
+                        <ul class="fullday">
+                          <li class="single-event" data-start="08:00" data-end="09:30" data-content="event-out-of-town-check-in" data-event="main-event">
+                            <a href="#0">
+                              <em class="event-name">Out of Town Check-In</em><p class="event-location">Basement</p>
+                            </a>
+                          </li>
+                          <li class="single-event" data-start="10:00" data-end="12:00" data-content="event-opening-ceremonies" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Opening Ceremonies</em><p class="event-location">Ballroom - Main Hacking Area</p>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="12:00" data-end="12:30" data-content="event-hacking-begins" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Hacking Begins</em>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="13:00" data-end="14:30" data-content="event-personal-website" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Building a Personal Website</em><p class="event-location">McNosis Room</p>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="14:30" data-end="15:30" data-content="event-solidity-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Blockchain Solidity Workshop</em><p class="event-location">Martlet Room</p>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="17:00" data-end="17:30" data-content="event-tactio-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Tactio Workshop</em>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="20:00" data-end="21:00" data-content="event-hot-ones" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Hot Ones Challenge</em><p class="event-location">Interac Lounge</p>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="23:00" data-end="23:30" data-content="event-sleeping-open" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Sleeping Area Open</em>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="00:00" data-end="00:30" data-content="event-midnight-giveaway" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Midnight Giveaway</em>
+                              </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="events-group">
+                        <div class="top-info"><span></span></div>
+                
+                        <ul class="fullday">
+                          <li class="single-event" data-start="09:00" data-end="10:00"  data-content="event-local-check-in" data-event="main-event">
+                            <a href="#0">
+                              <em class="event-name">Local Check-In</em><p class="event-location">Basement</p>
+                            </a>
+                          </li>
+                
+                          <li class="single-event" data-start="12:00" data-end="14:00"  data-content="event-sat-lunch" data-event="food">
+                            <a href="#0">
+                              <em class="event-name">Lunch</em><p class="event-location">Basement</p>
+                            </a>
+                          </li>
+                
+                          <li class="single-event" data-start="14:00" data-end="16:00" data-content="event-therapy-dogs" data-event="main-event">
+                            <a href="#0">
+                              <em class="event-name">Therapy Dogs</em><p class="event-location">Interac Lounge</p>
+                            </a>
+                          </li>
+                
+                          <li class="single-event" data-start="16:30" data-end="17:00"  data-content="event-nuance-workshop" data-event="workshops">
+                            <a href="#0">
+                              <em class="event-name">Nuance Workshop</em>
+                            </a>
+                          </li>
+                          <li class="single-event" data-start="18:30" data-end="20:30"  data-content="event-dinner" data-event="food">
+                            <a href="#0">
+                              <em class="event-name">Dinner</em><p class="event-location">Basement</p>
+                            </a>
+                          </li>
+                          <li class="single-event" data-start="21:30" data-end="22:30"  data-content="event-hack-org-meetup" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Hackathon Organizer Meetup</em><p class="event-location">Martlet Room</p>
+                              </a>
+                          </li>
+                          <li class="single-event" data-start="00:00" data-end="01:30"  data-content="event-midnight-snack" data-event="food">
+                              <a href="#0">
+                                <em class="event-name">Midnight Snack</em><p class="event-location">Basement</p>
+                              </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="events-group">
+                          <div class="top-info"><span></span></div>
+                  
+                          <ul class="fullday">
+                            <li class="single-event" data-start="12:00" data-end="13:30"  data-content="event-mhl-team-formation" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">MLH: Team Formation</em><p class="event-location">Cisco Room</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="13:30" data-end="14:30"  data-content="event-android-dev" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Intro to Android Dev</em><p class="event-location">Cisco Room</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="14:30" data-end="16:00" data-content="event-interac-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Interac: Something for Ava: APIs and Abilities for Everyone</em><p class="event-location">McNosis Room</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="16:00" data-end="17:00"  data-content="event-google-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Google: Firebase Workshop</em><p class="event-location">McNosis Room</p>
+                              </a>
+                            </li>
+
+                            <li class="single-event" data-start="17:30" data-end="18:30"  data-content="event-gnosis-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Gnsosis: Building with Gnosis Safe</em><p class="event-location">McNosis Room</p>
+                              </a>
+                            </li>
+
+                            <li class="single-event" data-start="20:00" data-end="21:00"  data-content="event-cup-stacking" data-event="activities">
+                                <a href="#0">
+                                  <em class="event-name">MLH: Cup Stacking</em><p class="event-location">McNosis Room</p>
+                                </a>
+                            </li>
+
+                            <li class="single-event" data-start="22:30" data-end="00:30"  data-content="event-smash-tournament" data-event="activities">
+                                <a href="#0">
+                                  <em class="event-name">Smash Tournament</em><p class="event-location">Interac Lounge</p>
+                                </a>
+                            </li>
+
+                            <li class="single-event" data-start="01:30" data-end="02:30"  data-content="event-cookie-decorating" data-event="activities">
+                                <a href="#0">
+                                  <em class="event-name">Cookie Decorating</em><p class="event-location">Interac Lounge</p>
+                                </a>
+                            </li>
+                          </ul>
+                      </li>
+                      <li class="events-group">
+                          <div class="top-info"><span></span></div>
+                  
+                          <ul class="fullday">
+                            <li class="single-event" data-start="13:30" data-end="14:30"  data-content="event-index-exchange" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Index Exchange: How Ads Are Served</em><p class="event-location">Marlet Room</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="15:00" data-end="15:30"  data-content="event-amazon-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Amazon Workshop</em>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="15:30" data-end="16:30" data-content="event-cisco-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Cisco Workshop</em><p class="event-location">Cisco Room</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="16:30" data-end="17:00"  data-content="event-geotab-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Geotab Workshop</em>
+                              </a>
+                            </li>
+
+                            <li class="single-event" data-start="17:00" data-end="17:30"  data-content="event-martello-workshop" data-event="workshops">
+                              <a href="#0">
+                                <em class="event-name">Martello Workshop</em>
+                              </a>
+                            </li>
+
+                            <li class="single-event" data-start="17:30" data-end="18:30"  data-content="event-hsh-meetup" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">High School Hackers</em><p class="event-location">Martlet Room</p>
+                              </a>
+                            </li>
+
+                            <li class="single-event" data-start="19:30" data-end="20:30"  data-content="event-maw-in-tech" data-event="activities">
+                              <a href="#0">
+                                <em class="event-name">Minorities and Women in Tech</em><p class="event-location">Cisco Room</p>
+                              </a>
+                            </li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="event-modal">
+                    <header class="header">
+                      <div class="content">
+                        <span class="event-date"></span>
+                        <h3 class="event-name"></h3>
+                      </div>
+                
+                      <div class="header-bg"></div>
+                    </header>
+                
+                    <div class="body">
+                      <div class="event-info"></div>
+                      <div class="body-bg"></div>
+                    </div>
+                
+                    <a href="#0" class="close">Close</a>
+                  </div>
+                  <div class="cover-layer"></div>
+                </div> <!-- .cd-schedule -->
+              </div>
+          </div>
+          <div id="tab2" class="tab-slider--daybody">
+              <div class="two columns">
+                  <h2 class="schedule__heading"> Sunday Event Schedule</h2>
+                  <p>
+                    <ul>
+                      <li><div class="color-square main-event"></div>Main Event</li>
+                      <li><div class="color-square workshops"></div>Workshops</li>
+                      <li><div class="color-square food"></div>Food</li>
+                      <li><div class="color-square activities"></div>Activities</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="ten columns">
+                  <div class="cd-schedule loading">
+                    <div class="timeline">
+                      <ul>
+                        <li><span>07:00</span></li>
+                        <li><span>07:30</span></li>
+                        <li><span>08:00</span></li>
+                        <li><span>08:30</span></li>
+                        <li><span>09:00</span></li>
+                        <li><span>09:30</span></li>
+                        <li><span>10:00</span></li>
+                        <li><span>10:30</span></li>
+                        <li><span>11:00</span></li>
+                        <li><span>11:30</span></li>
+                        <li><span>12:00</span></li>
+                        <li><span>12:30</span></li>
+                        <li><span>13:00</span></li>
+                        <li><span>13:30</span></li>
+                        <li><span>14:00</span></li>
+                        <li><span>14:30</span></li>
+                        <li><span>15:00</span></li>
+                        <li><span>15:30</span></li>
+                        <li><span>16:00</span></li>
+                        <li><span>16:30</span></li>
+                      </ul>
+                    </div> <!-- .timeline -->
+                    <div class="events">
+                      <ul>
+                        <li class="events-group">
+                          <div class="top-info"><span></span></div>
+                  
+                          <ul class="fullday">
+                            <li class="single-event" data-start="09:00" data-end="10:00"  data-content="event-last-1h-devpost" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Last Hour to Submit to Devpost</em>
+                              </a>
+                            </li>
+                            <li class="single-event" data-start="11:00" data-end="12:00"  data-content="event-last-1h-hacking" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Last Hour of Hacking</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="events-group">
+                          <div class="top-info"><span></span></div>
+                  
+                          <ul class="fullday">
+                            <li class="single-event" data-start="07:00" data-end="10:00"  data-content="event-breakfast-bar" data-event="food">
+                              <a href="#0">
+                                <em class="event-name">Breakfast Bar</em><p class="event-location">Basement</p>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="12:00" data-end="13:00" data-content="event-demos" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Demos</em>
+                              </a>
+                            </li>
+                  
+                            <li class="single-event" data-start="14:30" data-end="16:30"  data-content="event-closing-ceremonies" data-event="main-event">
+                              <a href="#0">
+                                <em class="event-name">Closing Ceremonies</em><p class="event-location">Ballroom - Main Hacking Area</p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="events-group">
+                            <div class="top-info"><span></span></div>
+                    
+                            <ul class="fullday">
+                              <li class="single-event" data-start="11:30" data-end="13:30"  data-content="event-sun-lunch" data-event="food">
+                                <a href="#0">
+                                  <em class="event-name">Lunch</em><p class="event-location">Basement</p>
+                                </a>
+                              </li>
+                            </ul>
+                        </li>
+                        <li class="events-group">
+                            <div class="top-info"><span></span></div>
+                    
+                            <ul class="fullday">
+                              <li class="single-event" data-start="07:00" data-end="09:30"  data-content="event-sleeping-cleared" data-event="main-event">
+                                  <a href="#0">
+                                    <em class="event-name">Sleeping Area Closed</em>
+                                  </a>
+                                </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="event-modal">
+                      <header class="header">
+                        <div class="content">
+                          <span class="event-date"></span>
+                          <h3 class="event-name"></h3>
+                        </div>
+                  
+                        <div class="header-bg"></div>
+                      </header>
+                  
+                      <div class="body">
+                        <div class="event-info"></div>
+                        <div class="body-bg"></div>
+                      </div>
+                  
+                      <a href="#0" class="close">Close</a>
+                    </div>
+                    <div class="cover-layer"></div>
+                  </div> <!-- .cd-schedule -->
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="map" id="map">
+    <div class="map-container">
+      <div class="tab-slider--nav">
+        <ul class="tab-slider--tabs">
+          <li class="tab-slider--trigger active" rel="tab1">MAIN FLOOR</li>
+          <li class="tab-slider--trigger" rel="tab2">MEZZANINE</li>
+          <li class="tab-slider--trigger" rel="tab3">BASEMENT</li>
+        </ul>
+      </div>
+      <div class="tab-slider--container">
+        <div id="tab1" class="tab-slider--body">
+          <div class="map__floorplan_container">
+              <img class="map__floorplan" src="./static/mainfloor.png"/> 
+          </div>
+        </div>
+        <div id="tab2" class="tab-slider--body">
+            <div class="map__floorplan_container">
+                <img class="map__floorplan" src="./static/mezzanine.png"/> 
+            </div> 
+        </div>
+        <div id="tab3" class="tab-slider--body">
+            <div class="map__floorplan_container">
+                <img class="map__floorplan" src="./static/basement.png"/> 
+            </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="resources" id='resources'>
+    <div class="resources__container">
+      <div class="resources_jump-to" id='resources'></div>
+      <h1 class="resources__heading">Resources</h1>
+      <div class="tab-slider--rnav">
+          <ul class="tab-slider--rtabs">
+            <li class="tab-slider--rtrigger active" rel="tab1">HACKPACKS</li>
+            <li class="tab-slider--rtrigger" rel="tab2">SPONSOR APIs</li>
+          </ul>
+      </div>
+      <div class="tab-slider--rcontainer">
+          <div id="tab1" class="tab-slider--rbody">
+            <div class="resources__flex-container">
+                <div class="resources__card">
+                  <div class="flip">
+                    <div class="front" style="background-color: #f4f4f4;">
+                        <h5 class="text-shadow">Node.js <br> Hackpack</h5>
+                    </div>
+                    <div class="back">
+                        <a href="https://github.com/hackmcgill/hackathon-starter/" target="_blank">Node.js Hackpack</a> 
+                        <p>A boilerplate for Node.js web applications</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Arduino Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-arduino-app" target="_blank">Arduino Hackpack</a> 
+                          <p>A hackpack for interarcting with an arduino</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Android Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-android" target="_blank">Android Hackpack</a> 
+                          <p>A boilerplate for android studio</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">IOS <br> Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-ios" target="_blank">IOS Hackpack</a> 
+                          <p>A boilerplate for IOS</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Machine Learning <br>Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-ml" target="_blank">Machine Learning Hackpack</a> 
+                          <p>A boilerplate for Machine Learning</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Botnet <br> Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/botnet-hackpack" target="_blank">Botnet Hackpack</a> 
+                          <p>A boilerplate for Botnet</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Web API Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-web-api" target="_blank">Web API Hackpack</a> 
+                          <p>A boilerplate for a web api</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Frontend Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-web-frontend" target="_blank">Frontend Hackpack</a> 
+                          <p>A boilerplate for frontend web developement</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Chatbot Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-chatbot" target="_blank">Chatbot Hackpack</a> 
+                          <p class="">A boilerplate for a chatbot</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow"> Chrome Extension Hackpack</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://github.com/hackmcgill/hackpack-chromeExtension" target="_blank">Chrome Extension Hackpack</a> 
+                          <p>A boilerplate for a chrome extension</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">JumpStart <br> Raffle</h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://jumpstart.me/r/mcHacks" target="_blank">Jumpstart Raffle</a> 
+                          <p>Sign up with Jumpstart to enter the raffle</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div id="tab2" class="tab-slider--rbody">
+              <div class="resources__flex-container">
+                  <div class="resources__card">
+                    <div class="flip">
+                      <div class="front" style="background-color: #f4f4f4;">
+                          <h5 class="text-shadow">Wolfram Research <br> API </h5>
+                      </div>
+                      <div class="back">
+                          <a href="https://account.wolfram.com/redeem/McHacks6MontrealCS2018" target="_blank">Wolfram|One</a> 
+                          <p>fully integrated cloud-desktop hybrid, intregrated computaiton platform</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Azure API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://aka.ms/azureforstudents" target="_blank">Microsoft Azure API</a> 
+                            <p>$100 free Azure credit</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Twilio API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://twilio.com/docs" target="_blank">Twilio API</a> 
+                            <p>Twilio is a cloud communications platform for software developers to build alongside</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Gnosis Safe</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://gnosis-safe.readthedocs.io/en/latest/" target="_blank">Gnosis Safe API</a> 
+                            <p>Documentation for interacting with Gnosis Safe</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Interac API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="bit.ly/interac_api" target="_blank">Interac e-Transfer API</a> 
+                            <p>An open beta API for e-transfer</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow"> Cisco DevNet API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://developer.cisco.com" target="_blank"/>Cisco DevNet API</a> 
+                            <p>get started with Cisco DevNet</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Watson Visual Recognition</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://www.ibm.com/watson/services/visual-recognition/" target="_blank">IBM-API</a> 
+                            <p>Quickly and accurately tag, classify and train visual content using machine learning.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Google Firebase</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://firebase.google.com" target="_blank">Google Firebase API</a> 
+                            <p>Intregrate your project with google firebase</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Amazon Web Serives</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://aws.amazon.com" target="_blank">Amazon Web Services API</a> 
+                            <p class="">Integrate your project with AWS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="resources__card">
+                      <div class="flip">
+                        <div class="front" style="background-color: #f4f4f4;">
+                            <h5 class="text-shadow">Martello API</h5>
+                        </div>
+                        <div class="back">
+                            <a href="https://drive.google.com/file/d/1d4GAdv85ZEmpYeacE_znVuk9O-LYbkFM/view?usp=sharing" target="_blank">Martello API</a> 
+                            <p>Integrate your project with Martello API</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__links footer__container">
+      <a class="footer__link" href="/code-of-conduct">
+        Code of Conduct
+      </a>
+      <a class="footer__link" href="/privacy">
+        Privacy Policy
+      </a>
+    </div>
+    <div class="footer__links-socials footer_container">
+      <a class="footer__links-social footer__link" href="https://fb.com/mcgillhacks" target="_blank">
+        <span class="fab fa-facebook"></span>
+      </a>
+      <a class="footer__links-social footer__link" href="https://twitter.com/mcgillhacks" target="_blank">
+        <span class="fab fa-twitter"></span>
+      </a>
+      <a class="footer__links-social footer__link" href="https://instagram.com/mcgillhacks" target="_blank">
+        <span class="fab fa-instagram"></span>
+      </a>
+      <a class="footer__links-social footer__link" href="https://github.com/hackmcgill" target="_blank">
+        <span class="fab fa-github"></span>
+      </a>
+      <a class="footer__links-social footer__link" href="mailto:contact@mchacks.ca?Subject=Hello!" target="_blank">
+        <span class="fas fa-paper-plane"></span>
+      </a>
+    </div>
+  </footer>
+  <!-- start Hubspot -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4337483.js"></script>
+  <!-- end Hubspot -->
+  <script>
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function () {
+      hamburger.classList.toggle("is-active");
+      hamburger.classList.toggle("overlay");
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script>
+    if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+  </script>
+</body>
+
+</html>
