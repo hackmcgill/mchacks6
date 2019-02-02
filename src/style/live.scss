@@ -254,48 +254,21 @@ $landing-color-dark-bg: $color-hack-black-5;
   }
 
   .flip {
-    >.back {
-        position: absolute;
-        opacity: 0;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        height: 100%;
-        transform: rotateY(-180deg);
-    }
-    &:hover {
-        >.front {
-            transform: rotateY(180deg);
-        }
-        >.back {
-            opacity: 1;
-            transform: rotateY(0deg);
-        }
-    }
-    &.flip-vertical {
-        >.back {
-            transform: rotateX(-180deg);
-        }
-        &:hover {
-            >.front {
-                transform: rotateX(180deg);
-            }
-            >.back {
-                transform: rotateX(0deg);
-            }
-        }
-    }
-  }
-
-  .flip {
     position: relative;
     display: inline-block;
     margin-right: 2px;
     margin-bottom: 1em;
+    >.back {
+      position: absolute;
+      opacity: 0;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transform: rotateY(-180deg);
+    }
     >.front,
     >.back {
-
-
       display: block;
       transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
       transition-duration: .25s;
@@ -303,14 +276,12 @@ $landing-color-dark-bg: $color-hack-black-5;
       top: 0px;
       left: 0px;
       width: 200px;
-      display: block;
       color: white;
       // background-size: cover!important;
       // background-position: center!important;
       background-color: #f4f4f4;
       height: 80px;
       padding: 1em 2em;
-      background: #f4f4f4;
       border-radius: 10px;
       transform: rotateY(-180deg);
       p {
@@ -367,10 +338,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     font-size: 62.5%;
   }
 
-  .cd-schedule a {
-    color: #A2B9B2;
-    text-decoration: none;
-  }
 
   /* -------------------------------- 
 
