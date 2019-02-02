@@ -15,6 +15,11 @@ $landing-color-dark-bg: $color-hack-black-5;
   /* HTML5 display-role reset for older browsers */
 
   .cd-schedule {
+    position: relative;
+    margin: 3em 0;
+    overflow: scroll;
+
+
     span, applet, object, iframe, blockquote, pre, 
   h2, h3, del, dfn, em, img, li{
     margin: 0;
@@ -358,12 +363,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     margin: 3rem auto;
   }
 
-  .cd-schedule {
-    position: relative;
-    margin: 3em 0;
-    overflow: scroll;
-  }
-
   .cd-schedule::before {
     /* never visible - this is used in js to check the current MQ */
     content: 'mobile';
@@ -436,7 +435,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
   @media only screen and (min-width: 1000px) {
     .cd-schedule .timeline li::after {
-      width: calc(100%-60px);
+      width: calc(100% - 60px);
       left: 60px;
     }
     .cd-schedule .timeline li span {
@@ -567,11 +566,6 @@ $landing-color-dark-bg: $color-hack-black-5;
       display: block;
       overflow: visible;
       padding: 0;
-    }
-    .cd-schedule .events .events-group > ul::after {
-      clear: both;
-      content: "";
-      display: block;
     }
     .cd-schedule .events .events-group > ul::after {
       /* reset style */
@@ -715,11 +709,9 @@ $landing-color-dark-bg: $color-hack-black-5;
     width: 100%;
     visibility: hidden;
     /* Force Hardware acceleration */
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateZ(0), translateX(100%);
         -ms-transform: translateX(100%);
-            transform: translateX(100%);
+            transform: translateZ(0), translateX(100%);
     -webkit-transition: visibility .4s, -webkit-transform .4s;
     transition: visibility .4s, -webkit-transform .4s;
     transition: transform .4s, visibility .4s;
