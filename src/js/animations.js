@@ -1,7 +1,9 @@
 import anime from 'animejs';
 
 anime
-  .timeline({ loop: true })
+  .timeline({
+    loop: true,
+  })
   .add({
     targets: '.hero__bus',
     duration: 4000,
