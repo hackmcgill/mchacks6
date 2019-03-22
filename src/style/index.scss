@@ -8,6 +8,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     position: relative;
     overflow: hidden;
     padding: 0 4rem;
+
     @include media-query($md-up) {
       padding: 0 10rem;
     }
@@ -64,7 +65,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     border: 2px solid $color-hack-red;
     transition: all 0.15s ease-in-out;
     padding: 10px 32px;
-  
+
     &:hover {
       background-color: $color-hack-red;
       color: white;
@@ -143,6 +144,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     left: 50%;
     width: 5rem;
     height: 5rem;
+    z-index: 3;
   }
 
   .intro {
@@ -174,14 +176,14 @@ $landing-color-dark-bg: $color-hack-black-5;
       z-index: 2;
     }
   }
-  
+
   .intro__button {
     background-color: $color-hack-red;
     color: white;
     border-radius: 2em;
     border: none;
     transition: all 0.15s ease-in-out;
-  
+
     &:hover {
       background-color: $color-hack-red-med;
     }
@@ -243,7 +245,7 @@ $landing-color-dark-bg: $color-hack-black-5;
 
     a {
       max-width: 100%;
-      max-height: 100%; 
+      max-height: 100%;
     }
   }
 
@@ -251,11 +253,12 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-basis: 90%;
     align-self: center;
     padding: 2%;
+
     a {
       img {
         max-height: 25vh;
         max-width: 25vw;
-      } 
+      }
     }
   }
 
@@ -263,6 +266,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-basis: 65%;
     align-self: center;
     padding: 2%;
+
     a {
       img {
         max-height: 10vh;
@@ -276,6 +280,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-basis: 45%;
     align-self: center;
     padding: 2%;
+
     a {
       img {
         max-height: 9vh;
@@ -286,7 +291,8 @@ $landing-color-dark-bg: $color-hack-black-5;
   .sponsor-list__logo-wrapper--kilo {
     flex-basis: 21%;
     align-self: center;
-    padding: 2%; 
+    padding: 2%;
+
     a {
       img {
         max-height: 6vh;
@@ -298,6 +304,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     flex-basis: 18%;
     align-self: center;
     padding: 1%;
+
     a {
       img {
         max-height: 5vh;
@@ -310,7 +317,8 @@ $landing-color-dark-bg: $color-hack-black-5;
     //width: 200px;
     flex-basis: 7%;
     align-self: center;
-    padding: 1.5%; 
+    padding: 1.5%;
+
     a {
       img {
         max-height: 4vh;

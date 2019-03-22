@@ -53,7 +53,7 @@
     "last 2 versions"
   ],
   "dependencies": {
-    "animejs": "^3.0.1",
+    "animejs": "^2.2.0",
     "smoothscroll": "^0.4.0"
   }
 }

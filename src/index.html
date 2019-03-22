@@ -69,34 +69,16 @@
 
 <body id="index">
   <!-- MLH Badge -->
-  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:5rem;top:7rem;width:10%;z-index:2;"
+  <a id="mlh-trust-badge"
+    style="display:block;max-width:100px;min-width:60px;position:absolute;right:5rem;top:7rem;width:10%;z-index:2;"
     href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
     target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg"
       alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
-  <!-- START FACEBOOK MESSENGER CHAT BOT CODE  -->
-  <div id="fb-root"></div>
-  <script>(function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-      js.style.marginBottom = "180px";
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat" attribution=setup_tool page_id="1376097379311561" theme_color="#F56F65"
-    logged_in_greeting="Have any questions about McHacks 6? We're here to help!" logged_out_greeting="Have any questions about McHacks 6? We're here to help!">
-  </div>
-  <!-- END FACEBOOK MESSENGER CHAT BOT CODE  -->
   <nav class="navbar" data-spy="scroll" data-target="#navbar">
     <div class="navbar__brand">
       <a href="/"><img class="navbar__brand-image" src="static/assets_bird.png" alt="McHacks Logo" /></a>
     </div>
     <div class="navbar__nav-items social">
-      <a class="navbar__nav-item navbar__link" href="/live">
-        Live
-      </a>
       <a class="navbar__nav-item navbar__link" href="#about">
         About
       </a>
@@ -131,7 +113,6 @@
         2018
       </a>
       <br><br>
-      <a href="/live">Live-Site</a>
     </button>
   </nav>
   <section class="hero">
@@ -141,17 +122,18 @@
       </h1>
       <p class="hero__subheading">Montreal, Canada - February 2-3, 2019</p>
       <p class="hero__cta">Join us for an epic weekend at Canada's favourite hackathon.</p>
-      <div class="hero__button-holder"><a class="hero__button" href="/live">Live-Site</a><a class="hero__button" href="https://app.mchacks.ca">Login</a></div>
-      <!-- <p class="hero__email">Sign up for updates from McHacks 6. No spam, we promise.</p> -->
-      <!-- <div id="mc_embed_signup">
+      <p class="hero__email">Sign up for updates about McHacks. No spam, we promise.</p>
+      <div id="mc_embed_signup">
         <form action="https://mchacks.us12.list-manage.com/subscribe/post?u=daca896c9229eac78a0cc3810&amp;id=a5a34f6561"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-          novalidate>
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
             <div class="mc-field-group">
               <div class="mc-input-wrapper">
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email" placeholder="your email here" />
-                <button name="subscribe" id="mc-embedded-subscribe" class="intro__button"><i class="fas fa-arrow-right"></i></button>
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email"
+                  placeholder="your email here" />
+                <button name="subscribe" id="mc-embedded-subscribe" class="intro__button"><i
+                    class="fas fa-arrow-right"></i></button>
               </div>
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
@@ -179,13 +161,15 @@
           ftypes[4] = 'phone';
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
-      </script> -->
+      </script>
     </div>
     </div>
     <div id="motionPath">
       <img class="hero__plane" overflow="hidden" src="static/hero-plane.svg" alt="plane" />
-      <svg class="hero__plane-path" width="1031" height="612" viewBox="0 0 1031 612" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.5 1C93.3333 142.833 319.8 422.2 483 405C687 383.5 455 52 322 383.5C215.6 648.7 749.667 628.667 1030 585.5" />
+      <svg class="hero__plane-path" width="1031" height="612" viewBox="0 0 1031 612" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0.5 1C93.3333 142.833 319.8 422.2 483 405C687 383.5 455 52 322 383.5C215.6 648.7 749.667 628.667 1030 585.5" />
       </svg>
     </div>
     <img class="hero__clouds" src="static/hero-clouds.svg" alt="clouds" />
@@ -216,23 +200,6 @@
     </div>
   </section>
   <section class="sponsor" id='sponsor'>
-    <div class="row container">
-      <div class="one-half column">
-        <h2 class="sponsor__heading">Interested in Sponsoring?</h2>
-        <p>
-          Hosting Canada’s favourite hackathon isn't easy, and our generous sponsors help bring it to life! Spend a
-          weekend at McHacks
-          to witness tomorrow’s leaders as they experiment with your technologies and solve problems from the ground
-          up.
-
-          Join us as we shake the world of technology for 24 hours. We've got a table with your name on it!
-        </p>
-        <a class="button" href="/sponsor">Become a sponsor</a>
-      </div>
-      <div class="one-half column">
-        <img class="intro__image" src="static/info-bridge.svg" />
-      </div>
-    </div>
   </section>
   <section class="sponsor-list">
     <div class="row container">
@@ -244,6 +211,11 @@
           <img class="sponsor-list__logo" src="static/sponsors/interac.svg" />
         </a>
       </div>
+    </div>
+    <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--giga">
+      <a href="https://www.cisco.com" target="_blank">
+        <img class="sponsor-list__logo" src="static/sponsors/cisco.svg" />
+      </a>
     </div>
     <div class="sponsor-list__tier container">
       <div class="sponsor-list__logo-wrapper sponsor-list__logo-wrapper--giga">
@@ -448,12 +420,6 @@
                   There'll also be workshops to learn technologies that could spark an idea to hack on.</p>
               </div>
             </div>
-            <div class="accordion__item">
-              <a class="accordion__title">Is there an event page for mchacks?</a>
-              <div class="accordion__content">
-                <p>Yes,  <a href="/live">Live-Site</a></p>
-              </div>
-            </div>
           </div>
         </div>
         <div class="faq__right-column">
@@ -485,7 +451,8 @@
               <div class="accordion__content">
                 <p>If you've got something else on your mind, message us on <a href="https://facebook.com/mcgillhacks"
                     target="_blank">Facebook
-                  </a> or shoot us an email at <a href="mailto:contact@mchacks.ca" target="_blank">contact@mchacks.ca</a>.</p>
+                  </a> or shoot us an email at <a href="mailto:contact@mchacks.ca"
+                    target="_blank">contact@mchacks.ca</a>.</p>
               </div>
             </div>
           </div>

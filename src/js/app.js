@@ -1,8 +1,9 @@
-require('smoothscroll');
-require('./accordion');
-require('./jquery-3.0.0.min');
-require('./main');
-require('./modernizr');
-require('./2tabs');
-require('./2tabResources');
-require('./3tabs');
+import 'smoothscroll';
+import './animations';
+import './accordion';
+import './jquery-3.0.0.min';
+import './main';
+import './modernizr';
+import './2tabs';
+import './2tabResources';
+import './3tabs';
