@@ -1,5 +1,6 @@
 import 'smoothscroll';
 import './animations';
+import './accordion';
 import './jquery-3.0.0.min';
 import './main';
 import './modernizr';
