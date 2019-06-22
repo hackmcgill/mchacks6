@@ -27,4 +27,10 @@ This is the repository for the static landing page for [McHacks 6](https://www.m
 
 ## Deployment
 
-We are using Netlify to compile and host our code automatically. When a PR is created, Netlify will generate preview builds of the site to confirm that everything is working as expected. Once code is merged to `master`, Netlify will promote that code to production at `2019.mchacks.ca`.
+We are using Netlify to compile and host our code automatically. When a PR is created, Netlify will generate preview builds of the site to confirm that everything is working as expected. Once code is merged to `master`, Netlify will promote that code to production at `2019.mchacks.ca`. Netlify also handles the SSL certificate for this site. @krubenok is currently the admin on the Netlify plan. 
+
+### Domains
+
+The primary domain for this site (`mchacks.ca`) is registered with the HackMcGill Namecheap, DNS is with Cloudflare. Currently, the naked `mchacks.ca`  and `2019.mchacks.ca` have CNAME records pointing to `mchacks6.netlify.com`
+
+We also have a secondary set of domains, `mchcaks.io` and `2019.mchacks.io` pointing to `mchacks6.netlify.com` via CNAME as above. `mchacks.io` is also registered with Namecheap and the DNS with Cloudflare. 
