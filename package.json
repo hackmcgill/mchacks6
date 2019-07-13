@@ -54,6 +54,7 @@
   ],
   "dependencies": {
     "animejs": "^2.2.0",
+    "js-yaml": "^3.13.1",
     "smoothscroll": "^0.4.0"
   }
 }
