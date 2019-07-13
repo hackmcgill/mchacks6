@@ -18,7 +18,7 @@
   "author": "erick zhao",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.4.6",
+    "autoprefixer": "^9.6.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
