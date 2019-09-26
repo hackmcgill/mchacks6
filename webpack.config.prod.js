@@ -1,7 +1,7 @@
 const cssnano = require('cssnano');
 const merge = require('webpack-merge');
 
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const common = require('./webpack.config.common.js');
@@ -12,7 +12,10 @@ module.exports = merge(common, {
     minimize: false,
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin({
+      cleanStaleWebpackAssets: true,
+      cleanOnceBeforeBuildPatterns: ['dist'],
+    }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
       cssProcessor: cssnano,
