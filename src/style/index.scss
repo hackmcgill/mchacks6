@@ -36,7 +36,6 @@ $landing-color-dark-bg: $color-hack-black-5;
     font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
-    padding-bottom: 1rem;
 
     @include media-query($sm-up) {
       font-size: 1.8rem;
@@ -48,6 +47,7 @@ $landing-color-dark-bg: $color-hack-black-5;
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 1rem;
 
     @include media-query($sm-up) {
       font-size: 1.8rem;
@@ -65,10 +65,35 @@ $landing-color-dark-bg: $color-hack-black-5;
     border: 2px solid $color-hack-red;
     transition: all 0.15s ease-in-out;
     padding: 10px 32px;
+    margin: auto;
 
     &:hover {
       background-color: $color-hack-red;
       color: white;
+    }
+
+    @include media-query($sm-up) {
+      font-size: 1.8rem;
+      margin-right: 25px;
+    }
+  }
+
+  .hero__secondarybutton {
+    font-family: Brown, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: none;
+    background-color: $color-hack-red;
+    color: white;
+    border-radius: 0.5em;
+    border: 2px solid $color-hack-red;
+    transition: all 0.15s ease-in-out;
+    padding: 10px 32px;
+    margin: auto;
+
+    &:hover {
+      background-color: $color-hack-red-med;
+      border: 2px solid $color-hack-red-med;
     }
 
     @include media-query($sm-up) {
@@ -173,7 +198,7 @@ $landing-color-dark-bg: $color-hack-black-5;
       height: 50vw;
       background-image: url("/static/info-plateau.svg");
       background-size: contain;
-      z-index: 2;
+      z-index: 1;
     }
   }
 
